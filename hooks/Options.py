@@ -37,11 +37,14 @@ class Hunts(Toggle):
     """Adds checks for defeating specific enemies"""
     display_name = "Hunts"
     default = False
-
-class SpecialWeapons(Toggle):
-    """Adds 5 checks for completing the requirements for the Special Weapons in Ode to Castlevania. WARNING: These each require many items and will likely take a long time to complete. *Requires the Ode to Castlevania DLC"""
-    display_name = "Special Weapons"
-    default = False
+#####################################################################
+# Geoffistopheles: Commented out while debating these requirements. The special weapons don't work this way in base game and seems unnecessarily restrictive.
+#                   Current thought is to change the logic to allow an unlock so long as one of the requisite weapons is unlocked.
+#class SpecialWeapons(Toggle):
+#    """Adds 5 checks for completing the requirements for the Special Weapons in Ode to Castlevania. WARNING: These each require many items and will likely take a long time to complete. *Requires the Ode to Castlevania DLC"""
+#    display_name = "Special Weapons"
+#    default = False
+#####################################################################
 
 class Charactersanity(Toggle):
     """Adds all characters to the item pool as well as a location check for each."""
@@ -78,13 +81,32 @@ class IncludeEmeraldDioramaDLC(Toggle):
     display_name = "Include Emerald Diorama DLC"
     default = True
 
+class IncludeStageItems(Toggle):
+    """Whether or not items found in a stage are considered in logic."""
+    display_name = "Include Stage Items"
+    default = True
+
+class IncludeItemSelectors(Toggle):
+    """Whether or not items that can be used to select other items can be unlocked. This includes Candybox, Arma Dio, Morning Star, Coat of Arms, Belnades Spellbook, Spectral Sword, Ebony Diabolique, and Intuition."""
+    display_name = "Include Item Selectors"
+    default = True
+
+class EarlyArmaDio(Toggle):
+    """Arma Dio can be substituted for nineteen items without unlocking them, and can be found in four locations without unlocking it. Requires Include Item Selectors to function.
+    True: Early Arma Dio usage is potentially expected in logic.
+    False: Arma Dio usage is prohibited until unlocked."""
+    display_name = "Early Arma Dio"
+    default = False
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
     options["starting_weapon_slots"] = WeaponSlots
     options["charactersanity"] = Charactersanity
     options["hunts"] = Hunts
-    options["special_weapons"] = SpecialWeapons
+    options["include_stage_items"] = IncludeStageItems
+    options["include_item_selectors"] = IncludeItemSelectors
+    options["early_arma_dio"] = EarlyArmaDio
+    # options["special_weapons"] = SpecialWeapons
     options["include_moonspell_dlc"] = IncludeMoonspellDLC
     options["include_foscari_dlc"] = IncludeFoscariDLC
     options["include_emergency_meeting_dlc"] = IncludeEmergencyMeetingDLC

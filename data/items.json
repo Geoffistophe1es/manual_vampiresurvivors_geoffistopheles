@@ -306,6 +306,12 @@
 		"progression": true
 	},
 	{
+		"name": "Candybox",
+		"category": ["Weapons", "Item Selectors"],
+		"count":1,
+		"useful": true
+	},
+	{
 		"name": "Silver Wind",
 		"category": ["Weapons", "Legacy of the Moonspell DLC"],
 		"count":1,
@@ -948,6 +954,36 @@
 		"progression": true
 	},
 	{
+		"name": "Morning Star",
+		"category": ["Weapons", "Ode to Castlevania DLC", "Item Selectors"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Coat of Arms",
+		"category": ["Weapons", "Ode to Castlevania DLC", "Item Selectors"],
+		"count":1,
+		"useful": true
+	},
+	{
+		"name": "Belnades Spellbook",
+		"category": ["Weapons", "Ode to Castlevania DLC", "Item Selectors"],
+		"count":1,
+		"useful": true
+	},
+	{
+		"name": "Spectral Sword",
+		"category": ["Weapons", "Ode to Castlevania DLC", "Item Selectors"],
+		"count":1,
+		"useful": true
+	},
+	{
+		"name": "Ebony Diabolique",
+		"category": ["Weapons", "Ode to Castlevania DLC", "Item Selectors"],
+		"count":1,
+		"useful": true
+	},
+	{
 		"name": "Fleuret",
 		"category": ["Weapons", "Emerald Diorama DLC"],
 		"count":1,
@@ -1044,6 +1080,12 @@
 		"progression": true
 	},
 	{
+		"name": "Intuition",
+		"category": ["Weapons", "Emerald Diorama DLC", "Item Selectors"],
+		"count":1,
+		"useful": true
+	},
+	{
 		"name": "Hollow Heart",
 		"category": ["Accessories"],
 		"count":1,
@@ -1128,7 +1170,7 @@
 		"progression": true
 	},
 	{
-		"name": "Tiragisu",
+		"name": "Tirajisu",
 		"category": ["Accessories"],
 		"count":1,
 		"progression": true
@@ -1170,10 +1212,58 @@
 		"progression": true
 	},
 	{
+		"name": "Arma Dio",
+		"category": ["Accessories", "Item Selectors"],
+		"count":1,
+		"useful": true
+	},
+	{
 		"name": "Academy Badge",
 		"category": ["Accessories", "Tides of the Foscari DLC"],
 		"count":1,
 		"useful": true
+	},
+	{
+		"name": "Mini Crewmate",
+		"category": ["Accessories", "Emergency Meeting DLC"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mini Engineer",
+		"category": ["Accessories", "Emergency Meeting DLC"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mini Ghost",
+		"category": ["Accessories", "Emergency Meeting DLC"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mini Shapeshifter",
+		"category": ["Accessories", "Emergency Meeting DLC"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mini Guardian",
+		"category": ["Accessories", "Emergency Meeting DLC"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mini Impostor",
+		"category": ["Accessories", "Emergency Meeting DLC"],
+		"count":1,
+		"progression": true
+	},
+	{
+		"name": "Mini Scientist",
+		"category": ["Accessories", "Emergency Meeting DLC"],
+		"count":1,
+		"progression": true
 	},
 	{
 		"name": "Parm Aegis",

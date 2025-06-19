@@ -1,82 +1,82 @@
 [
 	{
 		"name": "Evolution: Bloody Tear",
-		"requires": "|Whip| AND |Hollow Heart|",
+		"requires": "|Whip| AND {hasItem(Hollow Heart)}",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: Holy Wand",
-		"requires": "|Magic Wand| AND |Empty Tome|",
+		"requires": "|Magic Wand| AND ({hasItem(Empty Tome)} OR {hasCharacter(ImeldaBelpaese)})",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: Thousand Edge",
-		"requires": "|Knife| AND |Bracer|",
+		"requires": "|Knife| AND {hasItem(Bracer)}",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: Death Spiral",
-		"requires": "|Axe| AND |Candelabrador|",
+		"requires": "|Axe| AND {hasItem(Candelabrador)}",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: Heaven Sword",
-		"requires": "|Cross| AND |Clover|",
+		"requires": "(|Cross| AND {hasItem(Clover)}) OR ({hasCharacter(Santa Ladonna)} AND |Santa Water| AND |King Bible| AND |Cross|)",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: Unholy Vespers",
-		"requires": "|King Bible| AND |Spellbinder|",
+		"requires": "(|King Bible| AND {hasItem(Spellbinder)}) OR ({hasCharacter(Santa Ladonna)} AND |Santa Water| AND |King Bible| AND |Cross|)",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: Hellfire",
-		"requires": "|Fire Wand| AND |Spinach|",
+		"requires": "|Fire Wand| AND {hasItem(Spinach)}",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: Soul Eater",
-		"requires": "|Garlic| AND |Pummarola|",
+		"requires": "|Garlic| AND ({hasItem(Pummarola)} OR {hasCharacter(PoeRatcho)})",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: La Borra",
-		"requires": "|Santa Water| AND |Attractorb|",
+		"requires": "(|Santa Water| AND {hasItem(Attractorb)}) OR ({hasCharacter(Santa Ladonna)} AND |Santa Water| AND |King Bible| AND |Cross|)",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: NO FUTURE",
-		"requires": "|Runetracer| AND |Armor|",
+		"requires": "|Runetracer| AND {hasItem(Armor)}",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: Thunder Loop",
-		"requires": "|Lightning Ring| AND |Duplicator|",
+		"requires": "|Lightning Ring| AND {hasItem(Duplicator)}",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: Gorgeous Moon",
-		"requires": "|Pentagram| AND |Crown|",
+		"requires": "|Pentagram| AND {hasItem(Crown)}",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: Vicious Hunger",
-		"requires": "|Gatti Amari| AND |Stone Mask|",
+		"requires": "|Gatti Amari| AND {hasItem(Stone Mask)}",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: Mannajja",
-		"requires": "|Song of Mana| AND |Skull O'Maniac|",
+		"requires": "|Song of Mana| AND {hasItem(Skull O'Maniac)}",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: Valkryie Turner",
-		"requires": "|Shadow Pinion| AND |Wings|",
+		"requires": "|Shadow Pinion| AND {hasItem(Wings)}",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: Celestial Voulge",
-		"requires": "|Glass Fandango| AND |Wings|",
+		"requires": "|Glass Fandango| AND {hasMaxedItem(Wings)}",
 		"category": ["Evolutions"]
 	},
 	{
@@ -101,7 +101,7 @@
 	},
 	{
 		"name": "Evolution: Seraphic Cry",
-		"requires": "|Santa Javelin| AND |Clover|",
+		"requires": "|Santa Javelin| AND {hasMaxedItem(Clover)}",
 		"category": ["Evolutions"]
 	},
 	{
@@ -111,97 +111,97 @@
 	},
 	{
 		"name": "Evolution: Festive Winds",
-		"requires": "|Silver Wind| AND |Pummarola|",
+		"requires": "|Silver Wind| AND {hasMaxedItem(Pummarola)}",
 		"category": ["Evolutions", "Legacy of the Moonspell DLC"]
 	},
 	{
 		"name": "Evolution: Godai Shuffle",
-		"requires": "|Four Seasons| AND |Spinach| AND |Candelabrador|",
+		"requires": "|Four Seasons| AND {hasMaxedItem(Candelabrador)}",
 		"category": ["Evolutions", "Legacy of the Moonspell DLC"]
 	},
 	{
 		"name": "Evolution: Echo Night",
-		"requires": "|Summon Night| AND |Duplicator|",
+		"requires": "|Summon Night| AND {hasMaxedItem(Duplicator)}",
 		"category": ["Evolutions", "Legacy of the Moonspell DLC"]
 	},
 	{
 		"name": "Evolution: J'Odore",
-		"requires": "|Mirage Robe| AND |Attractorb|",
+		"requires": "|Mirage Robe| AND {hasMaxedItem(Attractorb)}",
 		"category": ["Evolutions", "Legacy of the Moonspell DLC"]
 	},
 	{
 		"name": "Evolution: Muramasa",
-		"requires": "|Night Sword| AND |Stone Mask|",
+		"requires": "|Night Sword| AND {hasMaxedItem(Stone Mask)}",
 		"category": ["Evolutions", "Legacy of the Moonspell DLC"]
 	},
 	{
 		"name": "Evolution: Boo Roo Boolle",
-		"requires": "|Mille Bolle Blu| AND |Spellbinder|",
+		"requires": "|Mille Bolle Blu| AND {hasMaxedItem(Spellbinder)}",
 		"category": ["Evolutions", "Legacy of the Moonspell DLC"]
 	},
 	{
 		"name": "Evolution: Legionnaire",
-		"requires": "|Eskizzibur| AND |Armor|",
+		"requires": "|Eskizzibur| AND {hasMaxedItem(Armor)}",
 		"category": ["Evolutions", "Tides of the Foscari DLC"]
 	},
 	{
 		"name": "Evolution: Millionaire",
-		"requires": "|Flash Arrow| AND |Bracer| AND |Clover|",
+		"requires": "|Flash Arrow| AND {hasMaxedItem(Bracer)}",
 		"category": ["Evolutions", "Tides of the Foscari DLC"]
 	},
 	{
 		"name": "Evolution: Luminaire",
-		"requires": "|Prismatic Missile| AND |Crown|",
+		"requires": "|Prismatic Missile| AND {hasMaxedItem(Crown)}",
 		"category": ["Evolutions", "Tides of the Foscari DLC"]
 	},
 	{
 		"name": "Evolution: Ophion",
-		"requires": "|Shadow Servant| AND |Skull O'Maniac|",
+		"requires": "|Shadow Servant| AND {hasMaxedItem(Skull O'Maniac)}",
 		"category": ["Evolutions", "Tides of the Foscari DLC"]
 	},
 	{
 		"name": "Evolution: Mazo Familiar",
-		"requires": "|Pako Battiliar| AND |Hollow Heart|",
+		"requires": "|Pako Battiliar| AND {hasMaxedItem(Hollow Heart)}",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: Photonstorm",
-		"requires": "|Phas3r| AND |Empty Tome|",
+		"requires": "|Phas3r| AND {hasMaxedItem(Empty Tome)}",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Evolution: Emergency Meeting",
-		"requires": "|Report!|",
+		"requires": "|Report!| AND {hasMaxedItem(Mini Crewmate)}",
 		"category": ["Evolutions", "Emergency Meeting DLC"]
 	},
 	{
 		"name": "Evolution: Crossed Wires",
-		"requires": "|Lucky Swipe|",
+		"requires": "|Lucky Swipe| AND {hasMaxedItem(Mini Engineer)}",
 		"category": ["Evolutions", "Emergency Meeting DLC"]
 	},
 	{
 		"name": "Evolution: Paranormal Scan",
-		"requires": "|Lifesign Scan|",
+		"requires": "|Lifesign Scan| AND {hasMaxedItem(Mini Ghost)}",
 		"category": ["Evolutions", "Emergency Meeting DLC"]
 	},
 	{
 		"name": "Evolution: Unjust Ejection",
-		"requires": "|Just Vent|",
+		"requires": "|Just Vent| AND {hasMaxedItem(Mini Shapeshifter)}",
 		"category": ["Evolutions", "Emergency Meeting DLC"]
 	},
 	{
 		"name": "Evolution: Clear Asteroids",
-		"requires": "|Clear Debris|",
+		"requires": "|Clear Debris| AND {hasMaxedItem(Mini Guardian)}",
 		"category": ["Evolutions", "Emergency Meeting DLC"]
 	},
 	{
 		"name": "Evolution: Impostongue",
-		"requires": "|Sharp Tongue|",
+		"requires": "|Sharp Tongue| AND {hasMaxedItem(Mini Impostor)}",
 		"category": ["Evolutions", "Emergency Meeting DLC"]
 	},
 	{
 		"name": "Evolution: Rocket Science",
-		"requires": "|Science Rocks|",
+		"requires": "|Science Rocks| AND {hasMaxedItem(Mini Scientist)}",
 		"category": ["Evolutions", "Emergency Meeting DLC"]
 	},
 	{
@@ -211,207 +211,207 @@
 	},
 	{
 		"name": "Evolution: Prototype B",
-		"requires": "|Short Gun| AND |Bracer|",
+		"requires": "|Short Gun| AND {hasItem(Bracer)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Prototype C",
-		"requires": "|Spread Shot| AND |Empty Tome|",
+		"requires": "|Spread Shot| AND {hasItem(Empty Tome)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Pronto Beam",
-		"requires": "|C-U-Laser| AND |Tiragisu|",
+		"requires": "|C-U-Laser| AND {hasItem(Tirajisu)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Fire-L3GS",
-		"requires": "|Firearm| AND |Candelabrador|",
+		"requires": "|Firearm| AND {hasItem(Candelabrador)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Wave Beam",
-		"requires": "|Sonic Bloom| AND |Armor|",
+		"requires": "|Sonic Bloom| AND {hasItem(Armor)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Multistage Missile",
-		"requires": "|Homing Miss| AND |Duplicator|",
+		"requires": "|Homing Miss| AND {hasItem(Duplicator)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Atmo Torpedo",
-		"requires": "|Diver Mines| AND |Attractorb|",
+		"requires": "|Diver Mines| AND {hasItem(Attractorb)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: BFC2000-AD",
-		"requires": "|Blade Crossbow| AND |Clover|",
+		"requires": "|Blade Crossbow| AND {hasItem(Clover)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Time Warp",
-		"requires": "|Prism Lass| AND |Wings|",
+		"requires": "|Prism Lass| AND {hasItem(Wings)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Big Fuzzy Fist",
-		"requires": "|Metal Claw| AND |Hollow Heart|",
+		"requires": "|Metal Claw| AND {hasItem(Hollow Heart)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Vampire Killer",
-		"requires": "|Alchemy Whip| AND |Tiragisu|",
+		"requires": "(|Alchemy Whip| AND {hasItem(Tirajisu)}) OR ({hasCharacter(Sara Trantoul)} AND (|Alchemy Whip| OR |Morning Star|) AND ({hasRevival()} OR |@Operation Guns DLC:1|)",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Spirit Tornado Tip",
-		"requires": "|Wind Whip| AND |Crown|",
+		"requires": "|Wind Whip| AND {hasItem(Crown)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Cross Crasher Tip",
-		"requires": "|Platinum Whip| AND |Clover|",
+		"requires": "|Platinum Whip| AND {hasItem(Clover)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Hyrdostormer Tip",
-		"requires": "|Dragon Water Whip| AND |Attractorb|",
+		"requires": "|Dragon Water Whip| AND {hasItem(Attractorb)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Crissaegrim Tip",
-		"requires": "|Sonic Whip| AND |Skull O'Maniac|",
+		"requires": "|Sonic Whip| AND {hasItem(Skull O'Maniac)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Mormegil Tip",
-		"requires": "|Jet Black Whip| AND |Stone Mask|",
+		"requires": "|Jet Black Whip| AND {hasItem(Stone Mask)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Daybreaker Tip",
-		"requires": "|Vibhuti Whip| AND |Candelabrador|",
+		"requires": "|Vibhuti Whip| AND {hasItem(Candelabrador)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Aurablaster Tip",
-		"requires": "|Vanitas Whip| AND |Hollow Heart|",
+		"requires": "|Vanitas Whip| AND {hasItem(Hollow Heart)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Yagyu Shuriken",
-		"requires": "|Shuriken| AND |Empty Tome|",
+		"requires": "|Shuriken| AND {hasItem(Empty Tome)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Bwaka Knife",
-		"requires": "|Curved Knife| AND |Bracer|",
+		"requires": "|Curved Knife| AND {hasItem(Bracer)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Long Inus",
-		"requires": "|Javelin| AND |Spellbinder|",
+		"requires": "|Javelin| AND {hasItem(Spellbinder)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Stellar Blade",
-		"requires": "|Discus| AND |Parm Aegis|",
+		"requires": "|Discus| AND {hasMaxedItem(Parm Aegis)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Wrecking Ball",
-		"requires": "|Iron Ball| AND |Armor|",
+		"requires": "|Iron Ball| AND {hasItem(Armor)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Jewel Gun",
-		"requires": "|Silver Revolver| AND |Karoma's Mana|",
+		"requires": "|Silver Revolver| AND {hasItem(Karoma's Mana)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: The RPG",
-		"requires": "|Hand Grenade| AND |Candelabrador|",
+		"requires": "|Hand Grenade| AND {hasMaxedItem(Candelabrador)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Meal Ticket",
-		"requires": "|Wine Glass| AND |Tiragisu|",
+		"requires": "|Wine Glass| AND {hasMaxedItem(Tirajisu)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Salamender",
-		"requires": "|Raging Fire| AND |Spinach|",
+		"requires": "(|Raging Fire| OR {hasCharacter(Juste Belmont)}) AND {hasMaxedItem(Spinach)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Cocytus",
-		"requires": "|Ice Fang| AND |Spellbinder|",
+		"requires": "(|Ice Fang| OR {hasCharacter(Juste Belmont)}) AND {hasMaxedItem(Spellbinder)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Pneuma Tempestas",
-		"requires": "|Gale Force| AND |Bracer|",
+		"requires": "(|Gale Force| OR {hasCharacter(Juste Belmont)}) AND {hasMaxedItem(Bracer)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Gemma Torpor",
-		"requires": "|Rock Riot| AND |Stone Mask|",
+		"requires": "(|Rock Riot| OR {hasCharacter(Juste Belmont)}) AND {hasMaxedItem(Stone Mask)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Tenebris Tonitrus",
-		"requires": "|Fulgur| AND |Duplicator|",
+		"requires": "(|Fulgur| OR {hasCharacter(Juste Belmont)}) AND {hasMaxedItem(Duplicator)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Keremet Morbus",
-		"requires": "|Keremet Bubbles| AND |Armor|",
+		"requires": "(|Keremet Bubbles| OR {hasCharacter(Juste Belmont)}) AND {hasMaxedItem(Armor)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 		{
 		"name": "Evolution: Nightmare",
-		"requires": "|Hex| AND |Skull O'Maniac|",
+		"requires": "(|Hex| OR {hasCharacter(Juste Belmont)}) AND {hasMaxedItem(Skull O'Maniac)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Sanctuary",
-		"requires": "|Refectio| AND |Clover|",
+		"requires": "(|Refectio| OR {hasCharacter(Juste Belmont)}) AND {hasMaxedItem(Clover)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Stamazza",
-		"requires": "|Mace| AND |Hollow Heart|",
+		"requires": "|Mace| AND {hasMaxedItem(Hollow Heart)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Moon Rod",
-		"requires": "|Star Flail| AND |Pummarola|",
+		"requires": "|Star Flail| AND {hasMaxedItem(Pummarola)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Thunderbolt Spear",
-		"requires": "|Alucard Spear| AND |Wings|",
+		"requires": "|Alucard Spear| AND {hasItem(Wings)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Gungnir-Souris",
-		"requires": "|Trident| AND |Duplicator|",
+		"requires": "|Trident| AND {hasMaxedItem(Duplicator)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Dark Iron Shield",
-		"requires": "|Iron Shield| AND |Parm Aegis|",
+		"requires": "|Iron Shield| AND {hasItem(Parm Aegis)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Sacred Beast Tower Shield",
-		"requires": "|Guardian's Targe| AND |Pummarola|",
+		"requires": "|Guardian's Targe| AND {hasItem(Pummarola)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Rune Sword",
-		"requires": "|Tyrfing| AND |Spinach|",
+		"requires": "|Tyrfing| AND {hasItem(Spinach)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
@@ -431,32 +431,32 @@
 	},
 	{
 		"name": "Evolution: Nitesco",
-		"requires": "|Globus| AND |Empty Tome|",
+		"requires": "|Globus| AND {hasMaxedItem(Empty Tome)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Acerbatus",
-		"requires": "|Optical Shot| AND |Karoma's Mana|",
+		"requires": "|Optical Shot| AND {hasMaxedItem(Karoma's Mana)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Rapidus Fio",
-		"requires": "|Sonic Dash| AND |Wings|",
+		"requires": "|Sonic Dash| AND {hasMaxedItem(Wings)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Vol Luminatio",
-		"requires": "|Luminatio| AND |Crown|",
+		"requires": "|Luminatio| AND {hasMaxedItem(Crown)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Vol Umbra",
-		"requires": "|Umbra| AND |Attractorb|",
+		"requires": "|Umbra| AND {hasMaxedItem(Attractorb)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Evolution: Embrace of Gaea",
-		"requires": "|Gaze of Gaea| AND |Parm Aegis|",
+		"requires": "|Gaze of Gaea| AND {hasItem(Parm Aegis)}",
 		"category": ["Evolutions"]
 	},
 	{
@@ -471,7 +471,7 @@
 	},
 	{
 		"name": "Evolution: Pursuant Blades",
-		"requires": "|Splashers| AND |Spellbinder|",
+		"requires": "|Splashers| AND {hasItem(Spellbinder)}",
 		"category": ["Evolutions", "Emerald Diorama DLC"]
 	},
 	{
@@ -486,7 +486,7 @@
 	},
 	{
 		"name": "Evolution: Gekkabijin",
-		"requires": "|Twin Dragon| AND |Karoma's Mana|",
+		"requires": "|Twin Dragon| AND {hasItem(Karoma's Mana)}",
 		"category": ["Evolutions", "Emerald Diorama DLC"]
 	},
 	{
@@ -501,12 +501,12 @@
 	},
 	{
 		"name": "Evolution: Triangle Kick",
-		"requires": "|Kick| AND |Pummarola|",
+		"requires": "|Kick| AND {hasItem(Pummarola)}",
 		"category": ["Evolutions", "Emerald Diorama DLC"]
 	},
 	{
 		"name": "Evolution: Rings of Calamity",
-		"requires": "|Spirit Rings|",
+		"requires": "|Spirit Rings| AND |@Accessories:5|",
 		"category": ["Evolutions", "Emerald Diorama DLC"]
 	},
 	{
@@ -521,7 +521,7 @@
 	},
 	{
 		"name": "Evolution: Pendragon",
-		"requires": "|Eagle Gun|",
+		"requires": "|Eagle Gun| AND {hasItem(Spinach)}",
 		"category": ["Evolutions", "Emerald Diorama DLC"]
 	},
 	{
@@ -536,17 +536,17 @@
 	},
 	{
 		"name": "Evolution: Blood Chalice",
-		"requires": "|Sanguine Star| AND |Stone Mask|",
+		"requires": "|Sanguine Star| AND {hasItem(Stone Mask)}",
 		"category": ["Evolutions", "Emerald Diorama DLC"]
 	},
 	{
 		"name": "Evolution: Jetstream",
-		"requires": "|Khukuri| AND |Parm Aegis|",
+		"requires": "|Khukuri| AND {hasItem(Parm Aegis)}",
 		"category": ["Evolutions", "Emerald Diorama DLC"]
 	},
 	{
 		"name": "Evolution: Falconwind",
-		"requires": "|Bullova| AND |Skull O'Maniac|",
+		"requires": "|Bullova| AND {hasItem(Skull O'Maniac)}",
 		"category": ["Evolutions", "Emerald Diorama DLC"]
 	},
 	{
@@ -571,7 +571,7 @@
 	},
 	{
 		"name": "Evolution: Emerald Wave",
-		"requires": "|Emerald Rapture| AND |Crown|",
+		"requires": "|Emerald Rapture| AND {hasItem(Crown)}",
 		"category": ["Evolutions", "Emerald Diorama DLC"]
 	},
 	{
@@ -581,12 +581,12 @@
 	},
 	{
 		"name": "Gift: Alucard Shield",
-		"requires": "|Alucart Sworb| AND |@Weapons:6| AND |@Accessories:6|",
+		"requires": "|Alucart Sworb| AND |@Evolutions:6| AND |@Accessories:6|",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Gift: Universitas",
-		"requires": "|Luminatio| AND |Umbra|",
+		"requires": "|Luminatio| AND |Umbra| AND {hasMaxedItem(Crown) AND {hasMaxedItem(Attractorb)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
@@ -601,12 +601,12 @@
 	},
 	{
 		"name": "Union: Phieraggi",
-		"requires": "|Phiera Der Tuphello| AND |Eight the Sparrow| AND |Tiragisu|",
+		"requires": "|Phiera Der Tuphello| AND |Eight the Sparrow| AND {hasItem(Tirajisu)}",
 		"category": ["Evolutions"]
 	},
 	{
 		"name": "Union: Fuwalafuwaloo",
-		"requires": "|Vento Sacro| AND |Whip| AND |Hollow Heart|",
+		"requires": "|Vento Sacro| AND |Whip| AND {hasItem(Hollow Heart)}",
 		"category": ["Evolutions"]
 	},
 	{
@@ -623,31 +623,6 @@
 		"name": "Union: Trinum Custodem",
 		"requires": "|Dextro Custos| AND |Sinestro Custos| AND |Centralis Custos|",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
-	},
-	{
-		"name": "Special Weapon: Morning Star",
-		"requires": "|Alchemy Whip| AND |Wind Whip| AND |Platinum Whip| AND |Dragon Water Whip| AND |Sonic Whip| AND |Jet Black Whip| AND |Vibhuti Whip| AND |Vanitas Whip|",
-		"category": ["Evolutions", "Ode to Castlevania DLC", "Special Weapons"]
-	},
-	{
-		"name": "Special Weapon: Coat of Arms",
-		"requires": "|Whip| AND |Axe| AND |Knife| AND |Santa Water| AND |Runetracer| AND |King Bible| AND |Cross| AND |Lightning Ring| AND |Curved Knife| AND |Shuriken| AND |Javelin| AND |Iron Ball| AND |Discus| AND |Silver Revolver| AND |Hand Grenade| AND |Wine Glass| AND |Svarog Statue| AND |Troll Bomb| AND |Hydro Storm| AND |Grand Cross|",
-		"category": ["Evolutions", "Ode to Castlevania DLC", "Special Weapons"]
-	},
-	{
-		"name": "Special Weapon: Belnade's Spellbook",
-		"requires": "|Raging Fire| AND |Ice Fang| AND |Gale Force| AND |Rock Riot| AND |Fulgur| AND |Keremet Bubbles| AND |Hex| AND |Refectio| AND |Summon Spirit Tornado|",
-		"category": ["Evolutions", "Ode to Castlevania DLC", "Special Weapons"]
-	},
-	{
-		"name": "Special Weapon: Spectral Sword",
-		"requires": "|Alucart Sworb| AND |Tyrfing| AND |Alucard Spear| AND |Trident| AND |Mace| AND |Star Flail| AND |Iron Shield| AND |Guardian's Targe| AND |Valmanway| AND |Icebrand| AND |Arrow of Goth| AND |Aura Blast|",
-		"category": ["Evolutions", "Ode to Castlevania DLC", "Special Weapons"]
-	},
-	{
-		"name": "Special Weapon: Ebony Diabolique",
-		"requires": "|Confodere| AND |Optical Shot| AND |Sonic Dash| AND |Luminatio| AND |Umbra| AND |Globus| AND |Dextro Custos| AND |Sinestro Custos| AND |Centralis Custos| AND |Dominus Anger| AND |Dominus Hatred| AND |Dominus Agony| AND |Summon Spirit| AND |Dark Rift| AND |Sword Brothers| AND |Soul Steal|",
-		"category": ["Evolutions", "Ode to Castlevania DLC", "Special Weapons"]
 	},
 	{
 		"name": "Mad Forest Chest 1",

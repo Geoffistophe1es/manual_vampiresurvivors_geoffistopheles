@@ -54,5 +54,20 @@
         "yaml_option": [
             "special_weapons"
         ]
+    },
+    "Stage Items": {
+        "yaml_option": [
+            "include_stage_items"
+        ]
+    },
+    "Item Selectors": {
+        "yaml_option": [
+            "include_item_selectors"
+        ]
+    },
+    "Early Arma Dio": {
+        "yaml_option": [
+            "early_arma_dio"
+        ]
     }
 }

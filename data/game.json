@@ -1,6 +1,6 @@
 {
 	"game": "VampireSurvivors",
-	"creator": "Jones",
+	"creator": "Geoffistopheles",
 	"filler_item_name": "A terrible night to have a curse...",
 	"starting_items": [
 		{
@@ -318,7 +318,7 @@
 			],
 			"items": [
 				"Eight the Sparrow",
-				"Tiragisu",
+				"Tirajisu",
 				"Pugnala Provola"
 			]
 		},
@@ -328,7 +328,7 @@
 			],
 			"items": [
 				"Phiera Der Tuphello",
-				"Tiragisu",
+				"Tirajisu",
 				"Pugnala Provola"
 			]
 		},
@@ -539,7 +539,7 @@
 				"C-U-Laser"
 			],
 			"items": [
-				"Tiragisu",
+				"Tirajisu",
 				"Lucia Zero"
 			]
 		},
@@ -756,7 +756,7 @@
 				"Alchemy Whip"
 			],
 			"items": [
-				"Tiragisu",
+				"Tirajisu",
 				"Leon Belmont"
 			]
 		},
@@ -892,7 +892,7 @@
 				"Wine Glass"
 			],
 			"items": [
-				"Tiragisu",
+				"Tirajisu",
 				"Vlad Tepes Dracula"
 			]
 		},
