@@ -1,7 +1,7 @@
 # Vampire Survivors - Manual AP
 
 ## About
-Vampire Survivors is an action roguelike game with a multitude of throwbacks to vampire-killing video games of yesteryear. This Manual AP implementation includes randomized weapons, accessories, stages, modes and more! Grow stronger and eventually defeat the Reaper to make the dark night safe again!
+Vampire Survivors is an action roguelike game with a multitude of throwbacks to vampire-killing video games of yesteryear. This Manual AP implementation includes randomized weapons, Passives, stages, modes and more! Grow stronger and eventually defeat the Reaper to make the dark night safe again!
 
 This apworld assumes that you have a full-clear save. You can select which DLCs you own in the yaml options.
 
@@ -9,7 +9,7 @@ The original apworld was created by Entropy.
 
 ## Rules
 
-* You may only use the weapons, accessories, Arcana, and powerups that you have received through AP. (Exceptions are the Reroll, Skip, Banish and Seal powerups - you can always keep those active)
+* You may only use the weapons, Passives, Arcana, and powerups that you have received through AP. (Exceptions are the Reroll, Skip, Banish and Seal powerups - you can always keep those active)
 * Similarly, you may only challenge the stages you have received. You may use Arcana Mode after you receive an Arcana - the other stage modes are unlocks.
 * If you're playing with **Charactersanity** off, you may use any character you wish (besides Sigma because... c'mon), so long as you've unlocked their weapon.
 * With **Charactersanity** enabled, you may use any unlocked character even if you haven't yet unlocked their weapon. However, their weapon should remain sealed so it cannot level up.
@@ -20,7 +20,7 @@ The original apworld was created by Entropy.
 ## Check Rewards
 
 * Weapons
-* Accessories
+* Passives
 * Arcana
 * Powerups
 * Stages

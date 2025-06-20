@@ -206,62 +206,62 @@
 	},
 	{
 		"name": "Evolution: Prototype A",
-		"requires": "|Long Gun|",
+		"requires": "|Long Gun| AND {hasItem(Weapon Power-Up)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Prototype B",
-		"requires": "|Short Gun| AND {hasItem(Bracer)}",
+		"requires": "|Short Gun| AND {hasItems(Weapon Power-Up, Bracer)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Prototype C",
-		"requires": "|Spread Shot| AND {hasItem(Empty Tome)}",
+		"requires": "|Spread Shot| AND {hasItems(Weapon Power-Up, Empty Tome)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Pronto Beam",
-		"requires": "|C-U-Laser| AND {hasItem(Tirajisu)}",
+		"requires": "|C-U-Laser| AND {hasItems(Weapon Power-Up, Tirajisu)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Fire-L3GS",
-		"requires": "|Firearm| AND {hasItem(Candelabrador)}",
+		"requires": "|Firearm| AND {hasItems(Weapon Power-Up, Candelabrador)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Wave Beam",
-		"requires": "|Sonic Bloom| AND {hasItem(Armor)}",
+		"requires": "|Sonic Bloom| AND {hasItems(Weapon Power-Up, Armor)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Multistage Missile",
-		"requires": "|Homing Miss| AND {hasItem(Duplicator)}",
+		"requires": "|Homing Miss| AND {hasItems(Weapon Power-Up, Duplicator)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Atmo Torpedo",
-		"requires": "|Diver Mines| AND {hasItem(Attractorb)}",
+		"requires": "|Diver Mines| AND {hasItems(Weapon Power-Up, Attractorb)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: BFC2000-AD",
-		"requires": "|Blade Crossbow| AND {hasItem(Clover)}",
+		"requires": "|Blade Crossbow| AND {hasItems(Weapon Power-Up, Clover)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Time Warp",
-		"requires": "|Prism Lass| AND {hasItem(Wings)}",
+		"requires": "|Prism Lass| AND {hasItems(Weapon Power-Up, Wings)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Big Fuzzy Fist",
-		"requires": "|Metal Claw| AND {hasItem(Hollow Heart)}",
+		"requires": "|Metal Claw| AND {hasItems(Weapon Power-Up, Hollow Heart)}",
 		"category": ["Evolutions", "Operation Guns DLC"]
 	},
 	{
 		"name": "Evolution: Vampire Killer",
-		"requires": "(|Alchemy Whip| AND {hasItem(Tirajisu)}) OR ({hasCharacter(Sara Trantoul)} AND (|Alchemy Whip| OR |Morning Star|) AND ({hasRevival()} OR |@Operation Guns DLC:1|)",
+		"requires": "(|Alchemy Whip| AND {hasItem(Tirajisu)}) OR ({hasCharacter(Sara Trantoul)} AND (|Alchemy Whip| OR |Morning Star| OR |Candybox|) AND ({hasRevival()} OR (|@Operation Guns DLC:2| AND |Weapon Power-Up|)",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
@@ -506,7 +506,7 @@
 	},
 	{
 		"name": "Evolution: Rings of Calamity",
-		"requires": "|Spirit Rings| AND |@Accessories:5|",
+		"requires": "|Spirit Rings| AND |@Passives:5|",
 		"category": ["Evolutions", "Emerald Diorama DLC"]
 	},
 	{
@@ -580,13 +580,18 @@
 		"category": ["Evolutions"]
 	},
 	{
+		"name": "Gift: Super Candybox II Turbo",
+		"requires": "|Candybox| AND |@Evolutions:6| AND |@Passives:6|",
+		"category": ["Evolutions", "Item Selectors"]
+	},
+	{
 		"name": "Gift: Alucard Shield",
-		"requires": "|Alucart Sworb| AND |@Evolutions:6| AND |@Accessories:6|",
+		"requires": "|Alucart Sworb| AND |@Evolutions:6| AND |@Passives:6|",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
 		"name": "Gift: Universitas",
-		"requires": "|Luminatio| AND |Umbra| AND {hasMaxedItem(Crown) AND {hasMaxedItem(Attractorb)}",
+		"requires": "|Luminatio| AND |Umbra| AND {hasMaxedItems(Crown, Attractorb)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
@@ -1387,32 +1392,37 @@
 	{
 		"name": "Pick up a Heart Refresh",
 		"category": ["Pickups", "Ode to Castlevania DLC"],
-		"requires": "|@Ode to Castlevania DLC: 1|"
+		"requires": "{canPickupCastlevania()}"
 	},
 	{
 		"name": "Pick up a Mirror of Truth",
 		"category": ["Pickups", "Ode to Castlevania DLC"],
-		"requires": "|@Ode to Castlevania DLC: 1|"
+		"requires": "{canPickupCastlevania()}"
 	},
 	{
 		"name": "Pick up a Karma Coin",
 		"category": ["Pickups", "Ode to Castlevania DLC"],
-		"requires": "|@Ode to Castlevania DLC: 1|"
+		"requires": "{canPickupCastlevania()}"
 	},
 	{
 		"name": "Pick up a Neutron Bomb",
 		"category": ["Pickups", "Ode to Castlevania DLC"],
-		"requires": "|@Ode to Castlevania DLC: 1|"
+		"requires": "{canPickupCastlevania()}"
 	},
 	{
 		"name": "Pick up a Wall Chicken",
 		"category": ["Pickups", "Ode to Castlevania DLC"],
-		"requires": "|@Ode to Castlevania DLC: 1|"
+		"requires": "{canPickupCastlevania()}"
 	},
 	{
 		"name": "Pick up a Sorbetto",
 		"category": ["Pickups"],
-		"requires": "|XII - Out of Bounds| OR |Whiteout|"
+		"requires": "|XII - Out of Bounds| OR |Whiteout| OR {hasCharacter(Saint Germain)}"
+	},
+	{
+		"name": "Pick up a Crystallized Soul",
+		"category": ["Pickups"],
+		"requires": "|XII - Crystal Cries|"
 	},
 	{
 		"name": "Survive Mad Forest",

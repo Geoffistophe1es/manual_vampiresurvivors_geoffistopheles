@@ -87,7 +87,7 @@ class IncludeStageItems(Toggle):
     default = True
 
 class IncludeItemSelectors(Toggle):
-    """Whether or not items that can be used to select other items can be unlocked. This includes Candybox, Arma Dio, Morning Star, Coat of Arms, Belnades Spellbook, Spectral Sword, Ebony Diabolique, and Intuition."""
+    """Whether or not items that can be used to select other items can be unlocked. This includes Candybox, Arma Dio, Morning Star, Coat of Arms, Belnades Spellbook, Spectral Sword, Ebony Diabologue, and Intuition."""
     display_name = "Include Item Selectors"
     default = True
 

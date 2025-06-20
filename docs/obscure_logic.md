@@ -1,5 +1,13 @@
-# Obscure Checks
-These are alternative, non-standard ways of reaching particular checks.
+# Obscure Logic
+These are alternative, non-standard ways of reaching particular checks. These are currently accounted for in logic.
+
+## Max Level Tirajisu
+With access to Ode to Castlevania and stage items included, there are two Tirajisu stage items to reach max level while sealed. One is at start, the other drops from Galamoth in the sewer.
+
+## Max Level Passives with Two Levels
+With access to a stage where one of these items exists as well as Arma Dio, you can pull the initial item from Arma Dio, then pick up the stage item to max it out. Currently this affects:
+* Tirajisu
+* Duplicator
 
 ## Imelda Belpaese
 Completing the World of Light and Dark Adventure unlocks Unblinded Imelda Belpaese, who starts with a maxed Empty tome. This adds Magic Wand (or Imelda with Charactersanity) as a replacement for Empty Tome for the following logic checks:
@@ -46,4 +54,7 @@ Juste Belmont has guaranteed access to the Belnades Spellbook up to level 7, and
 
 ## Sara Trantoul
 Sara Trantoul evolves the Alchemy Whip into the Vampire Killer upon revival. This adds the following options:
-* Vampire Killer - (Star Flail or Sara Trantoul with Charactersanity) and (Alchemy Whip or Morning Star) and (Powerup - Revival or Tirajisu or Academy Badge or Weapon Power-Up or IV - Awake).
+* Vampire Killer
+* * Star Flail (or Sara Trantoul on Charactersanity)
+* * Alchemy Whip, Morning Star, or Candybox
+* * A means of reviving: Powerup - Revival or Tirajisu or Academy Badge or Weapon Power-Up or IV - Awake

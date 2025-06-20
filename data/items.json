@@ -306,10 +306,16 @@
 		"progression": true
 	},
 	{
+		"name": "Arma Dio",
+		"category": ["Weapons", "Item Selectors"],
+		"count":1,
+		"progression": true
+	},
+	{
 		"name": "Candybox",
 		"category": ["Weapons", "Item Selectors"],
 		"count":1,
-		"useful": true
+		"progression": true
 	},
 	{
 		"name": "Silver Wind",
@@ -978,7 +984,7 @@
 		"useful": true
 	},
 	{
-		"name": "Ebony Diabolique",
+		"name": "Ebony Diabologue",
 		"category": ["Weapons", "Ode to Castlevania DLC", "Item Selectors"],
 		"count":1,
 		"useful": true
@@ -1087,193 +1093,194 @@
 	},
 	{
 		"name": "Hollow Heart",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Spinach",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Armor",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Pummarola",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Empty Tome",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Candelabrador",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Bracer",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Spellbinder",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Duplicator",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Wings",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Attractorb",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Clover",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Crown",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Stone Mask",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Tirajisu",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Skull O'Maniac",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Silver Ring",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Gold Ring",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Metaglio Left",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Metaglio Right",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Torrona's Box",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
-		"name": "Arma Dio",
-		"category": ["Accessories", "Item Selectors"],
+		"name": "Academy Badge",
+		"category": ["Passives", "Tides of the Foscari DLC"],
 		"count":1,
-		"useful": true
+		"progression": true
 	},
 	{
-		"name": "Academy Badge",
-		"category": ["Accessories", "Tides of the Foscari DLC"],
+		"name": "Weapon Power-Up",
+		"category": ["Passives", "Operation Guns DLC"],
 		"count":1,
-		"useful": true
+		"progression": true
 	},
+	
 	{
 		"name": "Mini Crewmate",
-		"category": ["Accessories", "Emergency Meeting DLC"],
+		"category": ["Passives", "Emergency Meeting DLC"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Mini Engineer",
-		"category": ["Accessories", "Emergency Meeting DLC"],
+		"category": ["Passives", "Emergency Meeting DLC"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Mini Ghost",
-		"category": ["Accessories", "Emergency Meeting DLC"],
+		"category": ["Passives", "Emergency Meeting DLC"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Mini Shapeshifter",
-		"category": ["Accessories", "Emergency Meeting DLC"],
+		"category": ["Passives", "Emergency Meeting DLC"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Mini Guardian",
-		"category": ["Accessories", "Emergency Meeting DLC"],
+		"category": ["Passives", "Emergency Meeting DLC"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Mini Impostor",
-		"category": ["Accessories", "Emergency Meeting DLC"],
+		"category": ["Passives", "Emergency Meeting DLC"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Mini Scientist",
-		"category": ["Accessories", "Emergency Meeting DLC"],
+		"category": ["Passives", "Emergency Meeting DLC"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Parm Aegis",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Karoma's Mana",
-		"category": ["Accessories"],
+		"category": ["Passives"],
 		"count":1,
 		"progression": true
 	},
@@ -1437,7 +1444,7 @@
 		"name": "XII - Crystal Cries",
 		"category": ["Darkana"],
 		"count":1,
-		"useful": true
+		"progression": true
 	},
 	{
 		"name": "XXI - Wandering Jet Black",
@@ -2436,7 +2443,7 @@
 		"progression": true
 	},
 	{
-		"name": "Dmitri Bilnov",
+		"name": "Dmitrii Bilnov",
 		"category": ["Characters","Ode to Castlevania DLC"],
 		"count": 1,
 		"progression": true
@@ -2479,13 +2486,13 @@
 	},
 	{
 		"name": "Cave Troll",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania DLC","No Castlevania Pickups"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Fleaman",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania DLC","No Castlevania Pickups"],
 		"count": 1,
 		"progression": true
 	},

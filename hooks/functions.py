@@ -38,11 +38,34 @@ def get_stage_items() -> list:
 
     return rows
 
-def get_stage_by_item(item: str) -> list:
+def get_stage_by_item(item: str, madGrooveRequired: bool) -> list:
     rows = []
     
     for row in get_stage_items():
         if row["Item"] == item:
-            rows.append(row["Stage"])
+            if row["Stage"] == "Boss Rash":
+                if madGrooveRequired:
+                    rows.append(row["Stage"])
+            else:
+                rows.append(row["Stage"])
+
+    return rows
+
+def get_castlevania_pickup_list(category: str) -> list:
+    pickup_file = ''
+    rows = []
+
+    if category == "Weapons":
+        pickup_file = "cvpickups_weapons.csv"
+    elif category == "Characters":
+        pickup_file = "cvpickups_characters.csv"
+    else:
+        return rows
+    
+    with get_csv_file(pickup_file) as opened_file:
+        reader = csv.DictReader(opened_file)
+
+        for row in reader:
+            rows.append(row)
 
     return rows

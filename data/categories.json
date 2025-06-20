@@ -34,7 +34,9 @@
             "include_castlevania_dlc"
         ]
     },
-    "Emerald Diorama DLC": {
+    "No Castlevania Pickups": {
+        "hidden": true
+    },"Emerald Diorama DLC": {
         "hidden": true,
         "yaml_option": [
             "include_emerald_diorama_dlc"
