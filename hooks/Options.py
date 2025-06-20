@@ -37,14 +37,6 @@ class Hunts(Toggle):
     """Adds checks for defeating specific enemies"""
     display_name = "Hunts"
     default = False
-#####################################################################
-# Geoffistopheles: Commented out while debating these requirements. The special weapons don't work this way in base game and seems unnecessarily restrictive.
-#                   Current thought is to change the logic to allow an unlock so long as one of the requisite weapons is unlocked.
-#class SpecialWeapons(Toggle):
-#    """Adds 5 checks for completing the requirements for the Special Weapons in Ode to Castlevania. WARNING: These each require many items and will likely take a long time to complete. *Requires the Ode to Castlevania DLC"""
-#    display_name = "Special Weapons"
-#    default = False
-#####################################################################
 
 class Charactersanity(Toggle):
     """Adds all characters to the item pool as well as a location check for each."""
