@@ -98,7 +98,6 @@ def before_options_defined(options: dict) -> dict:
     options["include_stage_items"] = IncludeStageItems
     options["include_item_selectors"] = IncludeItemSelectors
     options["early_arma_dio"] = EarlyArmaDio
-    # options["special_weapons"] = SpecialWeapons
     options["include_moonspell_dlc"] = IncludeMoonspellDLC
     options["include_foscari_dlc"] = IncludeFoscariDLC
     options["include_emergency_meeting_dlc"] = IncludeEmergencyMeetingDLC
