@@ -2270,9 +2270,9 @@
 		"requires": "|Dario Bossi|"
 	},
 	{
-		"name": "Survive with Dmitri Bilnov",
+		"name": "Survive with Dmitrii Bilnov",
 		"category": ["Characters", "Ode to Castlevania DLC"],
-		"requires": "|Dmitri Bilnov|"
+		"requires": "|Dmitrii Bilnov|"
 	},
 	{
 		"name": "Survive with Celia Fortner",
@@ -2743,6 +2743,6 @@
 		"name": "Kill The Reaper",
 		"requires": "(|Clock Lancet| AND |Silver Ring| AND |Gold Ring|) AND (|Laurel| AND |Metaglio Left| AND |Metaglio Right|)",
 		"victory": true,
-		"category": ["Victory"]
+		"category": ["Victory", "Reaper"]
 	}
 ]

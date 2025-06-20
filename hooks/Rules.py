@@ -44,7 +44,7 @@ def hasRevival(world: World, multiworld: MultiWorld, state: CollectionState, pla
     hasStage = False
     # Weapon Power-Up can be used with Neo Galuga if stage items are allowed, or Neo Galuga and the item unlocked, but Academy Badge needs to be leveled to provide revival.
     #   Accounted for in JSON outside Neo Galuga, since @Operation Guns DLC:2 is far easier than listing out potential weapons that would spawn one.
-    if ((world.options.include_stage_items.value > 0 or state.has("Weapon Power-Up", player)) and state.has("Neo Galuga", player)) or (state.has("Academy Badge", player) and (state.has("Lake Foscari, player") or state.has("Abyss Foscari, player"))):
+    if ((world.options.include_stage_items.value > 0 or state.has("Weapon Power-Up", player)) and state.has("Neo Galuga", player)) or (state.has("Academy Badge", player) and (state.has("Lake Foscari", player) or state.has("Abyss Foscari", player))):
         hasStage = True
     if state.has("Powerup - Revival", player) or hasItem(world, multiworld, state, player, "Tirajisu") or hasArmaDioAccess(world, multiworld, state, player) or hasStage or state.has("IV - Awake", player):
         return True
@@ -282,7 +282,7 @@ def canPickupCastlevania(world: World, multiworld: MultiWorld, state: Collection
         search = "Weapons"
     
     for item in get_castlevania_pickup_list(search):
-        if state.has(item, player):
+        if state.has(item["Item"], player):
             return True
     
     return False
