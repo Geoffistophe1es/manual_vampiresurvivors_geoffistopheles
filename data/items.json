@@ -1807,6 +1807,12 @@
 		"progression": true
 	},
 	{
+		"name": "Queen Sigma",
+		"category": ["Characters"],
+		"count": 1,
+		"progression": true
+	},
+	{
 		"name": "Miang Moonspell",
 		"category": ["Characters", "Legacy of the Moonspell DLC"],
 		"count": 1,

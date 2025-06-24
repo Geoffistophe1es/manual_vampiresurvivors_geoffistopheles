@@ -1740,6 +1740,11 @@
 		"requires": "|Bats Bats Bats|"
 	},
 	{
+		"name": "Survive with Queen Sigma",
+		"category": ["Characters"],
+		"requires": "|Queen Sigma|"
+	},
+	{
 		"name": "Survive with Miang Moonspell",
 		"category": ["Characters", "Legacy of the Moonspell DLC"],
 		"requires": "|Miang Moonspell|"
