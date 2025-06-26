@@ -38,6 +38,43 @@ def get_stage_items() -> list:
 
     return rows
 
+def get_weapons() -> list:
+    weapons_file = 'weapons.csv' # has the list of available packs
+    rows = []
+
+    with get_csv_file(weapons_file) as opened_file:
+        reader = csv.DictReader(opened_file)
+
+        for row in reader:
+            rows.append(row)
+
+    return rows
+
+def get_passives() -> list:
+    passives_file = 'passives.csv' # has the list of available packs
+    rows = []
+
+    with get_csv_file(passives_file) as opened_file:
+        reader = csv.DictReader(opened_file)
+
+        for row in reader:
+            rows.append(row)
+
+    return rows
+
+def get_characters() -> list:
+    characters_file = 'characters.csv' # has the list of available packs
+    rows = []
+
+    with get_csv_file(characters_file) as opened_file:
+        reader = csv.DictReader(opened_file)
+
+        for row in reader:
+            rows.append(row)
+
+    return rows
+
+
 def get_stage_by_item(item: str, madGrooveRequired: bool) -> list:
     rows = []
     
@@ -69,3 +106,34 @@ def get_castlevania_pickup_list(category: str) -> list:
             rows.append(row)
 
     return rows
+
+def filter_dlc(world: World, items: list) -> list:
+    for item in items:
+        dlc = item["DLC"]
+        if dlc == "None":
+            continue
+        elif dlc == "Moonspell":
+            if world.options.include_moonspell_dlc == 0:
+                items.remove(item)
+        elif dlc == "Foscari":
+            if world.options.include_foscari_dlc == 0:
+                items.remove(item)
+        elif dlc == "Among Us":
+            if world.options.include_emergency_meeting_dlc == 0:
+                items.remove(item)
+        elif dlc == "Operation Guns":
+            if world.options.include_operation_guns_dlc == 0:
+                items.remove(item)
+        elif dlc == "Castlevania":
+            if world.options.include_castlevania_dlc == 0:
+                items.remove(item)
+        elif dlc == "Emerald":
+            if world.options.include_emerald_diorama_dlc == 0:
+                items.remove(item)
+    
+    return items
+
+def add_if_not_exists(items: list, item: str) -> list:
+    items.append(item) if item not in items else items
+
+    return items

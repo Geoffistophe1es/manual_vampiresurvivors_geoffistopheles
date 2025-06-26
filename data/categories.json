@@ -50,11 +50,6 @@
             "hunts"
         ]
     },
-    "Special Weapons": {
-        "yaml_option": [
-            "special_weapons"
-        ]
-    },
     "Stage Items": {
         "yaml_option": [
             "include_stage_items"
@@ -68,6 +63,26 @@
     "Early Arma Dio": {
         "yaml_option": [
             "early_arma_dio"
+        ]
+    },
+    "Starting Weapon Must Evolve": {
+        "yaml_option": [
+            "starter_must_evolve"
+        ]
+    },
+    "Matching Characters": {
+        "yaml_option": [
+            "character_must_match"
+        ]
+    },
+    "Secret Characters": {
+        "yaml_option": [
+            "secret_characters"
+        ]
+    },
+    "Hidden Characters": {
+        "yaml_option": [
+            "hidden_characters"
         ]
     }
 }

@@ -1,6 +1,7 @@
 # Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
 from worlds.AutoWorld import World
 from BaseClasses import MultiWorld, CollectionState
+from .functions import get_weapons, get_passives, get_characters, filter_dlc, add_if_not_exists
 
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
 from ..Items import ManualItem
@@ -73,15 +74,101 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         item = next(i for i in item_pool if i.name == itemName)
         item_pool.remove(item)
 
+    # Starting stage is now set, now we jump through hoops to generate the rest.
+
+    starting_items = []
+    weapons = filter_dlc(world, get_weapons())
+    
+    # If starters must evolve, remove weapons that don't evolve or would require an unfair advantage in more starting items.
+    if world.options.starter_must_evolve.value > 0:
+        for weapon in weapons:
+            if weapon["Item"] == "None" or weapon["Weapon"] == "Vento Sacro" or weapon["Weapon"] == "Spirit Rings":
+                weapons.remove(weapon)
+
+    starting_weapon = world.random.choice(weapons)
+    starting_items.append(starting_weapon["Weapon"])
+    paired_item = starting_weapon["Item"]
+    passives = filter_dlc(world, get_passives())
+    for passive in passives:
+        if passive["Item"] == "Weapon Power-Up":
+            passives.remove(passive)
+            break      
+
+    # If a weapon is listed as a Union, player gets the union weapons but no passives.
+    # If a weapon does not require anything to evolve, player gets a random passive.
+    # Otherwise, player gets the evolution passive required.
+    # If a weapon is from Operation Guns, Weapon Power-Up is required and not considered an advantage.
+    # If evolution requirements are off, players gets a random passive.
+    if world.options.starter_must_evolve.value > 0:
+        if paired_item == "Union":
+            weapon_name = starting_weapon["Weapon"]
+            if weapon_name in ["Peachone", "Ebony Wings"]:
+                add_if_not_exists(starting_items, "Peachone")
+                add_if_not_exists(starting_items, "Ebony Wings")
+            elif weapon_name in ["Phiera Der Tuphello", "Eight the Sparrow"]:
+                add_if_not_exists(starting_items, "Phiera Der Tuphello")
+                add_if_not_exists(starting_items, "Eight the Sparrow")
+            elif weapon_name in ["SpellString", "SpellStream", "SpellStrike"]:
+                add_if_not_exists(starting_items, "SpellString")
+                add_if_not_exists(starting_items, "SpellStream")
+                add_if_not_exists(starting_items, "SpellStrike")
+            elif weapon_name in ["Dextro Custos", "Sinestros Custos"]:
+                add_if_not_exists(starting_items, "Dextro Custos")
+                add_if_not_exists(starting_items, "Sinestros Custos")
+                add_if_not_exists(starting_items, "Centralis Custos")
+            elif weapon_name in ["Dominus Anger", "Dominus Hatred"]:
+                add_if_not_exists(starting_items, "Dominus Anger")
+                add_if_not_exists(starting_items, "Dominus Hatred")
+                add_if_not_exists(starting_items, "Dominus Agony")
+        elif paired_item == "Self":
+            starting_items.append(world.random.choice(passives)["Item"])
+        else:
+            starting_items.append(paired_item)
+        if starting_weapon["DLC"] ==  "Operation Guns":
+            starting_items.append("Weapon Power-Up")
+    else:
+        starting_items.append(world.random.choice(passives)["Item"])
+
+    # Roll the character in the event of Charactersanity
+    if world.options.charactersanity.value > 0:
+        if world.options.character_must_match.value == 0 and world.options.hidden_characters.value == 0 and world.options.secret_characters.value > 0:
+            starting_character = world.random.choice(characters)["Character"]
+            starting_items.append(starting_character)
+        else:
+            starting_characters = []
+            characters = filter_dlc(world, get_characters())
+            if world.options.character_must_match.value > 0:
+                for character in characters:
+                    if character["Weapon"] == starting_weapon["Weapon"]:
+                        starting_characters.append(character["Character"])
+            if world.options.hidden_characters.value > 0:
+                for character in characters:
+                    if character["Weapon"] == "Hidden":
+                        if world.options.character_must_match.value > 0:
+                            if character["Base"] == starting_weapon["Weapon"]:
+                                starting_characters.append(character["Character"])
+                        else:
+                            starting_characters.append(character["Character"])
+            if world.options.secret_characters.value > 0:
+                for character in characters:
+                    if character["Weapon"] != character["Base"]:
+                        if world.options.character_must_match.value > 0:
+                            if character["Base"] == starting_weapon["Weapon"]:
+                                starting_characters.append(character["Character"])
+                        else:
+                            starting_characters.append(character["Character"])
+            starting_character = world.random.choice(starting_characters)
+            starting_items.append(starting_character)
+
+    starting_items_in_pool = [i for i in item_pool if i.name in starting_items]
+    logging.info(starting_items_in_pool)
+    for item in starting_items_in_pool:
+        multiworld.push_precollected(item)
+        item_pool.remove(item)
+
     return item_pool
 
-    # Some other useful hook options:
-
-    ## Place an item at a specific location
-    # location = next(l for l in multiworld.get_unfilled_locations(player=player) if l.name == "Location Name")
-    # item_to_place = next(i for i in item_pool if i.name == "Item Name")
-    # location.place_locked_item(item_to_place)
-    # item_pool.remove(item_to_place)
+    
 
 # The complete item pool prior to being set for generation is provided here, in case you want to make changes to it
 def after_create_items(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:

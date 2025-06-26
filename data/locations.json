@@ -580,18 +580,8 @@
 		"category": ["Evolutions"]
 	},
 	{
-		"name": "Gift: Super Candybox II Turbo",
-		"requires": "|Candybox| AND |@Evolutions:6| AND |@Passives:6|",
-		"category": ["Evolutions", "Item Selectors"]
-	},
-	{
-		"name": "Gift: Alucard Shield",
-		"requires": "|Alucart Sworb| AND |@Evolutions:6| AND |@Passives:6|",
-		"category": ["Evolutions", "Ode to Castlevania DLC"]
-	},
-	{
 		"name": "Gift: Universitas",
-		"requires": "|Luminatio| AND |Umbra| AND {hasMaxedItems(Crown, Attractorb)}",
+		"requires": "|Luminatio| AND |Umbra| AND {hasMaxedItems(Crown,Attractorb)}",
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
