@@ -125,6 +125,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
             elif weapon_name in ["Phiera Der Tuphello", "Eight the Sparrow"]:
                 add_if_not_exists(starting_items, "Phiera Der Tuphello")
                 add_if_not_exists(starting_items, "Eight the Sparrow")
+                add_if_not_exists(starting_items, "Tirajisu")
             elif weapon_name in ["SpellString", "SpellStream", "SpellStrike"]:
                 add_if_not_exists(starting_items, "SpellString")
                 add_if_not_exists(starting_items, "SpellStream")
