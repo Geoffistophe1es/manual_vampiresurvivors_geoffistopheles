@@ -81,24 +81,28 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     stages = filter_dlc(world, get_stages())
 
     # Basic starting stages need to be 30 minutes and have no scaling. Otherwise, pick one.
-    if world.options.basic_starting_stage > 0:
-        for stage in stages:
-            if int(stage["Timer"]) < 30 or stage["Scaling"] == True:
-                stages.remove(stage)
+    stage_pool = []
+    for stage in stages:
+        if world.options.basic_starting_stage > 0:
+            if int(stage["Timer"]) < 30 or stage["Scaling"] == "True":
+                continue
+        stage_pool.append(stage)
 
-    starting_stage = world.random.choice(stages)
+    starting_stage = world.random.choice(stage_pool)
     starting_items.append(starting_stage["Stage"])
 
     # If starters must evolve, remove weapons that don't evolve or would require an unfair advantage in more starting items.
     # Remove Lifesign Scan from the starting pool, as it and Ghost Lino cannot damage enemies.
+    weapon_pool = []
     for weapon in weapons:
         if weapon["Item"] == "None" or weapon["Weapon"] == "Vento Sacro" or weapon["Weapon"] == "Spirit Rings":
             if world.options.starter_must_evolve.value > 0:
-                weapons.remove(weapon)
+                continue
         if weapon["Weapon"] == "Lifesign Scan":
-            weapons.remove(weapon)
+            continue
+        weapon_pool.append(weapon)
 
-    starting_weapon = world.random.choice(weapons)
+    starting_weapon = world.random.choice(weapon_pool)
     starting_items.append(starting_weapon["Weapon"])
     paired_item = starting_weapon["Item"]
     passives = filter_dlc(world, get_passives())
