@@ -53,15 +53,18 @@ def hasRevival(world: World, multiworld: MultiWorld, state: CollectionState, pla
 def hasEvolutions(world: World, multiworld: MultiWorld, state: CollectionState, player: int, count: int = 1):
     """Does the player have access to a number of unique evolutions?"""
     total = 0
-    weapons = item_list("Weapons")
-    all_weapons = get_weapons
+    weapons = item_list("Weapons", state, player)
+    all_weapons = get_weapons()
     for weapon in weapons:
-        i = all_weapons.index(weapon)
-        found_weapon = all_weapons[i]
-        if found_weapon != "None" and (found_weapon["Item"] == "Self" or state.has(found_weapon["Item"], player)):
-            total += 1
-        if total >= count:
-            return True
+        try:
+          i = all_weapons.index(weapon)
+          found_weapon = all_weapons[i]
+          if found_weapon != "None" and (found_weapon["Item"] == "Self" or state.has(found_weapon["Item"], player)):
+              total += 1
+          if total >= count:
+              return True
+        except:
+            continue
     
     return False
 

@@ -1,10 +1,5 @@
 {
 	"game": "VampireSurvivors",
 	"creator": "Geoffistopheles",
-	"filler_item_name": "A terrible night to have a curse...",
-	"starting_items": [
-		{
-			
-		}
-	]
+	"filler_item_name": "A terrible night to have a curse..."
 }

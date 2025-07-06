@@ -585,11 +585,6 @@
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
-		"name": "Gift: Alucard Shield",
-		"requires": "|Alucart Sworb| AND |@Passives: 6| AND {hasEvolutions(6)}",
-		"category": ["Evolutions", "Ode to Castlevania DLC"]
-	},
-	{
 		"name": "Union: SpellStrom",
 		"requires": "|SpellString| AND |SpellStream| AND |SpellStrike|",
 		"category": ["Evolutions", "Tides of the Foscari DLC"]

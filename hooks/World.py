@@ -83,7 +83,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # Basic starting stages need to be 30 minutes and have no scaling. Otherwise, pick one.
     if world.options.basic_starting_stage > 0:
         for stage in stages:
-            if stage["Timer"] < 30 or stage["Scaling"] == True:
+            if int(stage["Timer"]) < 30 or stage["Scaling"] == True:
                 stages.remove(stage)
 
     starting_stage = world.random.choice(stages)
