@@ -1,7 +1,7 @@
 # Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
 from worlds.AutoWorld import World
 from BaseClasses import MultiWorld, CollectionState
-from .functions import get_weapons, get_passives, get_characters, filter_dlc, add_if_not_exists
+from .functions import get_weapons, get_passives, get_characters, get_stages, filter_dlc, add_if_not_exists
 
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
 from ..Items import ManualItem
@@ -74,16 +74,29 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         item = next(i for i in item_pool if i.name == itemName)
         item_pool.remove(item)
 
-    # Starting stage is now set, now we jump through hoops to generate the rest.
+    # Generate our filtered list of weapons and stages.
 
     starting_items = []
     weapons = filter_dlc(world, get_weapons())
-    
+    stages = filter_dlc(world, get_stages())
+
+    # Basic starting stages need to be 30 minutes and have no scaling. Otherwise, pick one.
+    if world.options.basic_starting_stage > 0:
+        for stage in stages:
+            if stage["Timer"] < 30 or stage["Scaling"] == True:
+                stages.remove(stage)
+
+    starting_stage = world.random.choice(stages)
+    starting_items.append(starting_stage["Stage"])
+
     # If starters must evolve, remove weapons that don't evolve or would require an unfair advantage in more starting items.
-    if world.options.starter_must_evolve.value > 0:
-        for weapon in weapons:
-            if weapon["Item"] == "None" or weapon["Weapon"] == "Vento Sacro" or weapon["Weapon"] == "Spirit Rings":
+    # Remove Lifesign Scan from the starting pool, as it and Ghost Lino cannot damage enemies.
+    for weapon in weapons:
+        if weapon["Item"] == "None" or weapon["Weapon"] == "Vento Sacro" or weapon["Weapon"] == "Spirit Rings":
+            if world.options.starter_must_evolve.value > 0:
                 weapons.remove(weapon)
+        if weapon["Weapon"] == "Lifesign Scan":
+            weapons.remove(weapon)
 
     starting_weapon = world.random.choice(weapons)
     starting_items.append(starting_weapon["Weapon"])
@@ -137,6 +150,10 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         else:
             starting_characters = []
             characters = filter_dlc(world, get_characters())
+            for character in characters:
+                # Remove Ghost Lino from the pool, as he cannot deal damage.
+                if character["Character"] in ["Ghost Lino"]:
+                    characters.remove(character)
             if world.options.character_must_match.value > 0:
                 for character in characters:
                     if character["Weapon"] == starting_weapon["Weapon"]:

@@ -2,7 +2,7 @@ from typing import Optional
 from worlds.AutoWorld import World
 from ..Helpers import clamp, get_items_with_value
 from BaseClasses import MultiWorld, CollectionState
-from .functions import get_stage_by_item, get_castlevania_pickup_list
+from .functions import get_weapons, get_stage_by_item, get_castlevania_pickup_list
 
 import re
 
@@ -49,6 +49,22 @@ def hasRevival(world: World, multiworld: MultiWorld, state: CollectionState, pla
     if state.has("Powerup - Revival", player) or hasItem(world, multiworld, state, player, "Tirajisu") or hasArmaDioAccess(world, multiworld, state, player) or hasStage or state.has("IV - Awake", player):
         return True
     return False
+
+def hasEvolutions(world: World, multiworld: MultiWorld, state: CollectionState, player: int, count: int = 1):
+    """Does the player have access to a number of unique evolutions?"""
+    total = 0
+    weapons = item_list("Weapons")
+    all_weapons = get_weapons
+    for weapon in weapons:
+        i = all_weapons.index(weapon)
+        found_weapon = all_weapons[i]
+        if found_weapon != "None" and (found_weapon["Item"] == "Self" or state.has(found_weapon["Item"], player)):
+            total += 1
+        if total >= count:
+            return True
+    
+    return False
+
     
 def hasCharacter(world: World, multiworld: MultiWorld, state: CollectionState, player: int, character: str):
     """Does the player have access to a specific character?"""
@@ -286,3 +302,12 @@ def canPickupCastlevania(world: World, multiworld: MultiWorld, state: Collection
             return True
     
     return False
+
+def item_list(item_name_group: str, state: CollectionState, player: int) -> list:
+        """Returns True if the state contains at least `count` items present in a specified item group."""
+        items = []
+        player_prog_items = state.prog_items[player]
+        for item_name in state.multiworld.worlds[player].item_name_groups[item_name_group]:
+            items.append(player_prog_items[item_name])
+        
+        return items

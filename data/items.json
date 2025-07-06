@@ -2492,13 +2492,13 @@
 	},
 	{
 		"name": "Cave Troll",
-		"category": ["Characters","Ode to Castlevania DLC","No Castlevania Pickups"],
+		"category": ["Characters","Ode to Castlevania DLC"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Fleaman",
-		"category": ["Characters","Ode to Castlevania DLC","No Castlevania Pickups"],
+		"category": ["Characters","Ode to Castlevania DLC"],
 		"count": 1,
 		"progression": true
 	},

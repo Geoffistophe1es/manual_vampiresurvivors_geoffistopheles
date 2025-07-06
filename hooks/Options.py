@@ -96,6 +96,11 @@ class StarterMustEvolve(Toggle):
     display_name = "Starting Weapon Must Evolve"
     default = True
 
+class BasicStartingStage(Toggle):
+    """Whether or not challenge stages can be starting items. If true, this limits the starting stage selection to those with 30 minute timers and all enemies do not scale over time."""
+    display_name = "Basic Starting Stage"
+    default = True
+
 class MatchingCharacters(Toggle):
     """Requires Charactersanity to function. Whether or not the starting character comes with the starting weapon. If true, only characters that can start with the starting weapon will be chosen.
     If Secret Characters or Hidden Characters and matching characters are enabled, secret characters with matching evolutions can be chosen."""
@@ -127,6 +132,7 @@ def before_options_defined(options: dict) -> dict:
     options["include_castlevania_dlc"] = IncludeCastlevaniaDLC
     options["include_emerald_diorama_dlc"] = IncludeEmeraldDioramaDLC
     options["starter_must_evolve"] = StarterMustEvolve
+    options["basic_starting_stage"] = BasicStartingStage
     options["character_must_match"] = MatchingCharacters
     options["secret_characters"] = SecretCharacters
     options["hidden_characters"] = HiddenCharacters

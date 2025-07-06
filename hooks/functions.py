@@ -74,6 +74,18 @@ def get_characters() -> list:
 
     return rows
 
+def get_stages() -> list:
+    stages_file = 'stages.csv' # has the list of available packs
+    rows = []
+
+    with get_csv_file(stages_file) as opened_file:
+        reader = csv.DictReader(opened_file)
+
+        for row in reader:
+            rows.append(row)
+
+    return rows
+
 
 def get_stage_by_item(item: str, madGrooveRequired: bool) -> list:
     rows = []

@@ -70,6 +70,11 @@
             "starter_must_evolve"
         ]
     },
+    "Basic Starting Stage": {
+        "yaml_option": [
+            "basic_starting_stage"
+        ]
+    },
     "Matching Characters": {
         "yaml_option": [
             "character_must_match"

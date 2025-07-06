@@ -585,6 +585,11 @@
 		"category": ["Evolutions", "Ode to Castlevania DLC"]
 	},
 	{
+		"name": "Gift: Alucard Shield",
+		"requires": "|Alucart Sworb| AND |@Passives: 6| AND {hasEvolutions(6)}",
+		"category": ["Evolutions", "Ode to Castlevania DLC"]
+	},
+	{
 		"name": "Union: SpellStrom",
 		"requires": "|SpellString| AND |SpellStream| AND |SpellStrike|",
 		"category": ["Evolutions", "Tides of the Foscari DLC"]
@@ -1358,11 +1363,6 @@
 		"name": "Pick up a Gold Finger",
 		"category": ["Pickups"],
 		"requires": "|Astral Stair| OR |Space 54| OR |X - Hail from the Future|"
-	},
-	{
-		"name": "Pick up a Weapon Power-Up",
-		"category": ["Pickups", "Operation Guns DLC"],
-		"requires": "|@Operation Guns DLC: 1|"
 	},
 	{
 		"name": "Pick up a Rapid Fire",

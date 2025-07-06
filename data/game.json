@@ -4,35 +4,7 @@
 	"filler_item_name": "A terrible night to have a curse...",
 	"starting_items": [
 		{
-			"items": [
-				"Mad Forest",
-				"Inlaid Library",
-				"Dairy Plant",
-				"Gallo Tower",
-				"Capella Magna",
-				"Il Molise",
-				"Moongolow",
-				"Green Acres",
-				"The Bone Zone",
-				"Boss Rash",
-				"Whiteout",
-				"Space 54",
-				"Bat Country",
-				"Astral Stair",
-				"Tiny Bridge",
-				"Mt. Moonspell",
-				"Lake Foscari",
-				"Abyss Foscari",
-				"Polus Replica",
-				"Laborratory",
-				"Carlo Cart",
-				"The Coop",
-				"Neo Galuga",
-				"Hectic Highway",
-				"Ode to Castlevania",
-				"Emerald Diorama"
-			],
-			"random": 1
+			
 		}
 	]
 }
