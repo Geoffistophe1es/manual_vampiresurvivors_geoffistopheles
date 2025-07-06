@@ -88,6 +88,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                 continue
         stage_pool.append(stage)
 
+    logging.info(stage_pool)
     starting_stage = world.random.choice(stage_pool)
     starting_items.append(starting_stage["Stage"])
 
