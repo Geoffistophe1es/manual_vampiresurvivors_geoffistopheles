@@ -98,7 +98,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         if weapon["Item"] == "None" or weapon["Weapon"] == "Vento Sacro" or weapon["Weapon"] == "Spirit Rings":
             if world.options.starter_must_evolve.value > 0:
                 continue
-        if weapon["Weapon"] == "Lifesign Scan":
+        if weapon["Weapon"] in ["Lifesign Scan", "Clock Lancet", "Laurel"]:
             continue
         weapon_pool.append(weapon)
 
