@@ -1538,7 +1538,7 @@
 	},
 	{
 		"name": "Powerup - Curse",
-		"category": ["Powerups"],
+		"category": ["Powerups", "Include Curse"],
 		"count":5,
 		"useful": true
 	},

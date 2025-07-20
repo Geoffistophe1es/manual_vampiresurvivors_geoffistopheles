@@ -40,6 +40,12 @@
             "include_emerald_diorama_dlc"
         ]
     },
+    "Include Curse": {
+        "hidden": true,
+        "yaml_option": [
+            "include_curse"
+        ]
+    },
     "Starting Weapon Slots": {
         "yaml_option": [
             "starting_weapon_slots"

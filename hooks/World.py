@@ -88,7 +88,6 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                 continue
         stage_pool.append(stage)
 
-    logging.info(stage_pool)
     starting_stage = world.random.choice(stage_pool)
     starting_items.append(starting_stage["Stage"])
 
@@ -184,7 +183,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
             starting_items.append(starting_character)
 
     starting_items_in_pool = [i for i in item_pool if i.name in starting_items]
-    logging.info(starting_items_in_pool)
+    # logging.info(starting_items_in_pool)
     for item in starting_items_in_pool:
         multiworld.push_precollected(item)
         item_pool.remove(item)

@@ -33,6 +33,11 @@ class WeaponSlots(Range):
     range_end = 6
     default = 3
 
+class IncludeCurse(Toggle):
+    """Whether or not Curse powerups are added to the pool."""
+    display_name = "Include Curse"
+    default = False
+
 class Hunts(Toggle):
     """Adds checks for defeating specific enemies"""
     display_name = "Hunts"
@@ -120,6 +125,7 @@ class HiddenCharacters(Toggle):
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
     options["starting_weapon_slots"] = WeaponSlots
+    options["include_curse"] = IncludeCurse
     options["charactersanity"] = Charactersanity
     options["hunts"] = Hunts
     options["include_stage_items"] = IncludeStageItems
