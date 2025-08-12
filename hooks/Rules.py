@@ -2,7 +2,7 @@ from typing import Optional
 from worlds.AutoWorld import World
 from ..Helpers import clamp, get_items_with_value
 from BaseClasses import MultiWorld, CollectionState
-from .functions import get_weapons, get_stage_by_item, get_castlevania_pickup_list
+from .functions import get_weapons, get_stage_by_item, get_castlevania_pickup_list, get_characters
 
 import re
 
@@ -71,36 +71,30 @@ def hasEvolutions(world: World, multiworld: MultiWorld, state: CollectionState, 
     
 def hasCharacter(world: World, multiworld: MultiWorld, state: CollectionState, player: int, character: str):
     """Does the player have access to a specific character?"""
-    # Not the best way of doing this, but it matters in 7 cases out of 183, so this is easier.
-    if character == "Imelda Belpaese":
-        if ((world.options.charactersanity.value > 0 and state.has(character, player)) or (world.options.charactersanity.value == 0 and state.has("Magic Wand", player))):
-            return True
+
+    characters = get_characters()
+    criteria = ""
+    if (world.options.charactersanity.value > 0):
+        for item in characters:
+            if (item["Character"] == character):
+                criteria = item["Character"]
+    else:
+        found_character = next((item for item in characters if item["Character"] == character), None)
+        if (found_character == None):
+            return False
+        weapon = found_character["Weapon"]
+        for item in characters:
+            if (item["Weapon"] == weapon):
+                criteria = item["Weapon"]
+    
+    if (state.has(criteria, player)):
+        return True
+    else:
         return False
-    if character == "Poe Ratcho":
-        if ((world.options.charactersanity.value > 0 and state.has(character, player)) or (world.options.charactersanity.value == 0 and state.has("Garlic", player))):
-            return True
-        return False
-    if character == "She-Moon Eeta":
-        if ((world.options.charactersanity.value > 0 and state.has(character, player)) or (world.options.charactersanity.value == 0 and state.has("Glass Fandango", player))):
-            return True
-        return False
-    if character == "Santa Ladonna":
-        if ((world.options.charactersanity.value > 0 and state.has(character, player)) or (world.options.charactersanity.value == 0 and state.has("Santa Javelin", player))):
-            return True
-        return False
-    if character == "Sara Trantoul":
-        if ((world.options.charactersanity.value > 0 and state.has(character, player)) or (world.options.charactersanity.value == 0 and state.has("Star Flail", player))):
-            return True
-        return False
-    if character == "Juste Belmont":
-        if ((world.options.charactersanity.value > 0 and state.has(character, player)) or (world.options.charactersanity.value == 0 and state.has("Vibhuti Whip", player))):
-            return True
-        return False
-    if character == "Saint Germain":
-        if ((world.options.charactersanity.value > 0 and state.has(character, player)) or (world.options.charactersanity.value == 0 and state.has("Globus", player))):
-            return True
-        return False
-    return False
+    # if character == "Imelda Belpaese":
+    #    if ((world.options.charactersanity.value > 0 and state.has(character, player)) or (world.options.charactersanity.value == 0 and state.has("Magic Wand", player))):
+    #        return True
+    #    return False
 
 def hasItem(world: World, multiworld: MultiWorld, state: CollectionState, player: int, item: str):
     """Does the player have access to a specific item?"""
