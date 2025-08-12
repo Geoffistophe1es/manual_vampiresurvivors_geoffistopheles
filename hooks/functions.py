@@ -27,19 +27,33 @@ def get_csv_file(*args) -> dict:
     return StringIO(filedata)
 
 def get_stage_items() -> list:
-    stage_items_file = 'stage_items.csv' # has the list of available packs
+    stage_items_file = 'stage_items.csv'
     rows = []
 
     with get_csv_file(stage_items_file) as opened_file:
         reader = csv.DictReader(opened_file)
 
         for row in reader:
-            rows.append(row)
+            if (row["Type"] == "Passive"):
+                rows.append(row)
+
+    return rows
+
+def get_stage_pickups() -> list:
+    stage_items_file = 'stage_items.csv'
+    rows = []
+
+    with get_csv_file(stage_items_file) as opened_file:
+        reader = csv.DictReader(opened_file)
+
+        for row in reader:
+            if (row["Type"] == "Pickup"):
+                rows.append(row)
 
     return rows
 
 def get_weapons() -> list:
-    weapons_file = 'weapons.csv' # has the list of available packs
+    weapons_file = 'weapons.csv' 
     rows = []
 
     with get_csv_file(weapons_file) as opened_file:
@@ -51,7 +65,7 @@ def get_weapons() -> list:
     return rows
 
 def get_passives() -> list:
-    passives_file = 'passives.csv' # has the list of available packs
+    passives_file = 'passives.csv' 
     rows = []
 
     with get_csv_file(passives_file) as opened_file:
@@ -63,7 +77,7 @@ def get_passives() -> list:
     return rows
 
 def get_characters() -> list:
-    characters_file = 'characters.csv' # has the list of available packs
+    characters_file = 'characters.csv' 
     rows = []
 
     with get_csv_file(characters_file) as opened_file:
@@ -75,7 +89,7 @@ def get_characters() -> list:
     return rows
 
 def get_stages() -> list:
-    stages_file = 'stages.csv' # has the list of available packs
+    stages_file = 'stages.csv' 
     rows = []
 
     with get_csv_file(stages_file) as opened_file:

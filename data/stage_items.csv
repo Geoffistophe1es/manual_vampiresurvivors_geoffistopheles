@@ -1,90 +1,133 @@
-Stage,Item
-Mad Forest,Spinach
-Mad Forest,Clover
-Mad Forest,Hollow Heart
-Mad Forest,Pummarola
-Mad Forest,Skull O'Maniac
-Inlaid Library,Stone Mask
-Inlaid Library,Empty Tome
-Dairy Plant,Attractorb
-Dairy Plant,Candelabrador
-Dairy Plant,Wings
-Dairy Plant,Armor
-Gallo Tower,Bracer
-Gallo Tower,Spellbinder
-Cappella Magna,Crown
-Cappella Magna,Tirajisu
-Cappella Magna,Duplicator
-Moongolow,Spinach
-Moongolow,Armor
-Moongolow,Hollow Heart
-Moongolow,Pummarola
-Moongolow,Empty Tome
-Moongolow,Candelabrador
-Moongolow,Bracer
-Moongolow,Spellbinder
-Moongolow,Duplicator
-Moongolow,Wings
-Moongolow,Attractorb
-Moongolow,Clover
-Moongolow,Crown
-Moongolow,Stone Mask
-Moongolow,Skull O'Maniac
-Moongolow,Tirajisu
-Boss Rash,Spinach
-Boss Rash,Armor
-Boss Rash,Hollow Heart
-Boss Rash,Pummarola
-Boss Rash,Empty Tome
-Boss Rash,Candelabrador
-Boss Rash,Bracer
-Boss Rash,Spellbinder
-Boss Rash,Duplicator
-Boss Rash,Wings
-Boss Rash,Attractorb
-Boss Rash,Clover
-Boss Rash,Crown
-Boss Rash,Stone Mask
-Boss Rash,Skull O'Maniac
-Boss Rash,Tirajisu
-Whiteout,Skull O'Maniac
-Whiteout,Wings
-Whiteout,Spinach
-The Coop,Parm Aegis
-Space 54,Candelabrador
-Space 54,Empty Tome
-Laborratory,Clover
-Laborratory,Spellbinder
-Laborratory,Attractorb
-Tiny Bridge,Wings
-Tiny Bridge,Attractorb
-Mt. Moonspell,Spinach
-Mt. Moonspell,Pummarola
-Mt. Moonspell,Candelabrador
-Mt. Moonspell,Attractorb
-Mt. Moonspell,Duplicator
-Mt. Moonspell,Stone Mask
-Lake Foscari,Armor
-Lake Foscari,Bracer
-Lake Foscari,Clover
-Lake Foscari,Crown
-Lake Foscari,Skull O'Maniac
-Lake Foscari,Academy Badge
-Abyss Foscari,Armor
-Abyss Foscari,Empty Tome
-Abyss Foscari,Attractorb
-Abyss Foscari,Crown
-Abyss Foscari,Stone Mask
-Abyss Foscari,Skull O'Maniac
-Abyss Foscari,Academy Badge
-Neo Galuga,Weapon Power-Up
-Neo Galuga,Wings
-Ode to Castlevania,Parm Aegis
-Ode to Castlevania,Tirajisu
-Ode to Castlevania,Karoma's Mana
-Emerald Diorama,Spellbinder
-Emerald Diorama,Spinach
-Emerald Diorama,Crown
-Emerald Diorama,Stone Mask
-Emerald Diorama,Parm Aegis
-Emerald Diorama,Karoma's Mana
+Stage,Item,Type
+Mad Forest,Spinach,Passive
+Mad Forest,Clover,Passive
+Mad Forest,Hollow Heart,Passive
+Mad Forest,Pummarola,Passive
+Mad Forest,Skull O'Maniac,Passive
+Inlaid Library,Stone Mask,Passive
+Inlaid Library,Empty Tome,Passive
+Dairy Plant,Attractorb,Passive
+Dairy Plant,Candelabrador,Passive
+Dairy Plant,Wings,Passive
+Dairy Plant,Armor,Passive
+Dairy Plant,Vacuum,Pickup
+Gallo Tower,Bracer,Passive
+Gallo Tower,Spellbinder,Passive
+Cappella Magna,Crown,Passive
+Cappella Magna,Tirajisu,Passive
+Cappella Magna,Duplicator,Passive
+Cappella Magna,Rosary,Pickup
+Cappella Magna,Nduja Fritta Tanto,Pickup
+Moongolow,Spinach,Passive
+Moongolow,Armor,Passive
+Moongolow,Hollow Heart,Passive
+Moongolow,Pummarola,Passive
+Moongolow,Empty Tome,Passive
+Moongolow,Candelabrador,Passive
+Moongolow,Bracer,Passive
+Moongolow,Spellbinder,Passive
+Moongolow,Duplicator,Passive
+Moongolow,Wings,Passive
+Moongolow,Attractorb,Passive
+Moongolow,Clover,Passive
+Moongolow,Crown,Passive
+Moongolow,Stone Mask,Passive
+Moongolow,Skull O'Maniac,Passive
+Moongolow,Tirajisu,Passive
+Boss Rash,Spinach,Passive
+Boss Rash,Armor,Passive
+Boss Rash,Hollow Heart,Passive
+Boss Rash,Pummarola,Passive
+Boss Rash,Empty Tome,Passive
+Boss Rash,Candelabrador,Passive
+Boss Rash,Bracer,Passive,Passive
+Boss Rash,Spellbinder,Passive
+Boss Rash,Duplicator,Passive
+Boss Rash,Wings,Passive
+Boss Rash,Attractorb,Passive
+Boss Rash,Clover,Passive
+Boss Rash,Crown,Passive
+Boss Rash,Stone Mask,Passive
+Boss Rash,Skull O'Maniac,Passive
+Boss Rash,Tirajisu,Passive
+Boss Rash,Floor Chicken,Pickup
+Boss Rash,Nduja Fritta Tanto,Pickup
+Boss Rash,Orologion,Pickup
+Boss Rash,Rosary,Pickup
+Whiteout,Skull O'Maniac,Passive
+Whiteout,Wings,Passive
+Whiteout,Spinach,Passive
+Whiteout,Sorbetto,Pickup
+The Coop,Parm Aegis,Passive
+Space 54,Candelabrador,Passive
+Space 54,Empty Tome,Passive
+Space 54,Nduja Fritta Tanto,Pickup
+Space 54,Rosary,Pickup
+Space 54,Gold Finger,Pickup
+Space 54,Gilded Clover,Pickup
+Space 54,Vacuum,Pickup
+Laborratory,Clover,Passive
+Laborratory,Spellbinder,Passive
+Laborratory,Attractorb,Passive
+Laborratory,Vacuum,Pickup
+Laborratory,Rosary,Pickup
+Laborratory,Little Clover,Pickup
+Astral Stair,Gold Finger,Pickup
+Astral Stair,Vacuum,Pickup
+Tiny Bridge,Wings,Passive
+Tiny Bridge,Attractorb,Passive
+Mt. Moonspell,Spinach,Passive
+Mt. Moonspell,Pummarola,Passive
+Mt. Moonspell,Candelabrador,Passive
+Mt. Moonspell,Attractorb,Passive
+Mt. Moonspell,Duplicator,Passive
+Mt. Moonspell,Stone Mask,Passive
+Mt. Moonspell,Nduja Fritta Tanto,Pickup
+Mt. Moonspell,Rosary,Pickup
+Mt. Moonspell,Floor Chicken,Pickup
+Mt. Moonspell,Vacuum,Pickup
+Mt. Moonspell,Gilded Clover,Pickup
+Mt. Moonspell,Orologion,Pickup
+Mt. Moonspell,Little Clover,Pickup
+Lake Foscari,Armor,Passive
+Lake Foscari,Bracer,Passive
+Lake Foscari,Clover,Passive
+Lake Foscari,Crown,Passive
+Lake Foscari,Skull O'Maniac,Passive
+Lake Foscari,Nduja Fritta Tanto,Pickup
+Lake Foscari,Floor Chicken,Pickup
+Lake Foscari,Orologion,Pickup
+Lake Foscari,Rosary,Pickup
+Lake Foscari,Vacuum,Pickup
+Lake Foscari,Little Clover,Pickup
+Abyss Foscari,Armor,Passive
+Abyss Foscari,Empty Tome,Passive
+Abyss Foscari,Attractorb,Passive
+Abyss Foscari,Crown,Passive
+Abyss Foscari,Stone Mask,Passive
+Abyss Foscari,Skull O'Maniac,Passive
+Abyss Foscari,Academy Badge,Passive
+Abyss Foscari,Vacuum,Pickup
+Polus Replica,Nduja Fritta Tanto,Pickup
+Polus Replica,Vacuum,Pickup
+Neo Galuga,Weapon Power-Up,Passive
+Neo Galuga,Wings,Passive
+Neo Galuga,Rapid Fire,Pickup
+Neo Galuga,Barrier,Pickup
+Neo Galuga,Grenade,Pickup
+Neo Galuga,Little Clover,Pickup
+Neo Galuga,Vacuum,Pickup
+Ode to Castlevania,Parm Aegis,Passive
+Ode to Castlevania,Tirajisu,Passive
+Ode to Castlevania,Karoma's Mana,Passive
+Ode to Castlevania,Wall Chicken,Pickup
+Ode to Castlevania,Heart Refresh,Pickup
+Ode to Castlevania,Mirror of Truth,Pickup
+Ode to Castlevania,Karma Coin,Pickup
+Ode to Castlevania,Neutron Bomb,Pickup
+Emerald Diorama,Spellbinder,Passive
+Emerald Diorama,Spinach,Passive
+Emerald Diorama,Crown,Passive
+Emerald Diorama,Stone Mask,Passive
+Emerald Diorama,Parm Aegis,Passive
+Emerald Diorama,Karoma's Mana,Passive
