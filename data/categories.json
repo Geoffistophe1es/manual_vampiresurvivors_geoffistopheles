@@ -4,37 +4,37 @@
             "charactersanity"
         ]
     },
-    "Legacy of the Moonspell DLC": {
+    "Legacy of the Moonspell": {
         "hidden": true,
         "yaml_option": [
             "include_moonspell_dlc"
         ]
     },
-    "Tides of the Foscari DLC": {
+    "Tides of the Foscari": {
         "hidden": true,
         "yaml_option": [
             "include_foscari_dlc"
         ]
     },
-    "Emergency Meeting DLC": {
+    "Emergency Meeting": {
         "hidden": true,
         "yaml_option": [
             "include_emergency_meeting_dlc"
         ]
     },
-    "Operation Guns DLC": {
+    "Operation Guns": {
         "hidden": true,
         "yaml_option": [
             "include_operation_guns_dlc"
         ]
     },
-    "Ode to Castlevania DLC": {
+    "Ode to Castlevania": {
         "hidden": true,
         "yaml_option": [
             "include_castlevania_dlc"
         ]
     },
-    "Emerald Diorama DLC": {
+    "Emerald Diorama": {
         "hidden": true,
         "yaml_option": [
             "include_emerald_diorama_dlc"

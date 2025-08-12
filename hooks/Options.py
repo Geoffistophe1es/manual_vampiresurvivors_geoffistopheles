@@ -49,33 +49,33 @@ class Charactersanity(Toggle):
     default = False
 
 class IncludeOperationGunsDLC(Toggle):
-    """Whether or not the Operation Guns DLC is included."""
-    display_name = "Include Operation Guns DLC"
+    """Whether or not the Operation Guns is included."""
+    display_name = "Include Operation Guns"
     default = True
 
 class IncludeMoonspellDLC(Toggle):
-    """Whether or not the Legacy of the Moonspell DLC is included."""
-    display_name = "Include Legacy of the Moonspell DLC"
+    """Whether or not the Legacy of the Moonspell is included."""
+    display_name = "Include Legacy of the Moonspell"
     default = True
 
 class IncludeEmergencyMeetingDLC(Toggle):
-    """Whether or not the Emergency Meeting DLC is included."""
-    display_name = "Include Emergency Meeting DLC"
+    """Whether or not the Emergency Meeting is included."""
+    display_name = "Include Emergency Meeting"
     default = True
 
 class IncludeFoscariDLC(Toggle):
-    """Whether or not the Tides of the Foscari DLC is included."""
-    display_name = "Include Tides of the Foscari DLC"
+    """Whether or not the Tides of the Foscari is included."""
+    display_name = "Include Tides of the Foscari"
     default = True
 
 class IncludeCastlevaniaDLC(Toggle):
-    """Whether or not the Ode to Castlevania DLC is included."""
-    display_name = "Include Ode to Castlevania DLC"
+    """Whether or not the Ode to Castlevania is included."""
+    display_name = "Include Ode to Castlevania"
     default = True
 
 class IncludeEmeraldDioramaDLC(Toggle):
-    """Whether or not the Emerald Diorama DLC is included."""
-    display_name = "Include Emerald Diorama DLC"
+    """Whether or not the Emerald Diorama is included."""
+    display_name = "Include Emerald Diorama"
     default = True
 
 class IncludeStageItems(Toggle):

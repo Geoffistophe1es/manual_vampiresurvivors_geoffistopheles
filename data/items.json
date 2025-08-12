@@ -91,25 +91,25 @@
 	},
 	{
 		"name": "Mt. Moonspell",
-		"category": ["Stages", "Legacy of the Moonspell DLC"],
+		"category": ["Stages", "Legacy of the Moonspell"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Lake Foscari",
-		"category": ["Stages", "Tides of the Foscari DLC"],
+		"category": ["Stages", "Tides of the Foscari"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Abyss Foscari",
-		"category": ["Stages", "Tides of the Foscari DLC"],
+		"category": ["Stages", "Tides of the Foscari"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Polus Replica",
-		"category": ["Stages", "Emergency Meeting DLC"],
+		"category": ["Stages", "Emergency Meeting"],
 		"count":1,
 		"progression": true
 	},
@@ -127,25 +127,25 @@
 	},
 	{
 		"name": "Neo Galuga",
-		"category": ["Stages", "Operation Guns DLC"],
+		"category": ["Stages", "Operation Guns"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Hectic Highway",
-		"category": ["Stages", "Operation Guns DLC"],
+		"category": ["Stages", "Operation Guns"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Ode to Castlevania",
-		"category": ["Stages", "Ode to Castlevania DLC"],
+		"category": ["Stages", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Emerald Diorama",
-		"category": ["Stages", "Emerald Diorama DLC"],
+		"category": ["Stages", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
@@ -319,79 +319,79 @@
 	},
 	{
 		"name": "Silver Wind",
-		"category": ["Weapons", "Legacy of the Moonspell DLC"],
+		"category": ["Weapons", "Legacy of the Moonspell"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Four Seasons",
-		"category": ["Weapons", "Legacy of the Moonspell DLC"],
+		"category": ["Weapons", "Legacy of the Moonspell"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Summon Night",
-		"category": ["Weapons", "Legacy of the Moonspell DLC"],
+		"category": ["Weapons", "Legacy of the Moonspell"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Mirage Robe",
-		"category": ["Weapons", "Legacy of the Moonspell DLC"],
+		"category": ["Weapons", "Legacy of the Moonspell"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Mille Bolle Blu",
-		"category": ["Weapons", "Legacy of the Moonspell DLC"],
+		"category": ["Weapons", "Legacy of the Moonspell"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Night Sword",
-		"category": ["Weapons", "Legacy of the Moonspell DLC"],
+		"category": ["Weapons", "Legacy of the Moonspell"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "SpellString",
-		"category": ["Weapons", "Tides of the Foscari DLC"],
+		"category": ["Weapons", "Tides of the Foscari"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "SpellStream",
-		"category": ["Weapons", "Tides of the Foscari DLC"],
+		"category": ["Weapons", "Tides of the Foscari"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "SpellStrike",
-		"category": ["Weapons", "Tides of the Foscari DLC"],
+		"category": ["Weapons", "Tides of the Foscari"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Flash Arrow",
-		"category": ["Weapons", "Tides of the Foscari DLC"],
+		"category": ["Weapons", "Tides of the Foscari"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Eskizzibur",
-		"category": ["Weapons", "Tides of the Foscari DLC"],
+		"category": ["Weapons", "Tides of the Foscari"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Prismatic Missile",
-		"category": ["Weapons", "Tides of the Foscari DLC"],
+		"category": ["Weapons", "Tides of the Foscari"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Shadow Servant",
-		"category": ["Weapons", "Tides of the Foscari DLC"],
+		"category": ["Weapons", "Tides of the Foscari"],
 		"count":1,
 		"progression": true
 	},
@@ -415,115 +415,115 @@
 	},
 	{
 		"name": "Report!",
-		"category": ["Weapons", "Emergency Meeting DLC"],
+		"category": ["Weapons", "Emergency Meeting"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Lucky Swipe",
-		"category": ["Weapons", "Emergency Meeting DLC"],
+		"category": ["Weapons", "Emergency Meeting"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Lifesign Scan",
-		"category": ["Weapons", "Emergency Meeting DLC"],
+		"category": ["Weapons", "Emergency Meeting"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Just Vent",
-		"category": ["Weapons", "Emergency Meeting DLC"],
+		"category": ["Weapons", "Emergency Meeting"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Clear Debris",
-		"category": ["Weapons", "Emergency Meeting DLC"],
+		"category": ["Weapons", "Emergency Meeting"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Sharp Tongue",
-		"category": ["Weapons", "Emergency Meeting DLC"],
+		"category": ["Weapons", "Emergency Meeting"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Science Rocks",
-		"category": ["Weapons", "Emergency Meeting DLC"],
+		"category": ["Weapons", "Emergency Meeting"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Hats",
-		"category": ["Weapons", "Emergency Meeting DLC"],
+		"category": ["Weapons", "Emergency Meeting"],
 		"count":1,
 		"useful": true
 	},
 	{
 		"name": "Short Gun",
-		"category": ["Weapons", "Operation Guns DLC"],
+		"category": ["Weapons", "Operation Guns"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Long Gun",
-		"category": ["Weapons", "Operation Guns DLC"],
+		"category": ["Weapons", "Operation Guns"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Spread Shot",
-		"category": ["Weapons", "Operation Guns DLC"],
+		"category": ["Weapons", "Operation Guns"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "C-U-Laser",
-		"category": ["Weapons", "Operation Guns DLC"],
+		"category": ["Weapons", "Operation Guns"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Firearm",
-		"category": ["Weapons", "Operation Guns DLC"],
+		"category": ["Weapons", "Operation Guns"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Sonic Bloom",
-		"category": ["Weapons", "Operation Guns DLC"],
+		"category": ["Weapons", "Operation Guns"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Homing Miss",
-		"category": ["Weapons", "Operation Guns DLC"],
+		"category": ["Weapons", "Operation Guns"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Diver Mines",
-		"category": ["Weapons", "Operation Guns DLC"],
+		"category": ["Weapons", "Operation Guns"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Blade Crossbow",
-		"category": ["Weapons", "Operation Guns DLC"],
+		"category": ["Weapons", "Operation Guns"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Prism Lass",
-		"category": ["Weapons", "Operation Guns DLC"],
+		"category": ["Weapons", "Operation Guns"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Metal Claw",
-		"category": ["Weapons", "Operation Guns DLC"],
+		"category": ["Weapons", "Operation Guns"],
 		"count":1,
 		"progression": true
 	},
@@ -571,7 +571,7 @@
 	},
 	{
 		"name": "108 Bocce",
-		"category": ["Weapons", "Legacy of the Moonspell DLC"],
+		"category": ["Weapons", "Legacy of the Moonspell"],
 		"count":1,
 		"useful": true
 	},
@@ -583,511 +583,511 @@
 	},
 	{
 		"name": "Party Popper",
-		"category": ["Weapons", "Tides of the Foscari DLC"],
+		"category": ["Weapons", "Tides of the Foscari"],
 		"count":1,
 		"useful": true
 	},
 	{
 		"name": "Alchemy Whip",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Wind Whip",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Platinum Whip",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Dragon Water Whip",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Sonic Whip",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Jet Black Whip",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Vibhuti Whip",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Vanitas Whip",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Shuriken",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Curved Knife",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Javelin",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Discus",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Iron Ball",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Hand Grenade",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Wine Glass",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Raging Fire",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Ice Fang",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Gale Force",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Rock Riot",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Fulgur",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Keremet Bubbles",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Hex",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Refectio",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Mace",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Star Flail",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Alucard Spear",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Trident",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Iron Shield",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Guardian's Targe",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Alucart Sworb",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Silver Revolver",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Tyrfing",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Confodere",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Optical Shot",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Luminatio",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Umbra",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Globus",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Sonic Dash",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Dextro Custos",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Sinestro Custos",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Centralis Custos",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Dominus Anger",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Dominus Hatred",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Dominus Agony",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Endo Gears",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Peri Pendulum",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Myo Lift",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Epi Head",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Familiar Forge",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"useful": true
 	},
 	{
 		"name": "Valmanway",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Icebrand",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Arrow of Goth",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Aura Blast",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Svarog Statue",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Troll Bomb",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Hydro Storm",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Grand Cross",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Summon Spirit",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Dark Rift",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Soul Steal",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Sword Brothers",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Summon Spirit Tornado",
-		"category": ["Weapons", "Ode to Castlevania DLC"],
+		"category": ["Weapons", "Ode to Castlevania"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Morning Star",
-		"category": ["Weapons", "Ode to Castlevania DLC", "Item Selectors"],
+		"category": ["Weapons", "Ode to Castlevania", "Item Selectors"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Coat of Arms",
-		"category": ["Weapons", "Ode to Castlevania DLC", "Item Selectors"],
+		"category": ["Weapons", "Ode to Castlevania", "Item Selectors"],
 		"count":1,
 		"useful": true
 	},
 	{
 		"name": "Belnades Spellbook",
-		"category": ["Weapons", "Ode to Castlevania DLC", "Item Selectors"],
+		"category": ["Weapons", "Ode to Castlevania", "Item Selectors"],
 		"count":1,
 		"useful": true
 	},
 	{
 		"name": "Spectral Sword",
-		"category": ["Weapons", "Ode to Castlevania DLC", "Item Selectors"],
+		"category": ["Weapons", "Ode to Castlevania", "Item Selectors"],
 		"count":1,
 		"useful": true
 	},
 	{
 		"name": "Ebony Diabologue",
-		"category": ["Weapons", "Ode to Castlevania DLC", "Item Selectors"],
+		"category": ["Weapons", "Ode to Castlevania", "Item Selectors"],
 		"count":1,
 		"useful": true
 	},
 	{
 		"name": "Fleuret",
-		"category": ["Weapons", "Emerald Diorama DLC"],
+		"category": ["Weapons", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Town Sword",
-		"category": ["Weapons", "Emerald Diorama DLC"],
+		"category": ["Weapons", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Splashers",
-		"category": ["Weapons", "Emerald Diorama DLC"],
+		"category": ["Weapons", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Flamberge",
-		"category": ["Weapons", "Emerald Diorama DLC"],
+		"category": ["Weapons", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Punch",
-		"category": ["Weapons", "Emerald Diorama DLC"],
+		"category": ["Weapons", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Kick",
-		"category": ["Weapons", "Emerald Diorama DLC"],
+		"category": ["Weapons", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Saber Machine Gun",
-		"category": ["Weapons", "Emerald Diorama DLC"],
+		"category": ["Weapons", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Super Missile",
-		"category": ["Weapons", "Emerald Diorama DLC"],
+		"category": ["Weapons", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Eagle Gun",
-		"category": ["Weapons", "Emerald Diorama DLC"],
+		"category": ["Weapons", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Khukuri",
-		"category": ["Weapons", "Emerald Diorama DLC"],
+		"category": ["Weapons", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Twin Dragon",
-		"category": ["Weapons", "Emerald Diorama DLC"],
+		"category": ["Weapons", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Bullova",
-		"category": ["Weapons", "Emerald Diorama DLC"],
+		"category": ["Weapons", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Sanguine Star",
-		"category": ["Weapons", "Emerald Diorama DLC"],
+		"category": ["Weapons", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Glaive",
-		"category": ["Weapons", "Emerald Diorama DLC"],
+		"category": ["Weapons", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Spirit Rings",
-		"category": ["Weapons", "Emerald Diorama DLC"],
+		"category": ["Weapons", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Emerald Rapture",
-		"category": ["Weapons", "Emerald Diorama DLC"],
+		"category": ["Weapons", "Emerald Diorama"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Intuition",
-		"category": ["Weapons", "Emerald Diorama DLC", "Item Selectors"],
+		"category": ["Weapons", "Emerald Diorama", "Item Selectors"],
 		"count":1,
 		"useful": true
 	},
@@ -1219,56 +1219,56 @@
 	},
 	{
 		"name": "Academy Badge",
-		"category": ["Passives", "Tides of the Foscari DLC"],
+		"category": ["Passives", "Tides of the Foscari"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Weapon Power-Up",
-		"category": ["Passives", "Operation Guns DLC"],
+		"category": ["Passives", "Operation Guns"],
 		"count":1,
 		"progression": true
 	},
 	
 	{
 		"name": "Mini Crewmate",
-		"category": ["Passives", "Emergency Meeting DLC"],
+		"category": ["Passives", "Emergency Meeting"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Mini Engineer",
-		"category": ["Passives", "Emergency Meeting DLC"],
+		"category": ["Passives", "Emergency Meeting"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Mini Ghost",
-		"category": ["Passives", "Emergency Meeting DLC"],
+		"category": ["Passives", "Emergency Meeting"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Mini Shapeshifter",
-		"category": ["Passives", "Emergency Meeting DLC"],
+		"category": ["Passives", "Emergency Meeting"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Mini Guardian",
-		"category": ["Passives", "Emergency Meeting DLC"],
+		"category": ["Passives", "Emergency Meeting"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Mini Impostor",
-		"category": ["Passives", "Emergency Meeting DLC"],
+		"category": ["Passives", "Emergency Meeting"],
 		"count":1,
 		"progression": true
 	},
 	{
 		"name": "Mini Scientist",
-		"category": ["Passives", "Emergency Meeting DLC"],
+		"category": ["Passives", "Emergency Meeting"],
 		"count":1,
 		"progression": true
 	},
@@ -1814,199 +1814,199 @@
 	},
 	{
 		"name": "Miang Moonspell",
-		"category": ["Characters", "Legacy of the Moonspell DLC"],
+		"category": ["Characters", "Legacy of the Moonspell"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Menya Moonspell",
-		"category": ["Characters", "Legacy of the Moonspell DLC"],
+		"category": ["Characters", "Legacy of the Moonspell"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Syuuto Moonspell",
-		"category": ["Characters", "Legacy of the Moonspell DLC"],
+		"category": ["Characters", "Legacy of the Moonspell"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Babi-Onna",
-		"category": ["Characters", "Legacy of the Moonspell DLC"],
+		"category": ["Characters", "Legacy of the Moonspell"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "McCoy-Oni",
-		"category": ["Characters", "Legacy of the Moonspell DLC"],
+		"category": ["Characters", "Legacy of the Moonspell"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Megalo Syuuto Moonspell",
-		"category": ["Characters", "Legacy of the Moonspell DLC"],
+		"category": ["Characters", "Legacy of the Moonspell"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Gav'Et-Oni",
-		"category": ["Characters", "Legacy of the Moonspell DLC"],
+		"category": ["Characters", "Legacy of the Moonspell"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Eleanor Uziron",
-		"category": ["Characters", "Tides of the Foscari DLC"],
+		"category": ["Characters", "Tides of the Foscari"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Maruto Cuts",
-		"category": ["Characters", "Tides of the Foscari DLC"],
+		"category": ["Characters", "Tides of the Foscari"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Keitha Muort",
-		"category": ["Characters", "Tides of the Foscari DLC"],
+		"category": ["Characters", "Tides of the Foscari"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Luminaire Foscari",
-		"category": ["Characters", "Tides of the Foscari DLC"],
+		"category": ["Characters", "Tides of the Foscari"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Genevieve Gruyere",
-		"category": ["Characters", "Tides of the Foscari DLC"],
+		"category": ["Characters", "Tides of the Foscari"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Rottin' Ghoul",
-		"category": ["Characters", "Tides of the Foscari DLC"],
+		"category": ["Characters", "Tides of the Foscari"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Crewmate Dino",
-		"category": ["Characters", "Emergency Meeting DLC"],
+		"category": ["Characters", "Emergency Meeting"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Engineer Gino",
-		"category": ["Characters", "Emergency Meeting DLC"],
+		"category": ["Characters", "Emergency Meeting"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Ghost Lino",
-		"category": ["Characters", "Emergency Meeting DLC"],
+		"category": ["Characters", "Emergency Meeting"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Shapeshifter Nino",
-		"category": ["Characters", "Emergency Meeting DLC"],
+		"category": ["Characters", "Emergency Meeting"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Guardian Pina",
-		"category": ["Characters", "Emergency Meeting DLC"],
+		"category": ["Characters", "Emergency Meeting"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Imposter Rina",
-		"category": ["Characters", "Emergency Meeting DLC"],
+		"category": ["Characters", "Emergency Meeting"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Scientist Mina",
-		"category": ["Characters", "Emergency Meeting DLC"],
+		"category": ["Characters", "Emergency Meeting"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Horse",
-		"category": ["Characters", "Emergency Meeting DLC"],
+		"category": ["Characters", "Emergency Meeting"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Bill Rizer",
-		"category": ["Characters", "Operation Guns DLC"],
+		"category": ["Characters", "Operation Guns"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Lance Bean",
-		"category": ["Characters", "Operation Guns DLC"],
+		"category": ["Characters", "Operation Guns"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Ariana",
-		"category": ["Characters", "Operation Guns DLC"],
+		"category": ["Characters", "Operation Guns"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Lucia Zero",
-		"category": ["Characters", "Operation Guns DLC"],
+		"category": ["Characters", "Operation Guns"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Brad Fang",
-		"category": ["Characters", "Operation Guns DLC"],
+		"category": ["Characters", "Operation Guns"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Browny",
-		"category": ["Characters", "Operation Guns DLC"],
+		"category": ["Characters", "Operation Guns"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Sheena Etranzi",
-		"category": ["Characters", "Operation Guns DLC"],
+		"category": ["Characters", "Operation Guns"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Probotector",
-		"category": ["Characters", "Operation Guns DLC"],
+		"category": ["Characters", "Operation Guns"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Stanley",
-		"category": ["Characters", "Operation Guns DLC"],
+		"category": ["Characters", "Operation Guns"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Newt Plissken",
-		"category": ["Characters", "Operation Guns DLC"],
+		"category": ["Characters", "Operation Guns"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Colonel Bahamut",
-		"category": ["Characters", "Operation Guns DLC"],
+		"category": ["Characters", "Operation Guns"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Simondo Belmont",
-		"category": ["Characters", "Operation Guns DLC"],
+		"category": ["Characters", "Operation Guns"],
 		"count": 1,
 		"progression": true
 	},
@@ -2066,13 +2066,13 @@
 	},
 	{
 		"name": "Je-Ne-Viv",
-		"category": ["Characters", "Tides of the Foscari DLC"],
+		"category": ["Characters", "Tides of the Foscari"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Sammy",
-		"category": ["Characters","Tides of the Foscari DLC"],
+		"category": ["Characters","Tides of the Foscari"],
 		"count": 1,
 		"progression": true
 	},
@@ -2084,7 +2084,7 @@
 	},
 	{
 		"name": "Megalo Imposter Rina",
-		"category": ["Characters", "Emergency Meeting DLC"],
+		"category": ["Characters", "Emergency Meeting"],
 		"count": 1,
 		"progression": true
 	},
@@ -2108,481 +2108,481 @@
 	},
 	{
 		"name": "Leon Belmont",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Sonia Belmont",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Trevor Belmont",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Christopher Belmont",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Simon Belmont",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Juste Belmont",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Richter Belmont",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Julius Belmont",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Grant Danasty",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "John Morris",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Jonathan Morris",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Soma Cruz",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Charlotte Aulin",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Sypha Belnades",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Yoko Belnades",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Alucard",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Eric Lecarde",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Hector",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Maria Renard",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Shanoa",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Vlad Tepes Dracula",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Lisa Tepes",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Mina Hakuba",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Cornell",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Rinaldo Gandolfi",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Vincent Dorin",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Nathan Graves",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Julia Laforeze",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Sara Trantoul",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Quincy Morris",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Maxim Kischine",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Reinhardt Schneider",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Henry",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Carrie Fernandez",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Saint Germain",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Albus",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Isaac",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Elizabeth Bartley",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Shaft",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Barlowe",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Young Maria Renard",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Familiar",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Innocent Devil",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Blue Crescent Moon Cornell",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Ferryman",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Master Librarian",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Hammer",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Wind",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Jonathan & Charlotte",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Charlotte & Jonathan",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Stella & Loretta Lecarde",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Loretta & Stella Lecarde",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Stella Lecarde",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Loretta Lecarde",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Brauner",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Soleil Belmont",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Dario Bossi",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Dmitrii Bilnov",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Celia Fortner",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Graham Jones",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Joachim Armster",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Walter Bernhardt",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Carmilla",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Count Olrox",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Cave Troll",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Fleaman",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Axe Armor",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Frozenshade",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Succubus",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Keremet",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Alamaric Sniper",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Blackmore",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Malphas",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Death",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Galamoth",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Megalo Elizabeth Bartley",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Megalo Olrox",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Megalo Death",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Megalo Dracula",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Chaos",
-		"category": ["Characters","Ode to Castlevania DLC"],
+		"category": ["Characters","Ode to Castlevania"],
 		"count": 1,
 		"progression": true
 	},
@@ -2594,97 +2594,97 @@
 	},
 	{
 		"name": "Tsunanori Mido",
-		"category": ["Characters","Emerald Diorama DLC"],
+		"category": ["Characters","Emerald Diorama"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Bonnie Blair",
-		"category": ["Characters","Emerald Diorama DLC"],
+		"category": ["Characters","Emerald Diorama"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Formina Franklyn",
-		"category": ["Characters","Emerald Diorama DLC"],
+		"category": ["Characters","Emerald Diorama"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Diva No. 5",
-		"category": ["Characters","Emerald Diorama DLC"],
+		"category": ["Characters","Emerald Diorama"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Ameya Aisling",
-		"category": ["Characters","Emerald Diorama DLC"],
+		"category": ["Characters","Emerald Diorama"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Siugnas",
-		"category": ["Characters","Emerald Diorama DLC"],
+		"category": ["Characters","Emerald Diorama"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Final Emperor",
-		"category": ["Characters","Emerald Diorama DLC"],
+		"category": ["Characters","Emerald Diorama"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Dolores",
-		"category": ["Characters","Emerald Diorama DLC"],
+		"category": ["Characters","Emerald Diorama"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Macha Alter Ego",
-		"category": ["Characters","Emerald Diorama DLC"],
+		"category": ["Characters","Emerald Diorama"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Lita Caryx",
-		"category": ["Characters","Emerald Diorama DLC"],
+		"category": ["Characters","Emerald Diorama"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Kugutsu",
-		"category": ["Characters","Emerald Diorama DLC"],
+		"category": ["Characters","Emerald Diorama"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Mr. S",
-		"category": ["Characters","Emerald Diorama DLC"],
+		"category": ["Characters","Emerald Diorama"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Lolo, Hiss, Meow, and Purr",
-		"category": ["Characters","Emerald Diorama DLC"],
+		"category": ["Characters","Emerald Diorama"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Kina",
-		"category": ["Characters","Emerald Diorama DLC"],
+		"category": ["Characters","Emerald Diorama"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Imakoo",
-		"category": ["Characters","Emerald Diorama DLC"],
+		"category": ["Characters","Emerald Diorama"],
 		"count": 1,
 		"progression": true
 	},
 	{
 		"name": "Malevolent Door Spirit",
-		"category": ["Characters","Emerald Diorama DLC"],
+		"category": ["Characters","Emerald Diorama"],
 		"count": 1,
 		"progression": true
 	},

@@ -130,11 +130,11 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                 add_if_not_exists(starting_items, "SpellString")
                 add_if_not_exists(starting_items, "SpellStream")
                 add_if_not_exists(starting_items, "SpellStrike")
-            elif weapon_name in ["Dextro Custos", "Sinestros Custos"]:
+            elif weapon_name in ["Dextro Custos", "Sinestros Custos", "Centralis Custos"]:
                 add_if_not_exists(starting_items, "Dextro Custos")
                 add_if_not_exists(starting_items, "Sinestros Custos")
                 add_if_not_exists(starting_items, "Centralis Custos")
-            elif weapon_name in ["Dominus Anger", "Dominus Hatred"]:
+            elif weapon_name in ["Dominus Anger", "Dominus Hatred", "Dominus Agony"]:
                 add_if_not_exists(starting_items, "Dominus Anger")
                 add_if_not_exists(starting_items, "Dominus Hatred")
                 add_if_not_exists(starting_items, "Dominus Agony")
@@ -147,14 +147,15 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     else:
         starting_items.append(world.random.choice(passives)["Item"])
 
+    characters = filter_dlc(world, get_characters())
+    starting_characters = []
+    
     # Roll the character in the event of Charactersanity
     if world.options.charactersanity.value > 0:
-        if world.options.character_must_match.value == 0 and world.options.hidden_characters.value == 0 and world.options.secret_characters.value > 0:
-            starting_character = world.random.choice(characters)["Character"]
-            starting_items.append(starting_character)
-        else:
-            starting_characters = []
-            characters = filter_dlc(world, get_characters())
+        if world.options.character_must_match.value == 0 and world.options.hidden_characters.value > 0 and world.options.secret_characters.value > 0:
+            for character in characters:
+                add_if_not_exists(starting_characters, character["Character"])
+        else:  
             for character in characters:
                 # Remove Ghost Lino from the pool, as he cannot deal damage.
                 if character["Character"] in ["Ghost Lino"]:
@@ -162,25 +163,25 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
             if world.options.character_must_match.value > 0:
                 for character in characters:
                     if character["Weapon"] == starting_weapon["Weapon"]:
-                        starting_characters.append(character["Character"])
+                        add_if_not_exists(starting_characters, character["Character"])
             if world.options.hidden_characters.value > 0:
                 for character in characters:
                     if character["Weapon"] == "Hidden":
                         if world.options.character_must_match.value > 0:
                             if character["Base"] == starting_weapon["Weapon"]:
-                                starting_characters.append(character["Character"])
+                                add_if_not_exists(starting_characters, character["Character"])
                         else:
-                            starting_characters.append(character["Character"])
+                            add_if_not_exists(starting_characters, character["Character"])
             if world.options.secret_characters.value > 0:
                 for character in characters:
                     if character["Weapon"] != character["Base"]:
                         if world.options.character_must_match.value > 0:
                             if character["Base"] == starting_weapon["Weapon"]:
-                                starting_characters.append(character["Character"])
+                                add_if_not_exists(starting_characters, character["Character"])
                         else:
-                            starting_characters.append(character["Character"])
-            starting_character = world.random.choice(starting_characters)
-            starting_items.append(starting_character)
+                            add_if_not_exists(starting_characters, character["Character"])
+        starting_character = world.random.choice(starting_characters)
+        starting_items.append(starting_character)
 
     starting_items_in_pool = [i for i in item_pool if i.name in starting_items]
     # logging.info(starting_items_in_pool)

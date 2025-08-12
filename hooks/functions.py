@@ -16,7 +16,7 @@ from worlds.AutoWorld import World
 # we have to get the raw data from our CSV files to pass to a parser, so had to copy our own version of this method
 # this gets the contents of the file from pkgutil and passes it back as a "file" for csv parsing later
 def get_csv_file(*args) -> dict:
-    fname = os.path.join("data", *args)
+    fname = os.path.join("data/csv", *args)
     package_base_name = re.sub(r'\.hooks\.\w+$', '.Data', __name__)
 
     try:
@@ -138,22 +138,22 @@ def filter_dlc(world: World, items: list) -> list:
         dlc = item["DLC"]
         if dlc == "None":
             continue
-        elif dlc == "Moonspell":
+        elif dlc == "Legacy of the Moonspell":
             if world.options.include_moonspell_dlc == 0:
                 items.remove(item)
-        elif dlc == "Foscari":
+        elif dlc == "Tides of the Foscari":
             if world.options.include_foscari_dlc == 0:
                 items.remove(item)
-        elif dlc == "Among Us":
+        elif dlc == "Emergency Meeting":
             if world.options.include_emergency_meeting_dlc == 0:
                 items.remove(item)
         elif dlc == "Operation Guns":
             if world.options.include_operation_guns_dlc == 0:
                 items.remove(item)
-        elif dlc == "Castlevania":
+        elif dlc == "Ode to Castlevania":
             if world.options.include_castlevania_dlc == 0:
                 items.remove(item)
-        elif dlc == "Emerald":
+        elif dlc == "Emerald Diorama":
             if world.options.include_emerald_diorama_dlc == 0:
                 items.remove(item)
     
