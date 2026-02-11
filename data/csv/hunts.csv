@@ -1,0 +1,150 @@
+Order,Definite,Boss,Stage,Time,Area,DLC
+1,,The Reaper,All,0,None,None
+2,an,Atlantean,All,0,None,None
+3,the,Mantichana,Mad Forest,5,None,None
+4,the,Giant Mantichana,Mad Forest,10,None,None
+5,the,Giant Werewolf,Mad Forest,15,None,None
+6,the,Venus,Mad Forest,21,None,None
+7,the,Giant Blue Venus,Mad Forest,25,None,None
+8,,The Trickster,Inlaid Library,0,Inverse,None
+9,the,Colossal Musc Musc,Inlaid Library,8,None,None
+10,the,Colossal Lionhead,Inlaid Library,10,None,None
+11,,Queen Medusa,Inlaid Library,15,None,None
+12,,Nesuferit,Inlaid Library,20,None,None
+13,the,Hag,Inlaid Library,25,None,None
+14,the,Minotaur Boss,Dairy Plant,3,None,None
+15,the,Minotaur Champion,Dairy Plant,10,None,None
+16,,King Triton,Dairy Plant,16,None,None
+17,the,Colossus,Dairy Plant,20,None,None
+18,the,Colossal Gallotrice,Dairy Plant,27,None,None
+19,the,Undead Mage,Gallo Tower,4,None,None
+20,the,Colossal Harzia,Gallo Tower,10,None,None
+21,,Gallo,Gallo Tower,15,None,None
+22,the,Colossal Flame Dragon,Gallo Tower,20,None,None
+23,the,Giant Enemy Crab,Gallo Tower,25,None,None
+24,,Leda,Gallo Tower,0,None,None
+25,the,Colossal Fallen Archangel,Cappella Magna,5,None,None
+26,the,Colossal Succubus,Cappella Magna,10,None,None
+27,the,Colossal Archon Rame,Cappella Magna,15,None,None
+28,the,Colossal Archdemon,Cappella Magna,20,None,None
+29,,Trinacria,Cappella Magna,25,None,None
+30,the,Lv128 Golden Bat,Green Acres,0,Hyper/Hurry,None
+31,the,Colossal Skeleton,The Bone Zone,10,None,None
+32,the,Colossal Skeleton,The Bone Zone,20,None,None
+33,the,Sketemari,The Bone Zone,0,None,None
+34,the,Ender,Boss Rash,10,None,None
+35,the,Kizzune,Whiteout,15,None,None
+36,the,Cockreliutenant,The Coop,7,None,None
+37,,Abraxas Phronesis,The Coop,10,None,None
+38,,Abraxas Dynamis,The Coop,15,None,None
+39,the,ECMASlime,Space 54,2,None,None
+40,the,Racing Minotaur Champion,Carlo Cart,3,None,None
+41,the,Racing Merman Boss,Carlo Cart,7,None,None
+42,the,Racing Giant Goat-Horned Shooter,Carlo Cart,12,None,None
+43,the,Tri-Blunder Boss,Laborratory,3,None,None
+44,the,ER-2000 Gunner,Laborratory,5,None,None
+45,the,Mushroulette,Westwoods,5,None,None
+46,the,Daimon,Westwoods,7,None,None
+47,the,Knights of Spades,Westwoods,16,None,None
+48,,Valentine,Westwoods,18,None,None
+49,the,Cosmic Egg,Astral Stair,15,None,None
+50,the,Dancers,Mazerella,0,None,None
+51,,Archon Disco,Mazerella,12,None,None
+52,,Scorej-Oni,Tiny Bridge,0,None,None
+53,a,Goshadokuro,Mt. Moonspell,0,None,Legacy of the Moonspell
+54,the,Mikoshi-nyudo,Mt. Moonspell,5,None,Legacy of the Moonspell
+55,the,Raiju Boss,Mt. Moonspell,7,None,Legacy of the Moonspell
+56,the,Thunderous Oni,Mt. Moonspell,8,None,Legacy of the Moonspell
+57,the,Windy Oni,Mt. Moonspell,10,None,Legacy of the Moonspell
+58,the,Tanuki,Mt. Moonspell,12,None,Legacy of the Moonspell
+59,the,Tsuchigumo,Mt. Moonspell,21,None,Legacy of the Moonspell
+60,the,Tengu Boss,Mt. Moonspell,23,None,Legacy of the Moonspell
+61,,Orochimario,Mt. Moonspell,25,None,Legacy of the Moonspell
+62,,Sammy the Caterpillar,Lake Foscari,0,None,Tides of the Foscari
+63,the,Colossal Foscaritrice,Lake Foscari,5,None,Tides of the Foscari
+64,the,Nutmeg Boss,Lake Foscari,8,None,Tides of the Foscari
+65,,Sam the Boss Clown,Lake Foscari,11,None,Tides of the Foscari
+66,the,Vulvio Boss,Lake Foscari,15,None,Tides of the Foscari
+67,the,Lammuga Boss,Lake Foscari,18,None,Tides of the Foscari
+68,the,Missing Church Boss,Lake Foscari,20,None,Tides of the Foscari
+69,the,Deep Green Knight,Lake Foscari,22,None,Tides of the Foscari
+70,the,Avatar of Gaea,Lake Foscari,25,None,Tides of the Foscari
+71,,Je-Ne-Viv,Abyss Foscari,0,None,Tides of the Foscari
+72,the,Colossal Redusa Head,Abyss Foscari,3,None,Tides of the Foscari
+73,the,Flaming Skull,Abyss Foscari,7,None,Tides of the Foscari
+74,the,Colossal Meatball,Abyss Foscari,10,None,Tides of the Foscari
+75,the,Warm Cauld,Abyss Foscari,16,None,Tides of the Foscari
+76,the,Edna Boss,Abyss Foscari,18,None,Tides of the Foscari
+77,the,Well Well Well Dweller,Abyss Foscari,20,None,Tides of the Foscari
+78,the,Maronna Meea Boss,Abyss Foscari,24,None,Tides of the Foscari
+79,,Martian Face,Polus Replica,5,None,Emergency Meeting
+80,,Victor Frankenstein,Polus Replica,8,None,Emergency Meeting
+81,the,Steroid,Polus Replica,20,None,Emergency Meeting
+82,,Trip Trop,Polus Replica,21,None,Emergency Meeting
+83,the,Suspicious Eyes,Polus Replica,25,None,Emergency Meeting
+84,the,Gulcan Tank,Neo Galuga,5,None,Operation Guns
+85,the,Metal Alien,Neo Galuga,9,None,Operation Guns
+86,the,Junkyard Car,Neo Galuga,11,None,Operation Guns
+87,the,M78,Neo Galuga,15,None,Operation Guns
+88,,Big Bot Gordea,Neo Galuga,20,None,Operation Guns
+89,,Kimkoh,Neo Galuga,23,None,Operation Guns
+90,,Taka,Neo Galuga,25,None,Operation Guns
+91,,Big Fuzz,Neo Galuga,27,None,Operation Guns
+92,the,Ball Walker,Hectic Highway,2,None,Operation Guns
+93,the,Flight Zako,Hectic Highway,6,None,Operation Guns
+94,the,Man Eater,Ode to Castlevania,0,Forest,Ode to Castlevania
+95,the,Behemoth,Ode to Castlevania,0,Forest,Ode to Castlevania
+96,the,Treant,Ode to Castlevania,0,Forest,Ode to Castlevania
+97,the,Giant Bat,Ode to Castlevania,0,Entrance,Ode to Castlevania
+98,the,Giant Gorgon,Ode to Castlevania,0,Entrance,Ode to Castlevania
+99,,Slogra & Gaibon,Ode to Castlevania,0,Entrance,Ode to Castlevania
+100,,The Creature,Ode to Castlevania,0,Gallery,Ode to Castlevania
+101,,Soleil Belmont,Ode to Castlevania,0,Gallery,Ode to Castlevania
+102,the,Doppelganger,Ode to Castlevania,0,Gallery,Ode to Castlevania
+103,,Keremet,Ode to Castlevania,0,Alchemy,Ode to Castlevania
+104,,Beelzebub,Ode to Castlevania,0,Alchemy,Ode to Castlevania
+105,the,Puppet Master,Ode to Castlevania,0,Alchemy,Ode to Castlevania
+106,,Blackmore,Ode to Castlevania,0,Library,Ode to Castlevania
+107,,Paranoia,Ode to Castlevania,0,Library,Ode to Castlevania
+108,,Gergoth,Ode to Castlevania,0,Library,Ode to Castlevania
+109,the,Giant Crab,Ode to Castlevania,0,Library,Ode to Castlevania
+110,,Walter Bernhard,Ode to Castlevania,0,Bridge,Ode to Castlevania
+111,,Carmilla,Ode to Castlevania,0,Tower,Ode to Castlevania
+112,,Zephyr,Ode to Castlevania,0,Tower,Ode to Castlevania
+113,,Stella & Loretta,Ode to Castlevania,0,Tower,Ode to Castlevania
+114,,Abbadon,Ode to Castlevania,0,Tower,Ode to Castlevania
+115,,Menace,Ode to Castlevania,0,Aqueduct,Ode to Castlevania
+116,,Joachim,Ode to Castlevania,0,Cavern,Ode to Castlevania
+117,,Galamoth,Ode to Castlevania,0,Underground,Ode to Castlevania
+118,the,Mummy,Ode to Castlevania,0,Underground,Ode to Castlevania
+119,the,Succubus,Ode to Castlevania,0,Chapel,Ode to Castlevania
+120,,Legion,Ode to Castlevania,0,Chapel,Ode to Castlevania
+121,,Eligor,Ode to Castlevania,0,Chapel,Ode to Castlevania
+122,,Count Olrox,Ode to Castlevania,0,Chapel,Ode to Castlevania
+123,the,Jiang Shi,Ode to Castlevania,0,Chapel,Ode to Castlevania
+124,the,Bugbear,Ode to Castlevania,10,None,Ode to Castlevania
+125,the,Devil,Ode to Castlevania,15,None,Ode to Castlevania
+126,,Malphas,Ode to Castlevania,25,None,Ode to Castlevania
+127,the,Divine Wood Spirit,Emerald Diorama,0,Miyako City,Emerald Diorama
+128,the,Specter of Iwanaga-hime,Emerald Diorama,0,Yomi,Emerald Diorama
+129,the,Earth Dragon,Emerald Diorama,0,Witchdom Pulchra,Emerald Diorama
+130,the,Iron Maiden,Emerald Diorama,0,Avalon,Emerald Diorama
+131,the,Malevolent Door Spirit,Emerald Diorama,0,Grelon,Emerald Diorama
+132,,Living Anguish,Emerald Diorama,0,Providence,Emerald Diorama
+133,the,Rana Combatant,Emerald Diorama,2,None,Emerald Diorama
+134,the,Boar Infantry,Emerald Diorama,7,None,Emerald Diorama
+135,the,Werewolf from Beyond,Emerald Diorama,9,None,Emerald Diorama
+136,the,Kelpie,Emerald Diorama,10,None,Emerald Diorama
+137,the,Skeleton from Beyond,Emerald Diorama,14,None,Emerald Diorama
+138,the,Golden Baum,Emerald Diorama,15,None,Emerald Diorama
+139,,Moch,Emerald Diorama,16,None,Emerald Diorama
+140,the,Anti-Ant,Emerald Diorama,17,None,Emerald Diorama
+141,the,Cursed Monarch,Emerald Diorama,25,None,Emerald Diorama
+142,the,Small Blind,Ante Chamber,3,None,Ante Chamber
+143,the,Playing Mantis,Ante Chamber,5,None,Ante Chamber
+144,the,Big Blind,Ante Chamber,7,None,Ante Chamber
+145,,The Ox,Ante Chamber,9,None,Ante Chamber
+146,,The Manacle,Ante Chamber,15,None,Ante Chamber
+147,,The Wall,Ante Chamber,20,None,Ante Chamber
+148,,Blue Venus,Ante Chamber,21,None,Ante Chamber
+149,the,Crimson Heart,Ante Chamber,25,None,Ante Chamber

@@ -1,29 +1,31 @@
-Item,DLC
-Spinach,None
-Armor,None
-Hollow Heart,None
-Pummarola,None
-Empty Tome,None
-Candelabrador,None
-Bracer,None
-Spellbinder,None
-Duplicator,None
-Wings,None
-Attractorb,None
-Clover,None
-Crown,None
-Stone Mask,None
-Skull O'Maniac,None
-Tirajisu,None
-Torrona's Box,None
-Parm Aegis,None
-Karoma's Mana,None
-Academy Badge,Tides of the Foscari
-Mini Crewmate,Emergency Meeting
-Mini Engineer,Emergency Meeting
-Mini Ghost,Emergency Meeting
-Mini Shapeshifter,Emergency Meeting
-Mini Guardian,Emergency Meeting
-Mini Impostor,Emergency Meeting
-Mini Scientist,Emergency Meeting
-Mini Horse,Emergency Meeting
+Order,Item,DLC,Progression
+1,Spinach,None,progression
+2,Armor,None,progression
+3,Hollow Heart,None,progression
+4,Pummarola,None,progression
+5,Empty Tome,None,progression
+6,Candelabrador,None,progression
+7,Bracer,None,progression
+8,Spellbinder,None,progression
+9,Duplicator,None,progression
+10,Wings,None,progression
+11,Attractorb,None,progression
+12,Clover,None,progression
+13,Crown,None,progression
+14,Stone Mask,None,progression
+15,Skull O'Maniac,None,progression
+16,Tirajisu,None,progression
+17,Torrona's Box,None,progression
+18,Parm Aegis,None,progression
+19,Karoma's Mana,None,progression
+20,Academy Badge,Tides of the Foscari,progression
+21,Mini Crewmate,Emergency Meeting,progression
+22,Mini Engineer,Emergency Meeting,progression
+23,Mini Ghost,Emergency Meeting,progression
+24,Mini Shapeshifter,Emergency Meeting,progression
+25,Mini Guardian,Emergency Meeting,progression
+26,Mini Impostor,Emergency Meeting,progression
+27,Mini Scientist,Emergency Meeting,progression
+28,Mini Horse,Emergency Meeting,useful
+29,Weapon Power-Up,Operation Guns,progression
+30,Outer Saboteur,Ante Chamber,progression

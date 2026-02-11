@@ -26,56 +26,113 @@ from ..Helpers import is_option_enabled, get_option_value
 # To add an option, use the before_options_defined hook below and something like this:
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
 #
-class WeaponSlots(Range):
-    """Set how many weapon slots to start with. There are 6 slots total, and any remaining slots above this choice will be added to the item pool."""
+class StartingPowerups(Range):
+    """How many weapon slots to start with.
+    There are 6 slots total, and any remaining slots above this choice will be added to the item pool."""
     display_name = "Number of starting weapon slots"
-    range_start = 1
+    range_start = 2
     range_end = 6
     default = 3
 
+class WeaponSlots(Range):
+    """How many powerups to start with.
+    There are 63 powerups total, and any remaining powerups above this choice will be added to the item pool."""
+    display_name = "Number of starting powerups"
+    range_start = 0
+    range_end = 63
+    default = 0
+
+class ChestsAsChecks(Range):
+    """How many chests will count as checks per stage.
+    Due to its size, Ode to Castlevania is triple this amount.
+    To gauge how many checks this adds, multiply your selection by 33."""
+    display_name = "Number of chests per stage as checks"
+    range_start = 0
+    range_end = 20
+    default = 5
+
+class StartingArcana(Toggle):
+    """Start with a random Arcana."""
+    display_name = "Starting Arcana"
+    default = False
+    
 class IncludeCurse(Toggle):
-    """Whether or not Curse powerups are added to the pool."""
+    """Toggle whether Curse powerups are added to the pool."""
     display_name = "Include Curse"
     default = False
 
 class Hunts(Toggle):
-    """Adds checks for defeating specific enemies"""
+    """Adds checks for defeating specific enemies.
+    This will add 149 checks to the game."""
     display_name = "Hunts"
     default = False
 
 class Charactersanity(Toggle):
-    """Adds all characters to the item pool as well as a location check for each."""
+    """Adds all characters to the item pool as well as a location check for each.
+    This will add 207 checks to the game."""
     display_name = "Charactersanity"
     default = False
 
+class MatchingCharacters(Toggle):
+    """Requires Charactersanity to function.
+    Whether or not the starting character comes with the starting weapon.
+    If checked, only characters that can start with the starting weapon will be chosen.
+    If Secret Characters or Hidden Characters and matching characters are enabled, characters with matching evolutions can be chosen."""
+    display_name = "Matching Characters"
+    default = True
+
+class SecretCharacters(Toggle):
+    """Requires Charactersanity to function.
+    Whether or not secret characters can be chosen as starting characters."""
+    display_name = "Secret Characters"
+    default = False
+
+class HiddenCharacters(Toggle):
+    """Requires Charactersanity to function.
+    Whether or not secret characters with hidden weapons can be chosen as starting characters."""
+    display_name = "Hidden Characters"
+    default = False
+
+class ObscureLogic(Toggle):
+    """***CURRENTLY NON-FUNCTIONAL.***
+    Whether or not unintuitive progression is included in logic.
+    For more details, check the Obscure Logic document."""
+    display_name = "Obscure Logic"
+    default = False
+
 class IncludeOperationGunsDLC(Toggle):
-    """Whether or not the Operation Guns is included."""
+    """Whether or not the Operation Guns DLC is included."""
     display_name = "Include Operation Guns"
     default = True
 
 class IncludeMoonspellDLC(Toggle):
-    """Whether or not the Legacy of the Moonspell is included."""
+    """Whether or not the Legacy of the Moonspell DLC is included."""
     display_name = "Include Legacy of the Moonspell"
     default = True
 
 class IncludeEmergencyMeetingDLC(Toggle):
-    """Whether or not the Emergency Meeting is included."""
+    """Whether or not the Emergency Meeting DLC is included."""
     display_name = "Include Emergency Meeting"
     default = True
 
 class IncludeFoscariDLC(Toggle):
-    """Whether or not the Tides of the Foscari is included."""
+    """Whether or not the Tides of the Foscari DLC is included."""
     display_name = "Include Tides of the Foscari"
     default = True
 
 class IncludeCastlevaniaDLC(Toggle):
-    """Whether or not the Ode to Castlevania is included."""
+    """Whether or not the Ode to Castlevania DLC is included."""
     display_name = "Include Ode to Castlevania"
     default = True
 
 class IncludeEmeraldDioramaDLC(Toggle):
-    """Whether or not the Emerald Diorama is included."""
+    """Whether or not the Emerald Diorama DLC is included."""
     display_name = "Include Emerald Diorama"
+    default = True
+
+class IncludeAnteChamberDLC(Toggle):
+    """Whether or not the Ante Chamber DLC is included."""
+    display_name = "Include Ante Chamber"
     default = True
 
 class IncludeStageItems(Toggle):
@@ -90,42 +147,32 @@ class IncludeItemSelectors(Toggle):
 
 class EarlyArmaDio(Toggle):
     """Requires Include Item Selectors to function. Arma Dio can be substituted for nineteen items without unlocking them, and can be found in four locations without unlocking it.
-    True: Early Arma Dio usage is potentially expected in logic.
+    True: Early Arma Dio usage may be expected in logic.
     False: Arma Dio usage is prohibited until unlocked."""
     display_name = "Early Arma Dio"
     default = False
 
 class StarterMustEvolve(Toggle):
-    """Whether or not the random starting weapon must evolve. If true, this excludes weapons with no evolution from being starter weapons. 
-    This includes Vento Sacro and Spirit Rings, as they would require more starting items to evolve."""
+    """Whether or not the random starting weapon must evolve.
+    If checked, this excludes weapons with no evolution from being starter weapons. 
+    This also excludes Vento Sacro and Spirit Rings, as they would require more starting items to evolve."""
     display_name = "Starting Weapon Must Evolve"
     default = True
 
 class BasicStartingStage(Toggle):
-    """Whether or not challenge stages can be starting items. If true, this limits the starting stage selection to those with 30 minute timers and all enemies do not scale over time."""
+    """Whether or not challenge stages can be starting items.
+    If checked, this limits the starting stage selection to those with 30 minute timers and all enemies do not scale over time."""
     display_name = "Basic Starting Stage"
     default = True
 
-class MatchingCharacters(Toggle):
-    """Requires Charactersanity to function. Whether or not the starting character comes with the starting weapon. If true, only characters that can start with the starting weapon will be chosen.
-    If Secret Characters or Hidden Characters and matching characters are enabled, secret characters with matching evolutions can be chosen."""
-    display_name = "Matching Characters"
-    default = True
-
-class SecretCharacters(Toggle):
-    """Requires Charactersanity to function. Whether or not secret characters can be chosen as starting characters. Defaults to false."""
-    display_name = "Secret Characters"
-    default = False
-
-class HiddenCharacters(Toggle):
-    """Requires Charactersanity to function. Whether or not secret characters with hidden weapons can be chosen as starting characters. Defaults to false."""
-    display_name = "Hidden Characters"
-    default = False
-
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
-    options["starting_weapon_slots"] = WeaponSlots
+    options["starting_weapon_slots"] = StartingPowerups
+    options["starting_powerups"] = WeaponSlots
+    options["number_of_chests"] = ChestsAsChecks
+    options["starting_arcanas"] = StartingArcana
     options["include_curse"] = IncludeCurse
+    options["obscure_logic"] = ObscureLogic
     options["charactersanity"] = Charactersanity
     options["hunts"] = Hunts
     options["include_stage_items"] = IncludeStageItems
@@ -137,6 +184,7 @@ def before_options_defined(options: dict) -> dict:
     options["include_operation_guns_dlc"] = IncludeOperationGunsDLC
     options["include_castlevania_dlc"] = IncludeCastlevaniaDLC
     options["include_emerald_diorama_dlc"] = IncludeEmeraldDioramaDLC
+    options["include_ante_chamber_dlc"] = IncludeAnteChamberDLC
     options["starter_must_evolve"] = StarterMustEvolve
     options["basic_starting_stage"] = BasicStartingStage
     options["character_must_match"] = MatchingCharacters

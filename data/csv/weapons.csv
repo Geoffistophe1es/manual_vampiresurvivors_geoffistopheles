@@ -1,139 +1,168 @@
-Weapon,Item,DLC
-Whip,Hollow Heart,None
-Magic Wand,Empty Tome,None
-Knife,Bracer,None
-Axe,Candelabrador,None
-Cross,Clover,None
-King Bible,Spellbinder,None
-Fire Wand,Spinach,None
-Garlic,Pummarola,None
-Santa Water,Attractorb,None
-Runetracer,Armor,None
-Lightning Ring,Duplicator,None
-Pentagram,Crown,None
-Gatti Amari,Stone Mask,None
-Song of Mana,Skull O'Maniac,None
-Shadow Pinion,Wings,None
-Flames of Misspell,Torrona's Box,None
-Glass Fandango,Wings,None
-Bracelet,Self,None
-Phiera Der Tuphello,Union,None
-Eight the Sparrow,Union,None
-Peachone,Union,None
-Ebony Wings,Union,None
-Vento Sacro,Union,None
-Bone,None,None
-Cherry Bomb,None,None
-Carrello,None,None
-Celestial Dusting,None,None
-La Robba,None,None
-Greatest Jubilee,None,None
-Santa Javelin,Clover,None
-Phas3r,Empty Tome,None
-Pako Battiliar,Hollow Heart,None
-Gaze of Gaea,Parm Aegis,None
-Silver Wind,Pummarola,Legacy of the Moonspell
-Four Seasons,Candelabrador,Legacy of the Moonspell
-Summon Night,Duplicator,Legacy of the Moonspell
-Mirage Robe,Attractorb,Legacy of the Moonspell
-Night Sword,Stone Mask,Legacy of the Moonspell
-Mille Bolle Blu,Spellbinder,Legacy of the Moonspell
-108 Bocce,None,Legacy of the Moonspell
-SpellString,Union,Tides of the Foscari
-SpellStream,Union,Tides of the Foscari
-SpellStrike,Union,Tides of the Foscari
-Eskizzibur,Armor,Tides of the Foscari
-Flash Arrow,Bracer,Tides of the Foscari
-Prismatic Missile,Crown,Tides of the Foscari
-Shadow Servant,Skull O'Maniac,Tides of the Foscari
-Party Popper,None,Tides of the Foscari
-Report!,Mini Crewmate,Emergency Meeting
-Lucky Swipe,Mini Engineer,Emergency Meeting
-Just Vent,Mini Shapeshifter,Emergency Meeting
-Clear Debris,Mini Guardian,Emergency Meeting
-Sharp Tongue,Mini Impostor,Emergency Meeting
-Science Rocks,Mini Scientist,Emergency Meeting
-Hats,None,Emergency Meeting
-Long Gun,Self,Operation Guns
-Short Gun,Bracer,Operation Guns
-Spread Shot,Empty Tome,Operation Guns
-C-U-Laser,Tirajisu,Operation Guns
-Firearm,Candelabrador,Operation Guns
-Sonic Bloom,Armor,Operation Guns
-Homing Miss,Duplicator,Operation Guns
-Diver Mines,Attractorb,Operation Guns
-Blade Crossbow,Clover,Operation Guns
-Prism Lass,Wings,Operation Guns
-Metal Claw,Hollow Heart,Operation Guns
-Alchemy Whip,Tirajisu,Ode to Ode to Castlevania
-Wind Whip,Crown,Ode to Ode to Castlevania
-Platinum Whip,Clover,Ode to Ode to Castlevania
-Dragon Water Whip,Attractorb,Ode to Ode to Castlevania
-Sonic Whip,Skull O'Maniac,Ode to Ode to Castlevania
-Jet Black Whip,Stone Mask,Ode to Ode to Castlevania
-Vibhuti Whip,Candelabrador,Ode to Ode to Castlevania
-Vanitas Whip,Hollow Heart,Ode to Ode to Castlevania
-Shuriken,Empty Tome,Ode to Castlevania
-Curved Knife,Bracer,Ode to Castlevania
-Javelin,Spellbinder,Ode to Castlevania
-Discus,Parm Aegis,Ode to Castlevania
-Iron Ball,Armor,Ode to Castlevania
-Silver Revolver,Karoma's Mana,Ode to Castlevania
-Hand Grenade,Candelabrador,Ode to Castlevania
-Wine Glass,Tirajisu,Ode to Castlevania
-Raging Fire,Spinach,Ode to Castlevania
-Ice Fang,Spellbinder,Ode to Castlevania
-Gale Force,Bracer,Ode to Castlevania
-Rock Riot,Stone Mask,Ode to Castlevania
-Fulgur,Duplicator,Ode to Castlevania
-Keremet Bubbles,Armor,Ode to Castlevania
-Hex,Skull O'Maniac,Ode to Castlevania
-Refectio,Clover,Ode to Castlevania
-Mace,Hollow Heart,Ode to Castlevania
-Star Flail,Pummarola,Ode to Castlevania
-Alucard Spear,Wings,Ode to Castlevania
-Trident,Duplicator,Ode to Castlevania
-Iron Shield,Parm Aegis,Ode to Castlevania
-Guardian's Targe,Pummarola,Ode to Castlevania
-Tyrfing,Spinach,Ode to Castlevania
-Alucart Sworb,Self,Ode to Castlevania
-Confodere,Self,Ode to Castlevania
-Globus,Empty Tome,Ode to Castlevania
-Optical Shot,Karoma's Mana,Ode to Castlevania
-Sonic Dash,Wings,Ode to Castlevania
-Luminatio,Crown,Ode to Castlevania
-Umbra,Attractorb,Ode to Castlevania
-Dextro Custos,Union,Ode to Castlevania
-Sinestros Custos,Union,Ode to Castlevania
-Centralis Custos,Union,Ode to Castlevania
-Dominus Anger,Union,Ode to Castlevania
-Dominus Hatred,Union,Ode to Castlevania
-Dominus Agony,Union,Ode to Castlevania
-Valmanway,None,Ode to Castlevania
-Ice Brand,None,Ode to Castlevania
-Arrow of Goth,None,Ode to Castlevania
-Aura Blast,None,Ode to Castlevania
-Svarog Statue,None,Ode to Castlevania
-Troll Bomb,None,Ode to Castlevania
-Hydro Storm,None,Ode to Castlevania
-Grand Cross,None,Ode to Castlevania
-Summon Spirit,None,Ode to Castlevania
-Soul Steal,None,Ode to Castlevania
-Dark Rift,None,Ode to Castlevania
-Sword Brothers,None,Ode to Castlevania
-Summon Spirit Tornado,None,Ode to Castlevania
-Fleuret,Self,Emerald Diorama
-Town Sword,Self,Emerald Diorama
-Splashers,Spellbinder,Emerald Diorama
-Flamberge,Self,Emerald Diorama
-Punch,Self,Emerald Diorama
-Kick,Pummarola,Emerald Diorama
-Saber Machine Gun,Self,Emerald Diorama
-Super Missile,Self,Emerald Diorama
-Eagle Gun,Spinach,Emerald Diorama
-Khukuri,Parm Aegis,Emerald Diorama
-Twin Dragon,Karoma's Mana,Emerald Diorama
-Bullova,Skull O'Maniac,Emerald Diorama
-Sanguine Star,Stone Mask,Emerald Diorama
-Glaive,Self,Emerald Diorama
-Spirit Rings,Union,Emerald Diorama
+Order,Weapon,ProgressiveName,ProgressiveName2,DLC,Progression,ValidStarter,ItemSelector,EvolutionType,Item1,I1Max,Item2,I2Max,Item3,I3Max
+1,Whip,Bloody Tear,None,None,progression,True,False,Item,Hollow Heart,False,None,False,None,False
+2,Magic Wand,Holy Wand,None,None,progression,True,False,Item,Empty Tome,False,None,False,None,False
+3,Knife,Thousand Edge,None,None,progression,True,False,Item,Bracer,False,None,False,None,False
+4,Axe,Death Spiral,None,None,progression,True,False,Item,Candelabrador,False,None,False,None,False
+5,Cross,Heaven Sword,None,None,progression,True,False,Item,Clover,False,None,False,None,False
+6,King Bible,Unholy Vespers,None,None,progression,True,False,Item,Spellbinder,False,None,False,None,False
+7,Fire Wand,Hellfire,None,None,progression,True,False,Item,Spinach,False,None,False,None,False
+8,Garlic,Soul Eater,None,None,progression,True,False,Item,Pummarola,False,None,False,None,False
+9,Santa Water,La Borra,None,None,progression,True,False,Item,Attractorb,False,None,False,None,False
+10,Runetracer,NO FUTURE,None,None,progression,True,False,Item,Armor,False,None,False,None,False
+11,Lightning Ring,Thunder Loop,None,None,progression,True,False,Item,Duplicator,False,None,False,None,False
+12,Pentagram,Gorgeous Moon,None,None,progression,Never,False,Item,Crown,False,None,False,None,False
+13,Peachone,Vandalier,None,None,progression,True,False,Union,Ebony Wings,True,None,False,None,False
+14,Ebony Wings,Vandalier,None,None,progression,True,False,Union,Peachone,True,None,False,None,False
+15,Phiera Der Tuphello,Phieraggi,None,None,progression,True,False,Union,Eight the Sparrow,True,Tirajisu,False,None,False
+16,Eight the Sparrow,Phieraggi,None,None,progression,True,False,Union,Phiera Der Tuphello,True,Tirajisu,False,None,False
+17,Gatti Amari,Vicious Hunger,None,None,progression,True,False,Item,Stone Mask,False,None,False,None,False
+18,Song of Mana,Mannajja,None,None,progression,True,False,Item,Skull O'Maniac,False,None,False,None,False
+19,Shadow Pinion,Valkyrie Turner,None,None,progression,True,False,Item,Wings,False,None,False,None,False
+20,Clock Lancet,Infinite Corridor,None,None,progression,Never,False,Self,None,False,None,False,None,False
+21,Laurel,Crimson Shroud,None,None,progression,Never,False,Self,None,False,None,False,None,False
+22,Vento Sacro,Fuwalafuwaloo,None,None,progression,True,False,Union,Whip,True,Hollow Heart,False,None,False
+23,Bone,Anima of Mortaccio,None,None,progression,True,False,Morph,Chaos Malachite,False,Mortaccio,False,None,False
+24,Cherry Bomb,Yatta Daikarin,None,None,progression,True,False,Morph,Chaos Rosalia,False,Yatta Cavallo,False,None,False
+25,Carrello,Carozza!,None,None,progression,True,False,Morph,Chaos Lazulia,False,Bianca Ramba,False,None,False
+26,Celestial Dusting,Profusione D'Amore,None,None,progression,True,False,Morph,Chaos Altemanna,False,O'Sole Meeo,False,None,False
+27,La Robba,None,None,None,useful,True,False,None,None,False,None,False,None,False
+28,Greatest Jubilee,None,None,None,useful,True,False,None,None,False,None,False,None,False
+29,Bracelet,Bi-Bracelet,Tri-Bracelet,None,progression,True,False,Self,None,False,None,False,None,False
+30,Candybox,None,None,None,progression,True,True,None,None,False,None,False,None,False
+31,Victory Sword,Sole Solution,None,None,progression,True,False,Gift,Torrona's Box,True,None,False,None,False
+32,Flames of Misspell,Ashes of Muspell,None,None,progression,True,False,Item,Torrona's Box,True,None,False,None,False
+33,Pako Battiliar,Mazo Familiar,None,None,progression,True,False,Item,Hollow Heart,True,None,False,None,False
+34,Ammo Appalate,Gunastrophe,None,None,progression,True,False,Item,Bracer,True,None,False,None,False
+35,Glass Fandango,Celestial Voulge,None,None,progression,True,False,Item,Wings,True,None,False,None,False
+36,Santa Javelin,Seraphic Cry,None,None,progression,True,False,Item,Clover,True,None,False,None,False
+37,Gaze of Gaea,Embrace of Gaea,None,None,progression,True,False,Item,Parm Aegis,False,None,False,None,False
+38,Magi-Stone,Kyra-Stones,None,None,progression,True,False,Item,Karoma's Mana,False,None,False,None,False
+39,Phas3r,Photonstorm,None,None,progression,True,False,Item,Empty Tome,True,None,False,None,False
+40,Arma Dio,None,None,None,useful,Never,True,None,None,False,None,False,None,False
+41,Chaos Rune,Wicked Ruler,None,None,progression,False,False,Item,Spellbinder,True,None,False,None,False
+42,Silver Wind,Festive Winds,None,Legacy of the Moonspell,progression,True,False,Item,Pummarola,True,None,False,None,False
+43,Four Seasons,Godai Shuffle,None,Legacy of the Moonspell,progression,True,False,Item,Candelabrador,True,None,False,None,False
+44,Summon Night,Echo Night,None,Legacy of the Moonspell,progression,True,False,Item,Duplicator,True,None,False,None,False
+45,Mirage Robe,J'Odore,None,Legacy of the Moonspell,progression,True,False,Item,Attractorb,True,None,False,None,False
+46,Night Sword,Muramasa,None,Legacy of the Moonspell,progression,True,False,Item,Stone Mask,True,None,False,None,False
+47,Mille Bolle Blu,Boo Roo Boolle,None,Legacy of the Moonspell,progression,True,False,Item,Spellbinder,True,None,False,None,False
+48,108 Bocce,None,None,Legacy of the Moonspell,useful,True,False,None,None,False,None,False,None,False
+49,SpellString,SpellStrom,None,Tides of the Foscari,progression,True,False,Union,SpellStream,True,SpellStrike,True,None,False
+50,SpellStream,SpellStrom,None,Tides of the Foscari,progression,True,False,Union,SpellString,True,SpellStrike,True,None,False
+51,SpellStrike,SpellStrom,None,Tides of the Foscari,progression,True,False,Union,SpellString,True,SpellStream,True,None,False
+52,Eskizzibur,Legionnaire,None,Tides of the Foscari,progression,True,False,Item,Armor,True,None,False,None,False
+53,Flash Arrow,Millionaire,None,Tides of the Foscari,progression,True,False,Item,Bracer,True,None,False,None,False
+54,Prismatic Missile,Luminaire,None,Tides of the Foscari,progression,True,False,Item,Crown,True,None,False,None,False
+55,Shadow Servant,Ophion,None,Tides of the Foscari,progression,True,False,Item,Skull O'Maniac,True,None,False,None,False
+56,Party Popper,None,None,Tides of the Foscari,useful,True,False,None,None,False,None,False,None,False
+57,Report!,Emergency Meeting,None,Emergency Meeting,progression,True,False,Item,Mini Crewmate,True,None,False,None,False
+58,Lucky Swipe,Crossed Wires,None,Emergency Meeting,progression,True,False,Item,Mini Engineer,True,None,False,None,False
+59,Lifesign Scan,Paranormal Scan,None,Emergency Meeting,progression,Never,False,Item,Mini Ghost,True,None,False,None,False
+60,Just Vent,Unjust Ejection,None,Emergency Meeting,progression,True,False,Item,Mini Shapeshifter,True,None,False,None,False
+61,Clear Debris,Clear Asteroids,None,Emergency Meeting,progression,True,False,Item,Mini Guardian,True,None,False,None,False
+62,Sharp Tongue,Impostongue,None,Emergency Meeting,progression,True,False,Item,Mini Impostor,True,None,False,None,False
+63,Science Rocks,Rocket Science,None,Emergency Meeting,progression,True,False,Item,Mini Scientist,True,None,False,None,False
+64,Hats,None,None,Emergency Meeting,useful,True,False,None,None,False,None,False,None,False
+65,Long Gun,Prototype A,None,Operation Guns,progression,True,False,Item,Weapon Power-Up,False,None,False,None,False
+66,Short Gun,Prototype B,None,Operation Guns,progression,True,False,Item,Weapon Power-Up,False,Bracer,False,None,False
+67,Spread Shot,Prototype C,None,Operation Guns,progression,True,False,Item,Weapon Power-Up,False,Empty Tome,False,None,False
+68,C-U-Laser,Pronto Beam,None,Operation Guns,progression,True,False,Item,Weapon Power-Up,False,Tirajisu,False,None,False
+69,Firearm,Fire-L3GS,None,Operation Guns,progression,True,False,Item,Weapon Power-Up,False,Candelabrador,False,None,False
+70,Sonic Bloom,Wave Beam,None,Operation Guns,progression,True,False,Item,Weapon Power-Up,False,Armor,False,None,False
+71,Homing Miss,Multistage Missiles,None,Operation Guns,progression,True,False,Item,Weapon Power-Up,False,Duplicator,False,None,False
+72,Diver Mines,Atmo-Torpedo,None,Operation Guns,progression,True,False,Item,Weapon Power-Up,False,Attractorb,False,None,False
+73,Blade Crossbow,BFC2000-AD,None,Operation Guns,progression,True,False,Item,Weapon Power-Up,False,Clover,False,None,False
+74,Prism Lass,Time Warp,None,Operation Guns,progression,True,False,Item,Weapon Power-Up,False,Wings,False,None,False
+75,Metal Claw,Big Fuzzy Fist,None,Operation Guns,progression,True,False,Item,Weapon Power-Up,False,Hollow Heart,False,None,False
+76,Alchemy Whip,Vampire Killer,None,Ode to Castlevania,progression,True,False,Item,Tirajisu,False,None,False,None,False
+77,Wind Whip,Spirit Tornado Tip,None,Ode to Castlevania,progression,True,False,Item,Crown,False,None,False,None,False
+78,Platinum Whip,Cross Crasher Tip,None,Ode to Castlevania,progression,True,False,Item,Clover,False,None,False,None,False
+79,Dragon Water Whip,Hydrostormer Tip,None,Ode to Castlevania,progression,True,False,Item,Attractorb,False,None,False,None,False
+80,Sonic Whip,Crissaegrim Tip,None,Ode to Castlevania,progression,True,False,Item,Skull O'Maniac,False,None,False,None,False
+81,Jet Black Whip,Mormegil Tip,None,Ode to Castlevania,progression,True,False,Item,Stone Mask,False,None,False,None,False
+82,Vibhuti Whip,Daybreaker Tip,None,Ode to Castlevania,progression,True,False,Item,Candelabrador,False,None,False,None,False
+83,Vanitas Whip,Aurablaster Tip,None,Ode to Castlevania,progression,True,False,Item,Hollow Heart,False,None,False,None,False
+84,Shuriken,Yagyu Shuriken,None,Ode to Castlevania,progression,True,False,Item,Empty Tome,False,None,False,None,False
+85,Curved Knife,Bwaka Knife,None,Ode to Castlevania,progression,True,False,Item,Bracer,False,None,False,None,False
+86,Javelin,Long Inus,None,Ode to Castlevania,progression,True,False,Item,Spellbinder,False,None,False,None,False
+87,Discus,Stellar Blade,None,Ode to Castlevania,progression,True,False,Item,Parm Aegis,True,None,False,None,False
+88,Iron Ball,Wrecking Ball,None,Ode to Castlevania,progression,True,False,Item,Armor,False,None,False,None,False
+89,Silver Revolver,Jewel Gun,None,Ode to Castlevania,progression,True,False,Item,Karoma's Mana,False,None,False,None,False
+90,Hand Grenade,The RPG,None,Ode to Castlevania,progression,True,False,Item,Candelabrador,True,None,False,None,False
+91,Wine Glass,Meal Ticket,None,Ode to Castlevania,progression,True,False,Item,Tirajisu,True,None,False,None,False
+92,Raging Fire,Salamender,None,Ode to Castlevania,progression,True,False,Item,Spinach,True,None,False,None,False
+93,Ice Fang,Cocytus,None,Ode to Castlevania,progression,True,False,Item,Spellbinder,True,None,False,None,False
+94,Gale Force,Pneumas Tempestas,None,Ode to Castlevania,progression,True,False,Item,Bracer,True,None,False,None,False
+95,Rock Riot,Gemma Torpor,None,Ode to Castlevania,progression,True,False,Item,Stone Mask,True,None,False,None,False
+96,Fulgur,Tenebris Tonitrus,None,Ode to Castlevania,progression,True,False,Item,Duplicator,True,None,False,None,False
+97,Keremet Bubbles,Keremet Morbus,None,Ode to Castlevania,progression,True,False,Item,Armor,True,None,False,None,False
+98,Hex,Nightmare,None,Ode to Castlevania,progression,True,False,Item,Skull O'Maniac,True,None,False,None,False
+99,Refectio,Sanctuary,None,Ode to Castlevania,progression,True,False,Item,Clover,True,None,False,None,False
+100,Mace,Stamazza,None,Ode to Castlevania,progression,True,False,Item,Hollow Heart,True,None,False,None,False
+101,Star Flail,Moon Rod,None,Ode to Castlevania,progression,True,False,Item,Pummarola,True,None,False,None,False
+102,Alucard Spear,Thunderbolt Spear,None,Ode to Castlevania,progression,True,False,Item,Wings,False,None,False,None,False
+103,Trident,Gungnir-Souris,None,Ode to Castlevania,progression,True,False,Item,Duplicator,True,None,False,None,False
+104,Iron Shield,Dark Iron Shield,None,Ode to Castlevania,progression,True,False,Item,Parm Aegis,False,None,False,None,False
+105,Guardian's Targe,Sacred Beasts Tower Shield,None,Ode to Castlevania,progression,True,False,Item,Pummarola,False,None,False,None,False
+106,Tyrfing,Rune Sword,None,Ode to Castlevania,progression,True,False,Item,Spinach,False,None,False,None,False
+107,Alucart Sworb,Alucard Swords,None,Ode to Castlevania,progression,True,False,Self,Self,False,None,False,None,False
+108,Alucard Swords,Alucard Shield,None,Ode to Castlevania,useful,Never,False,Special,Special,False,None,False,None,False
+109,Confodere,Vol Confodere,Melio Confodere,Ode to Castlevania,progression,True,False,Self,Self,False,None,False,None,False
+110,Globus,Nitesco,None,Ode to Castlevania,progression,True,False,Item,Empty Tome,True,None,False,None,False
+111,Optical Shot,Acerbatus,None,Ode to Castlevania,progression,True,False,Item,Karoma's Mana,True,None,False,None,False
+112,Dextro Custos,Trinum Custodem,None,Ode to Castlevania,progression,True,False,Union,Sinestro Custos,True,Centralis Custos,True,None,False
+113,Sinestro Custos,Trinum Custodem,None,Ode to Castlevania,progression,True,False,Union,Dextro Custos,True,Centralis Custos,True,None,False
+114,Centralis Custos,Trinum Custodem,None,Ode to Castlevania,progression,True,False,Union,Dextro Custos,True,Sinestro Custos,True,None,False
+115,Dominus Anger,Power of Sire,None,Ode to Castlevania,progression,True,False,Union,Dominus Hatred,True,Dominus Agony,True,None,False
+116,Dominus Hatred,Power of Sire,None,Ode to Castlevania,progression,True,False,Union,Dominus Anger,True,Dominus Agony,True,None,False
+117,Dominus Agony,Power of Sire,None,Ode to Castlevania,progression,True,False,Union,Dominus Anger,True,Dominus Hatred,True,None,False
+118,Sonic Dash,Rapidus Fio,None,Ode to Castlevania,progression,True,False,Item,Wings,True,None,False,None,False
+119,Luminatio,Vol Luminatio,None,Ode to Castlevania,progression,True,False,Item,Crown,True,None,False,None,False
+120,Umbra,Vol Umbra,None,Ode to Castlevania,progression,True,False,Item,Attractorb,True,None,False,None,False
+121,Morning Star,None,None,Ode to Castlevania,progression,False,True,None,None,False,None,False,None,False
+122,Coat of Arms,None,None,Ode to Castlevania,useful,False,True,None,None,False,None,False,None,False
+123,Belnades Spellbook,None,None,Ode to Castlevania,useful,False,True,None,None,False,None,False,None,False
+124,Spectral Sword,None,None,Ode to Castlevania,useful,False,True,None,None,False,None,False,None,False
+125,Ebony Diabologue,None,None,Ode to Castlevania,useful,False,True,None,None,False,None,False,None,False
+126,Familiar Forge,None,None,Ode to Castlevania,useful,False,True,None,None,False,None,False,None,False
+127,Valmanway,Million Cut,None,Ode to Castlevania,progression,True,False,Union,Knife,True,Bracer,False,None,False
+128,Icebrand,Ninth Circle,None,Ode to Castlevania,progression,True,False,Union,King Bible,True,Spellbinder,False,None,False
+129,Arrow of Goth,Dies Irae,None,Ode to Castlevania,progression,True,False,Union,Song of Mana,True,Skull O'Maniac,False,None,False
+130,Aura Blast,Kardia Phlegeton,None,Ode to Castlevania,progression,True,False,Union,Fire Wand,True,Spinach,False,None,False
+131,Kaiser Knuckle,Lapiste Tepisto,None,Ode to Castlevania,progression,True,False,Union,Bracelet,True,None,False,None,False
+132,Pocket Knife,Claimh Solais,None,Ode to Castlevania,progression,True,False,Item,Torrona's Box,True,None,False,None,False
+133,Svarog Statue,Darkness Illusion,None,Ode to Castlevania,progression,True,False,Union,Shadow Pinion,True,Wings,False,None,False
+134,Troll Bomb,Carnage Heart,None,Ode to Castlevania,progression,True,False,Union,Runetracer,True,Armor,False,None,False
+135,Hydro Storm,Hydro Pump Climax,None,Ode to Castlevania,progression,True,False,Union,Santa Water,True,Attractorb,False,None,False
+136,Grand Cross,Arch Angle,None,Ode to Castlevania,progression,True,False,Union,Cross,True,Clover,False,None,False
+137,Summon Spirit,Spirit of Light,None,Ode to Castlevania,progression,True,False,Union,Magic Wand,True,Empty Tome,False,None,False
+138,Soul Steal,Power of Lire,None,Ode to Castlevania,progression,True,False,Union,Gatti Amari,True,Stone Mask,False,None,False
+139,Dark Rift,Legacy of Death: Soul River,None,Ode to Castlevania,progression,True,False,Union,Axe,True,Candelabrador,False,None,False
+140,Sword Brothers,Vjaya Sisters,None,Ode to Castlevania,progression,True,False,Union,Lightning Ring,True,Duplicator,False,None,False
+141,Summon Spirit Tornado,Venus Crescent,None,Ode to Castlevania,progression,True,False,Union,Pentagram,True,Crown,False,None,False
+142,Anura,Dark Frogamorphosis,None,Ode to Castlevania,progression,True,False,Union,Garlic,True,Pummarola,False,None,False
+143,Endo Gears,Clock Tower,None,Ode to Castlevania,progression,True,False,Union,Peri Pendulum,True,Myo Lift,True,Epi Head,True
+144,Peri Pendulum,Clock Tower,None,Ode to Castlevania,progression,True,False,Union,Endo Gears,True,Myo Lift,True,Epi Head,True
+145,Myo Lift,Clock Tower,None,Ode to Castlevania,progression,True,False,Union,Endo Gears,True,Peri Pendulum,True,Epi Head,True
+146,Epi Head,Clock Tower,None,Ode to Castlevania,progression,True,False,Union,Endo Gears,True,Peri Pendulum,True,Myo Lift,True
+147,Fleuret,Dress Sword,Espada Ropera,Emerald Diorama,progression,True,False,Self,Self,False,None,False,None,False
+148,Town Sword,Lordstar,Dayblade,Emerald Diorama,progression,True,False,Self,Self,False,None,False,None,False
+149,Splashers,Pursuant Blades,None,Emerald Diorama,progression,True,False,Item,Spellbinder,False,None,False,None,False
+150,Flamberge,Zweihander,Galatyn,Emerald Diorama,progression,True,False,Self,Self,False,None,False,None,False
+151,Punch,Pressure Point,Gilded Hand,Emerald Diorama,progression,True,False,Self,Self,False,None,False,None,False
+152,Kick,Triangle Kick,None,Emerald Diorama,progression,True,False,Item,Pummarola,False,None,False,None,False
+153,Saber Machine Gun,Hecaton Machine Gun,Divergence,Emerald Diorama,progression,True,False,Self,Self,False,None,False,None,False
+154,Super Missile,Hydra Cannon,Hyperion Bazooka,Emerald Diorama,progression,True,False,Self,Self,False,None,False,None,False
+155,Eagle Gun,Pendragon,None,Emerald Diorama,progression,True,False,Item,Spinach,False,None,False,None,False
+156,Khukuri,Jetstream,None,Emerald Diorama,progression,True,False,Item,Parm Aegis,False,None,False,None,False
+157,Twin Dragon,Gekkabijin,None,Emerald Diorama,progression,True,False,Item,Karoma's Mana,False,None,False,None,False
+158,Bullova,Falconwind,None,Emerald Diorama,progression,True,False,Item,Skull O'Maniac,False,None,False,None,False
+159,Sanguine Star,Blood Chalice,None,Emerald Diorama,progression,True,False,Item,Stone Mask,False,None,False,None,False
+160,Glaive,Feather Spear,Lohengrin,Emerald Diorama,progression,True,False,Self,Self,False,None,False,None,False
+161,Spirit Rings,Rings of Calamity,None,Emerald Diorama,progression,False,False,Special,Special,False,None,False,None,False
+162,Emerald Rapture,Emerald Wave,None,Emerald Diorama,progression,True,False,Item,Crown,False,None,False,None,False
+163,Intuition,None,None,Emerald Diorama,useful,True,True,None,None,False,None,False,None,False
+164,Infernolatro,NaneInferno,None,Ante Chamber,progression,True,False,Item,Outer Saboteur,True,None,False,None,False
+165,Gros Michel,Cavendish,None,Ante Chamber,progression,True,False,Item,Outer Saboteur,True,None,False,None,False
+166,Fibonacci Spritz,Royal Flush,None,Ante Chamber,progression,True,False,Item,Outer Saboteur,True,None,False,None,False
+167,Celestial Booster,Negative Space,None,Ante Chamber,progression,True,False,Item,Outer Saboteur,True,None,False,None,False

@@ -1,7 +1,7 @@
 # Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
 from worlds.AutoWorld import World
 from BaseClasses import MultiWorld, CollectionState
-from .functions import get_weapons, get_passives, get_characters, get_stages, filter_dlc, add_if_not_exists
+from .functions import get_weapons, get_passives, get_stages, get_arcanas, get_powerups, get_character_by_weapon, filter_dlc, add_if_not_exists
 
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
 from ..Items import ManualItem
@@ -45,8 +45,23 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove = [] # List of location names
-
+    
     # Add your code here to calculate which locations to remove
+    
+    # Generate our filtered list
+    stages = filter_dlc(world, get_stages())
+
+    
+    # Trim the chest locations to the amount selected.
+    chestAmount = int(world.options.number_of_chests.value)
+    mult = 1
+    if chestAmount < 20:
+        for stage in stages:
+            mult = 1
+            if stage["Stage"] == "Ode to Castlevania":
+                mult = 3
+            for i in range((chestAmount * mult) + 1, (20 * mult) + 1):
+                locationNamesToRemove.append(stage["Stage"] + " Chest " + str(i))
 
     for region in multiworld.regions:
         if region.player == player:
@@ -79,10 +94,15 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     starting_items = []
     weapons = filter_dlc(world, get_weapons())
     stages = filter_dlc(world, get_stages())
-
+    passives = filter_dlc(world, get_passives())
+    arcanas = filter_dlc(world, get_arcanas())
+    powerups = get_powerups()
+    
     # Basic starting stages need to be 30 minutes and have no scaling. Otherwise, pick one.
     stage_pool = []
     for stage in stages:
+        if stage["Stage"] == "Eudaimonia Machine":
+            continue
         if world.options.basic_starting_stage > 0:
             if int(stage["Timer"]) < 30 or stage["Scaling"] == "True":
                 continue
@@ -90,26 +110,26 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
 
     starting_stage = world.random.choice(stage_pool)
     starting_items.append(starting_stage["Stage"])
+    startingSlots = 2
 
     # If starters must evolve, remove weapons that don't evolve or would require an unfair advantage in more starting items.
-    # Remove Lifesign Scan from the starting pool, as it and Ghost Lino cannot damage enemies.
+    # Morph is considered no evolution for the time being.
+    # ValidStarter is set to False if starting with this weapon would give an unreasonable advantage.
+    #   The option to enable these would require more code later, but could be doable.
+    # ValidStarter is set to Never if starting with this weapon would softlock the player.
     weapon_pool = []
     for weapon in weapons:
-        if weapon["Item"] == "None" or weapon["Weapon"] == "Vento Sacro" or weapon["Weapon"] == "Spirit Rings":
-            if world.options.starter_must_evolve.value > 0:
-                continue
-        if weapon["Weapon"] in ["Lifesign Scan", "Clock Lancet", "Laurel"]:
+        if weapon["ValidStarter"] != "True":
+            continue
+        if (weapon["EvolutionType"] == "None" or weapon["EvolutionType"] == "Morph") and world.options.starter_must_evolve.value > 0:
             continue
         weapon_pool.append(weapon)
 
     starting_weapon = world.random.choice(weapon_pool)
     starting_items.append(starting_weapon["Weapon"])
-    paired_item = starting_weapon["Item"]
-    passives = filter_dlc(world, get_passives())
-    for passive in passives:
-        if passive["Item"] == "Weapon Power-Up":
-            passives.remove(passive)
-            break      
+    evolution_type = starting_weapon["EvolutionType"]    
+    if evolution_type == "Union":
+        startingSlots = 3
 
     # If a weapon is listed as a Union, player gets the union weapons but no passives.
     # If a weapon does not require anything to evolve, player gets a random passive.
@@ -117,73 +137,75 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # If a weapon is from Operation Guns, Weapon Power-Up is required and not considered an advantage.
     # If evolution requirements are off, players gets a random passive.
     if world.options.starter_must_evolve.value > 0:
-        if paired_item == "Union":
-            weapon_name = starting_weapon["Weapon"]
-            if weapon_name in ["Peachone", "Ebony Wings"]:
-                add_if_not_exists(starting_items, "Peachone")
-                add_if_not_exists(starting_items, "Ebony Wings")
-            elif weapon_name in ["Phiera Der Tuphello", "Eight the Sparrow"]:
-                add_if_not_exists(starting_items, "Phiera Der Tuphello")
-                add_if_not_exists(starting_items, "Eight the Sparrow")
-                add_if_not_exists(starting_items, "Tirajisu")
-            elif weapon_name in ["SpellString", "SpellStream", "SpellStrike"]:
-                add_if_not_exists(starting_items, "SpellString")
-                add_if_not_exists(starting_items, "SpellStream")
-                add_if_not_exists(starting_items, "SpellStrike")
-            elif weapon_name in ["Dextro Custos", "Sinestros Custos", "Centralis Custos"]:
-                add_if_not_exists(starting_items, "Dextro Custos")
-                add_if_not_exists(starting_items, "Sinestros Custos")
-                add_if_not_exists(starting_items, "Centralis Custos")
-            elif weapon_name in ["Dominus Anger", "Dominus Hatred", "Dominus Agony"]:
-                add_if_not_exists(starting_items, "Dominus Anger")
-                add_if_not_exists(starting_items, "Dominus Hatred")
-                add_if_not_exists(starting_items, "Dominus Agony")
-        elif paired_item == "Self":
-            starting_items.append(world.random.choice(passives)["Item"])
+        if starting_weapon["Item1"] != "None":
+            add_if_not_exists(starting_items, starting_weapon["Item1"])
+            if starting_weapon["Item2"] != "None":
+                add_if_not_exists(starting_items, starting_weapon["Item2"])
+                if starting_weapon["Item3"] != "None":
+                    add_if_not_exists(starting_items, starting_weapon["Item3"])
         else:
-            starting_items.append(paired_item)
-        if starting_weapon["DLC"] ==  "Operation Guns":
-            starting_items.append("Weapon Power-Up")
+            starting_items.append(world.random.choice(passives)["Item"])
     else:
         starting_items.append(world.random.choice(passives)["Item"])
 
-    characters = filter_dlc(world, get_characters())
+    
+    
+            
     starting_characters = []
+    characters = []
     
     # Roll the character in the event of Charactersanity
     if world.options.charactersanity.value > 0:
-        if world.options.character_must_match.value == 0 and world.options.hidden_characters.value > 0 and world.options.secret_characters.value > 0:
+        if world.options.character_must_match.value > 0:
+            characters = get_character_by_weapon(starting_weapon["Weapon"])
+        else:
+            characters = filter_dlc(world, get_character_by_weapon("All"))
             for character in characters:
-                add_if_not_exists(starting_characters, character["Character"])
-        else:  
-            for character in characters:
-                # Remove Ghost Lino from the pool, as he cannot deal damage.
+                # Remove Ghost Lino from the pool, as he cannot deal damage and he'd still be in the pool if Characters Must Match is off.
                 if character["Character"] in ["Ghost Lino"]:
                     characters.remove(character)
-            if world.options.character_must_match.value > 0:
-                for character in characters:
-                    if character["Weapon"] == starting_weapon["Weapon"]:
-                        add_if_not_exists(starting_characters, character["Character"])
-            if world.options.hidden_characters.value > 0:
-                for character in characters:
-                    if character["Weapon"] == "Hidden":
-                        if world.options.character_must_match.value > 0:
-                            if character["Base"] == starting_weapon["Weapon"]:
-                                add_if_not_exists(starting_characters, character["Character"])
-                        else:
-                            add_if_not_exists(starting_characters, character["Character"])
-            if world.options.secret_characters.value > 0:
-                for character in characters:
-                    if character["Weapon"] != character["Base"]:
-                        if world.options.character_must_match.value > 0:
-                            if character["Base"] == starting_weapon["Weapon"]:
-                                add_if_not_exists(starting_characters, character["Character"])
-                        else:
-                            add_if_not_exists(starting_characters, character["Character"])
-        starting_character = world.random.choice(starting_characters)
-        starting_items.append(starting_character)
+                    break
+                
+        for character in characters:
+            if (character["Weapon"] == starting_weapon["Weapon"]) or \
+                (world.options.hidden_characters.value > 0 and character["Weapon"] == "Hidden" and character["Base"] == starting_weapon["Weapon"]) or \
+                (world.options.secret_characters.value > 0 and character["Weapon"] != "Hidden" and character["Base"] == starting_weapon["Weapon"]):
+                    add_if_not_exists(starting_characters, character)
 
+        starting_character = world.random.choice(starting_characters["Character"])
+        starting_items.append(starting_character)
+        startingSlots = int(starting_character["SlotsNeeded"]) + 1
+
+    # Generate starting arcana if one was selected.
+    if world.options.starting_arcanas.value > 0:
+        starting_items.append(world.random.choice(arcanas)["Item"])
+    
     starting_items_in_pool = [i for i in item_pool if i.name in starting_items]
+
+    # Everything below this is for an item with count.
+    starting_item_count = []
+
+    # Generate starting weapon slots
+    for i in range(0, max(int(world.options.starting_weapon_slots.value) + 1, startingSlots)):
+        starting_item_count.append("Weapon Slot")
+
+    # Generate powerups
+    for i in range(0, int(world.options.starting_powerups.value)):
+        item = world.random.choice(powerups)
+        powerups.remove(item)
+        starting_item_count.append("Powerup - " + item["Powerup"])
+        item["Count"] = str(int(item["Count"]) - 1)
+        if int(item["Count"]) > 0:
+            powerups.append(item)
+
+    for item in item_pool:
+        if len(starting_item_count) == 0:
+            break
+        if item.name in starting_item_count:
+            starting_items_in_pool.append(item)
+            starting_item_count.remove(item.name)
+            continue
+
     # logging.info(starting_items_in_pool)
     for item in starting_items_in_pool:
         multiworld.push_precollected(item)

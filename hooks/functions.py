@@ -64,6 +64,18 @@ def get_weapons() -> list:
 
     return rows
 
+def get_selectors() -> list:
+    selectors_file = 'selectors.csv' 
+    rows = []
+
+    with get_csv_file(selectors_file) as opened_file:
+        reader = csv.DictReader(opened_file)
+
+        for row in reader:
+            rows.append(row)
+
+    return rows
+
 def get_passives() -> list:
     passives_file = 'passives.csv' 
     rows = []
@@ -100,6 +112,70 @@ def get_stages() -> list:
 
     return rows
 
+def get_arcanas() -> list:
+    stages_file = 'arcanas.csv' 
+    rows = []
+
+    with get_csv_file(stages_file) as opened_file:
+        reader = csv.DictReader(opened_file)
+
+        for row in reader:
+            rows.append(row)
+
+    return rows
+
+def get_pickups() -> list:
+    stages_file = 'pickups.csv' 
+    rows = []
+
+    with get_csv_file(stages_file) as opened_file:
+        reader = csv.DictReader(opened_file)
+
+        for row in reader:
+            rows.append(row)
+
+    return rows
+
+def get_hunts() -> list:
+    stages_file = 'hunts.csv' 
+    rows = []
+
+    with get_csv_file(stages_file) as opened_file:
+        reader = csv.DictReader(opened_file)
+
+        for row in reader:
+            rows.append(row)
+
+    return rows
+
+def get_powerups() -> list:
+    stages_file = 'powerups.csv' 
+    rows = []
+
+    with get_csv_file(stages_file) as opened_file:
+        reader = csv.DictReader(opened_file)
+
+        for row in reader:
+            rows.append(row)
+
+    return rows
+
+def get_character_by_weapon(item: str) -> list:
+    character_file = 'lookup_character_by_weapon.csv' 
+    rows = []
+
+    with get_csv_file(character_file) as opened_file:
+        reader = csv.DictReader(opened_file)
+
+        if item == "All":
+            for row in reader:
+                rows.append(row)
+        else:
+            for row in reader:
+                if row["Weapon"] == item or row["Base"] == item:
+                    rows.append(row)
+
+    return rows
 
 def get_stage_by_item(item: str, madGrooveRequired: bool) -> list:
     rows = []
@@ -156,10 +232,29 @@ def filter_dlc(world: World, items: list) -> list:
         elif dlc == "Emerald Diorama":
             if world.options.include_emerald_diorama_dlc == 0:
                 items.remove(item)
+        elif dlc == "Ante Chamber":
+            if world.options.include_ante_chamber_dlc == 0:
+                items.remove(item)
     
     return items
+
+def number_of_chests(world: World) -> int:
+    return world.options.number_of_chests.value
 
 def add_if_not_exists(items: list, item: str) -> list:
     items.append(item) if item not in items else items
 
     return items
+
+def create_category(items: list) -> str:
+    category = "[\""
+    i = 0
+    x = len(items)
+    while i < x:
+        category += items[i]
+        i += 1
+        if i != x:
+            category += "\", \""
+    category += "\"]"
+    
+    return category

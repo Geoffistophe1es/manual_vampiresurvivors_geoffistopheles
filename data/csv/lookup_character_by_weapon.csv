@@ -1,0 +1,315 @@
+Order,Character,DLC,Weapon,Base
+1,Antonio Belpaese,None,Whip,Whip
+2,Imelda Belpaese,None,Magic Wand,Magic Wand
+3,Pasqualina Belpaese,None,Runetracer,Runetracer
+4,Gennaro Belpaese,None,Knife,Knife
+5,Arca Ladonna,None,Fire Wand,Fire Wand
+6,Porta Ladonna,None,Lightning Ring,Lightning Ring
+7,Lama Ladonna,None,Axe,Axe
+8,Poe Ratcho,None,Garlic,Garlic
+9,Suor Clerici,None,Santa Water,Santa Water
+10,Dommario,None,King Bible,King Bible
+11,Krochi Freetto,None,Cross,Cross
+12,Christine Davain,None,Pentagram,Pentagram
+13,Pugnala Provola,None,Phiera Der Tuphello,Phiera Der Tuphello
+14,Pugnala Provola,None,Eight the Sparrow,Eight the Sparrow
+15,Giovanna Grana,None,Gatti Amari,Gatti Amari
+16,Poppea Pecorina,None,Song of Mana,Song of Mana
+17,Concetta Caciotta,None,Shadow Pinion,Shadow Pinion
+18,Mortaccio,None,Bone,Bone
+19,Yatta Cavallo,None,Cherry Bomb,Cherry Bomb
+20,Bianca Ramba,None,Carrello,Carrello
+21,O'Sole Meeo,None,Celestial Dusting,Celestial Dusting
+22,Sir Ambrojoe,None,La Robba,La Robba
+23,Iguana Gallo Valletto,None,Clock Lancet,Clock Lancet
+24,Divano Thelma,None,Laurel,Laurel
+25,Zi'Assunta Belpaese,None,Vento Sacro,Vento Sacro
+26,Exdash Exiviiq,None,Ebony Wings,Ebony Wings
+27,Toastie,None,Peachone,Peachone
+28,Smith IV,None,Vandalier,Peachone
+29,Smith IV,None,Vandalier,Ebony Wings
+30,Random,None,Random,Random
+31,Boon Marrabbio,None,Thousand Edge,Knife
+32,Avatar Infernas,None,Flames of Misspell,Flames of Misspell
+33,Minnah Mannarah,None,Bloody Tear,Whip
+34,Leda,None,Holy Wand,Magic Wand
+35,Cosmo Pavone,None,Hidden,Peachone
+36,Cosmo Pavone,None,Hidden,Ebony Wings
+37,Peppino,None,Soul Eater,Garlic
+38,Trouser,None,Candybox,Candybox
+39,MissingNo,None,Death Spiral,Axe
+40,Gains Boros,None,Heaven Sword,Cross
+41,Gyorunton,None,Bracelet,Bracelet
+42,Mask of the Red Death,None,Death Spiral,Axe
+43,Queen Sigma,None,Victory Sword,Victory Sword
+44,Bat Robbert,None,Pako Battiliar,Pako Battiliar
+,Zi'Appunta Belpaese,None,Ammo Appalate,Ammo Appalate
+45,She-Moon Eeta,None,Glass Fandango,Glass Fandango
+46,Santa Ladonna,None,Santa Javelin,Santa Javelin
+47,Gazebo,None,Gaze of Gaea,Gaze of Gaea
+,Chula-Reh,None,Magi-Stone,Magi-Stone
+48,Space Dude,None,Phas3r,Phas3r
+49,Bats Bats Bats,None,Mazo Familiar,Pako Battiliar
+50,Rose De Infernas,None,Fuwalafuwaloo,Whip
+51,Rose De Infernas,None,Fuwalafuwaloo,Vento Sacro
+,Torino,None,Hidden,Ezkizzibur
+52,Scorej-Oni,None,Hidden,Lightning Ring
+53,Gyoruntin,None,NO FUTURE,Runetracer
+,Secretino Dagsson,None,Kyra-Stones,Magi-Stone
+54,Space Dette,None,Photonstorm,Phas3r
+55,Miang Moonspell,Legacy of the Moonspell,Silver Wind,Silver Wind
+56,Menya Moonspell,Legacy of the Moonspell,Four Seasons,Four Seasons
+57,Syuuto Moonspell,Legacy of the Moonspell,Summon Night,Summon Night
+58,Babi-Onna,Legacy of the Moonspell,Mirage Robe,Mirage Robe
+59,McCoy-Oni,Legacy of the Moonspell,108 Bocce,108 Bocce
+60,Megalo Menya Moonspell,Legacy of the Moonspell,Hidden,108 Bocce
+61,Megalo Syuuto Moonspell,Legacy of the Moonspell,Night Sword,Night Sword
+62,Gav'Et-Oni,Legacy of the Moonspell,Mille Bolle Blu,Mille Bolle Blu
+63,Eleanor Uziron,Tides of the Foscari,SpellString,SpellString
+64,Eleanor Uziron,Tides of the Foscari,SpellStream,SpellStream
+65,Eleanor Uziron,Tides of the Foscari,SpellStrike,SpellStrike
+66,Maruto Cuts,Tides of the Foscari,Eskizzibur,Eskizzibur
+67,Keitha Muort,Tides of the Foscari,Flash Arrow,Flash Arrow
+68,Luminaire Foscari,Tides of the Foscari,Prismatic Missile,Prismatic Missile
+69,Genevieve Gruyere,Tides of the Foscari,Shadow Servant,Shadow Servant
+70,Je-Ne-Viv,Tides of the Foscari,Shadow Servant,Shadow Servant
+71,Sammy,Tides of the Foscari,Vicious Hunger,Gatti Amari
+72,Rottin' Ghoul,Tides of the Foscari,Party Popper,Party Popper
+73,Crewmate Dino,Emergency Meeting,Report!,Report!
+74,Engineer Gino,Emergency Meeting,Lucky Swipe,Lucky Swipe
+75,Ghost Lino,Emergency Meeting,Lifesign Scan,Lifesign Scan
+76,Shapeshifter Nino,Emergency Meeting,Just Vent,Just Vent
+77,Guardian Pina,Emergency Meeting,Clear Debris,Clear Debris
+78,Impostor Rina,Emergency Meeting,Sharp Tongue,Sharp Tongue
+79,Scientist Mina,Emergency Meeting,Science Rocks,Science Rocks
+80,Horse,Emergency Meeting,Hats,Hats
+81,Megalo Impostor Rina,Emergency Meeting,Hidden,Sharp Tongue
+82,Bill Rizer,Operation Guns,Long Gun,Long Gun
+83,Lance Bean,Operation Guns,Short Gun,Short Gun
+84,Ariana,Operation Guns,Spread Shot,Spread Shot
+85,Lucia Zero,Operation Guns,C-U-Laser,C-U-Laser
+86,Brad Fang,Operation Guns,Firearm,Firearm
+87,Browny,Operation Guns,Sonic Bloom,Sonic Bloom
+88,Sheena Etranzi,Operation Guns,Blade Crossbow,Blade Crossbow
+89,Probotector,Operation Guns,Prism Lass,Prism Lass
+90,Stanley,Operation Guns,Homing Miss,Homing Miss
+91,Newt Plissken,Operation Guns,Diver Mines,Diver Mines
+92,Colonel Bahamut,Operation Guns,Metal Claw,Metal Claw
+93,Simondo Belmont,Operation Guns,Hidden,None
+94,Leon Belmont,Ode to Castlevania,Alchemy Whip,Alchemy Whip
+95,Leon Belmont,Ode to Castlevania,Morning Star,Morning Star
+96,Sonia Belmont,Ode to Castlevania,Sonic Whip,Sonic Whip
+97,Sonia Belmont,Ode to Castlevania,Morning Star,Morning Star
+98,Trevor Belmont,Ode to Castlevania,Dragon Water Whip,Dragon Water Whip
+99,Trevor Belmont,Ode to Castlevania,Morning Star,Morning Star
+100,Christopher Belmont,Ode to Castlevania,Jet Black Whip,Jet Black Whip
+101,Christopher Belmont,Ode to Castlevania,Morning Star,Morning Star
+102,Simon Belmont,Ode to Castlevania,Wind Whip,Wind Whip
+103,Simon Belmont,Ode to Castlevania,Morning Star,Morning Star
+104,Juste Belmont,Ode to Castlevania,Vibhuti Whip,Vibhuti Whip
+105,Juste Belmont,Ode to Castlevania,Morning Star,Morning Star
+106,Richter Belmont,Ode to Castlevania,Platinum Whip,Platinum Whip
+107,Richter Belmont,Ode to Castlevania,Morning Star,Morning Star
+108,Julius Belmont,Ode to Castlevania,Vanitas Whip,Vanitas Whip
+109,Julius Belmont,Ode to Castlevania,Morning Star,Morning Star
+110,Grant Danasty,Ode to Castlevania,Curved Knife,Curved Knife
+111,Grant Danasty,Ode to Castlevania,Coat of Arms,Coat of Arms
+112,Quincy Morris,Ode to Castlevania,Shuriken,Shuriken
+113,Quincy Morris,Ode to Castlevania,Coat of Arms,Coat of Arms
+114,John Morris,Ode to Castlevania,Iron Ball,Iron Ball
+115,John Morris,Ode to Castlevania,Morning Star,Morning Star
+116,John Morris,Ode to Castlevania,Coat of Arms,Coat of Arms
+117,Jonathan Morris,Ode to Castlevania,Javelin,Javelin
+118,Jonathan Morris,Ode to Castlevania,Morning Star,Morning Star
+119,Jonathan Morris,Ode to Castlevania,Coat of Arms,Coat of Arms
+120,Jonathan Morris,Ode to Castlevania,Spectral Sword,Spectral Sword
+121,Maxim Kischine,Ode to Castlevania,Discus,Discus
+122,Maxim Kischine,Ode to Castlevania,Coat of Arms,Coat of Arms
+123,Henry,Ode to Castlevania,Silver Revolver,Silver Revolver
+124,Henry,Ode to Castlevania,Coat of Arms,Coat of Arms
+125,Soma Cruz,Ode to Castlevania,Hand Grenade,Hand Grenade
+126,Vlad Tepes Dracula,Ode to Castlevania,Wine Glass,Wine Glass
+127,Vlad Tepes Dracula,Ode to Castlevania,Ebony Diabologue,Ebony Diabologue
+128,Charlotte Aulin,Ode to Castlevania,Raging Fire,Raging Fire
+129,Charlotte Aulin,Ode to Castlevania,Belnades Spellbook,Belnades Spellbook
+130,Sypha Belnades,Ode to Castlevania,Ice Fang,Ice Fang
+131,Sypha Belnades,Ode to Castlevania,Belnades Spellbook,Belnades Spellbook
+132,Julia Laforeze,Ode to Castlevania,Gale Force,Gale Force
+133,Julia Laforeze,Ode to Castlevania,Belnades Spellbook,Belnades Spellbook
+134,Carrie Fernandez,Ode to Castlevania,Rock Riot,Rock Riot
+135,Carrie Fernandez,Ode to Castlevania,Belnades Spellbook,Belnades Spellbook
+136,Yoko Belnades,Ode to Castlevania,Fulgur,Fulgur
+137,Yoko Belnades,Ode to Castlevania,Belnades Spellbook,Belnades Spellbook
+138,Rinaldo Gandolfi,Ode to Castlevania,Keremet Bubbles,Keremet Bubbles
+139,Rinaldo Gandolfi,Ode to Castlevania,Belnades Spellbook,Belnades Spellbook
+140,Mina Hakuba,Ode to Castlevania,Refectio,Refectio
+141,Mina Hakuba,Ode to Castlevania,Belnades Spellbook,Belnades Spellbook
+142,Elizabeth Bartley,Ode to Castlevania,Hex,Hex
+143,Elizabeth Bartley,Ode to Castlevania,Belnades Spellbook,Belnades Spellbook
+144,Elizabeth Bartley,Ode to Castlevania,Ebony Diabologue,Ebony Diabologue
+145,Alucard,Ode to Castlevania,Alucart Sworb,Alucart Sworb
+146,Reinhardt Schneider,Ode to Castlevania,Tyrfing,Tyrfing
+147,Reinhardt Schneider,Ode to Castlevania,Spectral Sword,Spectral Sword
+148,Reinhardt Schneider,Ode to Castlevania,Coat of Arms,Coat of Arms
+149,Reinhardt Schneider,Ode to Castlevania,Morning Star,Morning Star
+150,Eric Lecarde,Ode to Castlevania,Alucard Spear,Alucard Spear
+151,Eric Lecarde,Ode to Castlevania,Spectral Sword,Spectral Sword
+152,Eric Lecarde,Ode to Castlevania,Coat of Arms,Coat of Arms
+153,Isaac,Ode to Castlevania,Trident,Trident
+154,Isaac,Ode to Castlevania,Spectral Sword,Spectral Sword
+155,Isaac,Ode to Castlevania,Ebony Diabologue,Ebony Diabologue
+156,Hector,Ode to Castlevania,Mace,Mace
+157,Hector,Ode to Castlevania,Spectral Sword,Spectral Sword
+158,Hector,Ode to Castlevania,Coat of Arms,Coat of Arms
+159,Sara Trantoul,Ode to Castlevania,Star Flail,Star Flail
+160,Sara Trantoul,Ode to Castlevania,Belnades Spellbook,Belnades Spellbook
+161,Vincent Dorin,Ode to Castlevania,Iron Shield,Iron Shield
+162,Vincent Dorin,Ode to Castlevania,Coat of Arms,Coat of Arms
+163,Maria Renard,Ode to Castlevania,Guardian's Targe,Guardian's Targe
+164,Maria Renard,Ode to Castlevania,Spectral Sword,Spectral Sword
+165,Maria Renard,Ode to Castlevania,Belnades Spellbook,Belnades Spellbook
+166,Shanoa,Ode to Castlevania,Confodere,Confodere
+167,Albus,Ode to Castlevania,Optical Shot,Optical Shot
+168,Albus,Ode to Castlevania,Ebony Diabologue,Ebony Diabologue
+169,Lisa Tepes,Ode to Castlevania,Luminatio,Luminatio
+170,Lisa Tepes,Ode to Castlevania,Belnades Spellbook,Belnades Spellbook
+171,Shaft,Ode to Castlevania,Umbra,Umbra
+172,Shaft,Ode to Castlevania,Ebony Diabologue,Ebony Diabologue
+173,Saint Germain,Ode to Castlevania,Globus,Globus
+174,Saint Germain,Ode to Castlevania,Spectral Sword,Spectral Sword
+175,Saint Germain,Ode to Castlevania,Ebony Diabologue,Ebony Diabologue
+176,Nathan Graves,Ode to Castlevania,Sonic Dash,Sonic Dash
+177,Nathan Graves,Ode to Castlevania,Morning Star,Morning Star
+178,Nathan Graves,Ode to Castlevania,Belnades Spellbook,Belnades Spellbook
+179,Cornell,Ode to Castlevania,Dextro Custos,Dextro Custos
+180,Cornell,Ode to Castlevania,Sinestro Custos,Sinestro Custos
+181,Cornell,Ode to Castlevania,Ebony Diabologue,Ebony Diabologue
+182,Barlowe,Ode to Castlevania,Dominus Anger,Dominus Anger
+183,Barlowe,Ode to Castlevania,Dominus Hatred,Dominus Hatred
+184,Barlowe,Ode to Castlevania,Ebony Diabologue,Ebony Diabologue
+185,Barlowe,Ode to Castlevania,Belnades Spellbook,Belnades Spellbook
+186,Young Maria Renard,Ode to Castlevania,Familiar Forge,Familiar Forge
+187,Familiar,Ode to Castlevania,Refectio,Refectio
+188,Familiar,Ode to Castlevania,Raging Fire,Raging Fire
+189,Familiar,Ode to Castlevania,Fulgur,Fulgur
+190,Familiar,Ode to Castlevania,Ice Fang,Ice Fang
+191,Familiar,Ode to Castlevania,Rock Riot,Rock Riot
+192,Innocent Devil,Ode to Castlevania,Svarog Statue,Svarog Statue
+193,Innocent Devil,Ode to Castlevania,Trident,Trident
+194,Innocent Devil,Ode to Castlevania,Summon Spirit,Summon Spirit
+195,Innocent Devil,Ode to Castlevania,Garlic,Garlic
+196,Innocent Devil,Ode to Castlevania,Fire Wand,Fire Wand
+197,Innocent Devil,Ode to Castlevania,Lightning Ring,Lightning Ring
+198,Innocent Devil,Ode to Castlevania,Magic Wand,Magic Wand
+199,Innocent Devil,Ode to Castlevania,Curved Knife,Curved Knife
+200,Innocent Devil,Ode to Castlevania,Troll Bomb,Troll Bomb
+201,Blue Crescent Moon Cornell,Ode to Castlevania,Trinum Custodem,Dextro Custos
+202,Blue Crescent Moon Cornell,Ode to Castlevania,Trinum Custodem,Sinestro Custos
+203,Blue Crescent Moon Cornell,Ode to Castlevania,Trinum Custodem,Centralis Custos
+204,Blue Crescent Moon Cornell,Ode to Castlevania,Ebony Diabologue,Ebony Diabologue
+205,Ferryman,Ode to Castlevania,Hidden,Acquazzone
+206,Master Librarian,Ode to Castlevania,Rapidus Fio,Sonic Dash
+207,Hammer,Ode to Castlevania,The RPG,Hand Grenade
+208,Wind,Ode to Castlevania,Aura Blast,Aura Blast
+,Hugh Baldwin,Ode to Castlevania,Valmanway,Valmanway
+,Morris Baldwin,Ode to Castlevania,Kaiser Knuckle,Kaiser Knuckle
+,Morris Baldwin,Ode to Castlevania,Coat of Arms,Coat of Arms
+,Annette,Ode to Castlevania,Endo Gears,Endo Gears
+,Annette,Ode to Castlevania,Peri Pendulum,Peri Pendulum
+,Annette,Ode to Castlevania,Myo Lift,Myo Lift
+,Annette,Ode to Castlevania,Epi Head,Epi Head
+,Tera,Ode to Castlevania,Grand Cross,Grand Cross
+209,Jonathan & Charlotte,Ode to Castlevania,Javelin,Javelin
+210,Jonathan & Charlotte,Ode to Castlevania,Morning Star,Morning Star
+211,Jonathan & Charlotte,Ode to Castlevania,Coat of Arms,Coat of Arms
+212,Jonathan & Charlotte,Ode to Castlevania,Spectral Sword,Spectral Sword
+213,Charlotte & Jonathan,Ode to Castlevania,Raging Fire,Raging Fire
+214,Charlotte & Jonathan,Ode to Castlevania,Belnades Spellbook,Belnades Spellbook
+215,Stella & Loretta Lecarde,Ode to Castlevania,Pneuma Tempestas,Gale Force
+216,Loretta & Stella Lecarde,Ode to Castlevania,Cocytus,Ice Fang
+217,Stella Lecarde,Ode to Castlevania,Pneuma Tempestas,Gale Force
+218,Loretta Lecarde,Ode to Castlevania,Cocytus,Ice Fang
+219,Brauner,Ode to Castlevania,Ebony Diabologue,Ebony Diabologue
+220,Soleil Belmont,Ode to Castlevania,Jet Black Whip,Jet Black Whip
+221,Soleil Belmont,Ode to Castlevania,Vibhuti Whip,Vibhuti Whip
+222,Soleil Belmont,Ode to Castlevania,Vanitas Whip,Vanitas Whip
+223,Dario Bossi,Ode to Castlevania,Salamender,Raging Fire
+224,Dmitrii Blinov,Ode to Castlevania,Ebony Diabologue,Ebony Diabologue
+225,Celia Fortner,Ode to Castlevania,Luminatio,Luminatio
+226,Celia Fortner,Ode to Castlevania,Umbra,Umbra
+227,Graham Jones,Ode to Castlevania,Vol Umbra,Umbra
+,Genya Arikado,Ode to Castlevania,Pocket Knife,Pocket Knife
+228,Joachim Armster,Ode to Castlevania,Rune Sword,Tyrfing
+229,Walter Bernhard,Ode to Castlevania,Nitesco,Globus
+230,Carmilla,Ode to Castlevania,Hidden,Dominus Hatred
+232,Cave Troll,Ode to Castlevania,Troll Bomb,Troll Bomb
+233,Fleaman,Ode to Castlevania,Hidden,None
+234,Axe Armor,Ode to Castlevania,Axe,Axe
+235,Frozenshade,Ode to Castlevania,Icebrand,Icebrand
+238,Alamaric Sniper,Ode to Castlevania,Arrow of Goth,Arrow of Goth
+,Stone Skull,Ode to Castlevania,Hidden,None
+,Ruler Sword,Ode to Castlevania,Sword Brothers,Sword Brothers
+,Persephone,Ode to Castlevania,Summon Spirit Tornado,Summon Spirit Tornado
+237,Keremet,Ode to Castlevania,Keremet Morbus,Keremet Bubbles
+,Astarte,Ode to Castlevania,Hidden,Star Flail
+,Drolta Tzuentes,Ode to Castlevania,Anura,Anura
+,Witch Actrise,Ode to Castlevania,Gemma Torpor,Rock Riot
+,Witch Actrise,Ode to Castlevania,Hidden,Runetracer
+,Atlantis Shrine Wizard,Ode to Castlevania,Hydro Storm,Hydro Storm
+,Atlantis Shrine Wizard,Ode to Castlevania,Hidden,Acquazzone
+236,Succubus,Ode to Castlevania,Nightmare,Hex
+,Fake Trio,Ode to Castlevania,Bone,Bone
+,Fake Trio,Ode to Castlevania,Bracelet,Bracelet
+,Fake Trio,Ode to Castlevania,Pocket Knife,Pocket Knife
+,Slogra and Gaibon,Ode to Castlevania,Trident,Trident
+,Slogra and Gaibon,Ode to Castlevania,Fire Wand,Fire Wand
+,Zephyr,Ode to Castlevania,Knife,Knife
+,Zephyr,Ode to Castlevania,Curved Knife,Curved Knife
+,Jiangshi,Ode to Castlevania,Soul Steal,Soul Steal
+239,Blackmore,Ode to Castlevania,Summon Spirit,Summon Spirit
+231,Count Olrox,Ode to Castlevania,Dark Rift,Dark Rift
+240,Malphas,Ode to Castlevania,Hidden,Knife
+241,Malphas,Ode to Castlevania,Hidden,Fulgur
+242,Death,Ode to Castlevania,Death Spiral,Axe
+243,Galamoth,Ode to Castlevania,Tenebris Tonitrus,Fulgur
+244,Megalo Elizabeth Bartley,Ode to Castlevania,Belnades Spellbook,Belnades Spellbook
+245,Megalo Elizabeth Bartley,Ode to Castlevania,Ebony Diabologue,Ebony Diabologue
+246,Megalo Olrox,Ode to Castlevania,Dark Rift,Dark Rift
+247,Megalo Olrox,Ode to Castlevania,Ebony Diabologue,Ebony Diabologue
+248,Megalo Death,Ode to Castlevania,Death Spiral,Axe
+249,Megalo Death,Ode to Castlevania,Ebony Diabologue,Ebony Diabologue
+250,Megalo Dracula,Ode to Castlevania,Wine Glass,Wine Glass
+251,Megalo Dracula,Ode to Castlevania,Dominus Anger,Dominus Anger
+252,Megalo Dracula,Ode to Castlevania,Dominus Hatred,Dominus Hatred
+253,Megalo Dracula,Ode to Castlevania,Dominus Agony,Dominus Agony
+254,Megalo Dracula,Ode to Castlevania,Ebony Diabologue,Ebony Diabologue
+255,Chaos,Ode to Castlevania,Hidden,Infinite Corridor
+256,Tsunanori Mido,Emerald Diorama,Fleuret,Fleuret
+257,Tsunanori Mido,Emerald Diorama,Splashers,Splashers
+258,Bonnie Blair,Emerald Diorama,Punch,Punch
+259,Bonnie Blair,Emerald Diorama,Kick,Kick
+260,Formina Franklyn,Emerald Diorama,Saber Machine Gun,Saber Machine Gun
+261,Formina Franklyn,Emerald Diorama,Eagle Gun,Eagle Gun
+262,Diva No. 5,Emerald Diorama,Super Missile,Super Missile
+263,Diva No. 5,Emerald Diorama,Twin Dragon,Twin Dragon
+264,Ameya Aisling,Emerald Diorama,Spirit Rings,Spirit Rings
+265,Ameya Aisling,Emerald Diorama,Intuition,Intuition
+266,Siugnas,Emerald Diorama,Town Sword,Town Sword
+267,Siugnas,Emerald Diorama,Sanguine Star,Sanguine Star
+268,Final Emperor,Emerald Diorama,Flamberge,Flamberge
+269,Dolores,Emerald Diorama,Bullova,Bullova
+270,Macha Alter Ego,Emerald Diorama,Khukuri,Khukuri
+271,Lita Caryx,Emerald Diorama,Glaive,Glaive
+272,Kugutsu,Emerald Diorama,Twin Dragon,Twin Dragon
+273,Kugutsu,Emerald Diorama,Khukuri,Khukuri
+274,Kugutsu,Emerald Diorama,Eagle Gun,Eagle Gun
+275,Kugutsu,Emerald Diorama,Punch,Punch
+276,Mr. S,Emerald Diorama,Intuition,Intuition
+277,Lolo, Hiss, Meow, and Purr,Emerald Diorama,Hidden,None
+278,Kina,Emerald Diorama,Hidden,None
+279,Imakoo,Emerald Diorama,Hidden,None
+280,Malevolent Door Spirit,Emerald Diorama,Blood Chalice,Sanguine Star
+281,Jimbo,Ante Chamber,Infernolatro,Infernolatro
+282,Canio,Ante Chamber,Fibonacci Spritz,Fibonacci Spritz
+283,Chicot,Ante Chamber,Gros Michel,Gros Michel
+284,Perkeo,Ante Chamber,Celestial Booster,Celestial Booster

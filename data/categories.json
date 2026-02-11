@@ -40,15 +40,37 @@
             "include_emerald_diorama_dlc"
         ]
     },
+    "Ante Chamber": {
+        "hidden": true,
+        "yaml_option": [
+            "include_ante_chamber_dlc"
+        ]
+    },
     "Include Curse": {
         "hidden": true,
         "yaml_option": [
             "include_curse"
         ]
     },
+    "Starting Arcana": {
+        "hidden": true,
+        "yaml_option": [
+            "starting_arcanas"
+        ]
+    },
     "Starting Weapon Slots": {
         "yaml_option": [
             "starting_weapon_slots"
+        ]
+    },
+    "Starting Powerups": {
+        "yaml_option": [
+            "starting_powerups"
+        ]
+    },
+    "Number of Chests": {
+        "yaml_option": [
+            "number_of_chests"
         ]
     },
     "Hunts": {
@@ -64,6 +86,11 @@
     "Item Selectors": {
         "yaml_option": [
             "include_item_selectors"
+        ]
+    },
+    "Obscure Logic": {
+        "yaml_option": [
+            "obscure_logic"
         ]
     },
     "Early Arma Dio": {

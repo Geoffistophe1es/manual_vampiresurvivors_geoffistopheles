@@ -2,7 +2,7 @@ from typing import Optional
 from worlds.AutoWorld import World
 from ..Helpers import clamp, get_items_with_value
 from BaseClasses import MultiWorld, CollectionState
-from .functions import get_weapons, get_stage_by_item, get_castlevania_pickup_list, get_characters
+from .functions import get_weapons, get_stages, get_stage_by_item, get_castlevania_pickup_list, get_characters
 
 import re
 
@@ -106,7 +106,7 @@ def hasItem(world: World, multiworld: MultiWorld, state: CollectionState, player
         for stage in get_stage_by_item(item, state.has("VIII - Mad Groove", player)):
             if state.has(stage, player):
                 return True
-    return False
+    return checkAdventureModeItems(world, multiworld, state, player, item)
 
 def hasItems(world: World, multiworld: MultiWorld, state: CollectionState, player: int, item1: str, item2: str):
     """Does the player have access to two specific items?"""
@@ -116,6 +116,7 @@ def hasItems(world: World, multiworld: MultiWorld, state: CollectionState, playe
     first_unlocked = False
     first_armadio = False
     first_stage = False
+    first_character = False
     first_stages = []
     second_unlocked = False
     second_armadio = False
@@ -149,7 +150,7 @@ def hasItems(world: World, multiworld: MultiWorld, state: CollectionState, playe
                     second_item = True
                     second_stage = True
                     second_stages.append(stage)
-    
+
     if first_item and second_item:
         if (first_unlocked and second_item) or (second_unlocked and first_item): # One item unlocked, other item however
             return True
@@ -181,14 +182,8 @@ def hasMaxedItem(world: World, multiworld: MultiWorld, state: CollectionState, p
                 for stage in get_stage_by_item(item, state.has("VIII - Mad Groove", player)):
                     if state.has(stage, player):
                         return True
-    # Characters - Adventure reward characters started with a maxed item.
-    if item == "Empty Tome" and hasCharacter(world, multiworld, state, player, "Imelda Belpaese"):
-        return True
-    if item == "Pummarola" and hasCharacter(world, multiworld, state, player, "Poe Ratcho"):
-        return True
-    if item == "Wings" and hasCharacter(world, multiworld, state, player, "She-Moon Eeta"):
-        return True
-    return False
+    # Characters - Adventure reward characters that start with a maxed item.
+    return checkAdventureModeItems(world, multiworld, state, player, item)
 
 def hasMaxedItems(world: World, multiworld: MultiWorld, state: CollectionState, player: int, item1: str, item2: str):
     """Does the player have the ability to fully level two specific items?"""
@@ -211,13 +206,7 @@ def hasMaxedItems(world: World, multiworld: MultiWorld, state: CollectionState, 
         first_item = True
         first_unlocked
     # Characters - Adventure reward characters started with a maxed item.
-    if item1 == "Empty Tome" and hasCharacter(world, multiworld, state, player, "Imelda Belpaese"):
-        first_item = True
-        first_character = True
-    if item1 == "Pummarola" and hasCharacter(world, multiworld, state, player, "Poe Ratcho"):
-        first_item = True
-        first_character = True
-    if item1 == "Wings" and hasCharacter(world, multiworld, state, player, "She-Moon Eeta"):
+    if checkAdventureModeItems(world, multiworld, state, player, item1):
         first_item = True
         first_character = True
     # Stage items - these stages have enough pickups to max out the item without unlocking it.
@@ -243,13 +232,7 @@ def hasMaxedItems(world: World, multiworld: MultiWorld, state: CollectionState, 
             second_item = True
             second_unlocked = True
         # Characters - Adventure reward characters started with a maxed item.
-        if item2 == "Empty Tome" and hasCharacter(world, multiworld, state, player, "Imelda Belpaese"):
-            second_item = True
-            second_character = True
-        if item2 == "Pummarola" and hasCharacter(world, multiworld, state, player, "Poe Ratcho"):
-            second_item = True
-            second_character = True
-        if item2 == "Wings" and hasCharacter(world, multiworld, state, player, "She-Moon Eeta"):
+        if checkAdventureModeItems(world, multiworld, state, player, item2):
             second_item = True
             second_character = True
         # Stage items - these stages have enough pickups to max out the item without unlocking it.
@@ -284,7 +267,26 @@ def hasMaxedItems(world: World, multiworld: MultiWorld, state: CollectionState, 
             
     return False
 
+def checkAdventureModeItems(world: World, multiworld: MultiWorld, state: CollectionState, player: int, item: str):
+    if item == "Empty Tome" and hasCharacter(world, multiworld, state, player, "Imelda Belpaese"):
+        return True
+    if item == "Pummarola" and hasCharacter(world, multiworld, state, player, "Poe Ratcho"):
+        return True
+    if item == "Wings" and hasCharacter(world, multiworld, state, player, "She-Moon Eeta"):
+        return True
+    return False
+
+def hasStagePickups(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
+    """Does the player have access to a stage where they can generate pickups?"""
+    # At present, this checks to make sure the player has access to a stage that's not Bone Zone before requiring pickups.
+    stages = get_stages()
+    for stage in stages:
+        if (state.has(stage["Stage"], player) and (stage["Pickups"] == "All")):
+            return True
+    return False
+
 def canPickupCastlevania(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
+    """Does the player have access to a character or stage that can generate Castlevania pickups?"""
     if state.has("Ode to Castlevania", player):
         return True
     search = ""
