@@ -56,11 +56,6 @@ class StartingArcana(Toggle):
     display_name = "Starting Arcana"
     default = False
     
-class IncludeCurse(Toggle):
-    """Toggle whether Curse powerups are added to the pool."""
-    display_name = "Include Curse"
-    default = False
-
 class Hunts(Toggle):
     """Adds checks for defeating specific enemies.
     This will add 149 checks to the game."""
@@ -91,13 +86,6 @@ class HiddenCharacters(Toggle):
     """Requires Charactersanity to function.
     Whether or not secret characters with hidden weapons can be chosen as starting characters."""
     display_name = "Hidden Characters"
-    default = False
-
-class ObscureLogic(Toggle):
-    """***CURRENTLY NON-FUNCTIONAL.***
-    Whether or not unintuitive progression is included in logic.
-    For more details, check the Obscure Logic document."""
-    display_name = "Obscure Logic"
     default = False
 
 class IncludeOperationGunsDLC(Toggle):
@@ -171,8 +159,6 @@ def before_options_defined(options: dict) -> dict:
     options["starting_powerups"] = WeaponSlots
     options["number_of_chests"] = ChestsAsChecks
     options["starting_arcanas"] = StartingArcana
-    options["include_curse"] = IncludeCurse
-    options["obscure_logic"] = ObscureLogic
     options["charactersanity"] = Charactersanity
     options["hunts"] = Hunts
     options["include_stage_items"] = IncludeStageItems

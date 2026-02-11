@@ -46,12 +46,6 @@
             "include_ante_chamber_dlc"
         ]
     },
-    "Include Curse": {
-        "hidden": true,
-        "yaml_option": [
-            "include_curse"
-        ]
-    },
     "Starting Arcana": {
         "hidden": true,
         "yaml_option": [
@@ -86,11 +80,6 @@
     "Item Selectors": {
         "yaml_option": [
             "include_item_selectors"
-        ]
-    },
-    "Obscure Logic": {
-        "yaml_option": [
-            "obscure_logic"
         ]
     },
     "Early Arma Dio": {
