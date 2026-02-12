@@ -187,6 +187,7 @@ def after_load_location_file(location_table: list) -> list:
         elif evolutionType == "Union":
             insertedUnions.append(location["ProgressiveName"])
             categories.append("Unions")
+            "|" + location["Weapon"] + "| AND |"
             # Union of two weapons
             if location["Item2"] == "None":
                 name = "Unite the " + location["Weapon"] + " and " + location["Item1"]
@@ -202,7 +203,7 @@ def after_load_location_file(location_table: list) -> list:
             # Union of four weapons
             else:
                 name = "Unite the " + location["Weapon"] + ", " + location["Item1"] + ", " + location["Item2"] + ", and " + location["Item3"]
-                requires += "|" + location["Weapon"] + "| AND |" + location["Item1"] + "| AND |" + location["Item2"] + "| AND |" + location["Item3"] + "|"
+                requires += location["Item1"] + "| AND |" + location["Item2"] + "| AND |" + location["Item3"] + "|"
         # Create requirements by Gift evolution
         elif evolutionType == "Gift":
             categories.append("Gifts")
