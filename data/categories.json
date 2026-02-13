@@ -4,6 +4,11 @@
             "charactersanity"
         ]
     },
+    "Pickups": {
+        "yaml_option": [
+            "pickupsanity"
+        ]
+    },
     "Legacy of the Moonspell": {
         "hidden": true,
         "yaml_option": [

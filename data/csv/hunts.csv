@@ -1,12 +1,12 @@
 Order,Definite,Boss,Stage,Time,Area,DLC
-1,,The Reaper,All,0,None,None
+1,,The Reaper,All,0,AND {canKillReaper()},None
 2,an,Atlantean,All,0,None,None
 3,the,Mantichana,Mad Forest,5,None,None
 4,the,Giant Mantichana,Mad Forest,10,None,None
 5,the,Giant Werewolf,Mad Forest,15,None,None
 6,the,Venus,Mad Forest,21,None,None
 7,the,Giant Blue Venus,Mad Forest,25,None,None
-8,,The Trickster,Inlaid Library,0,Inverse,None
+8,,The Trickster,Inlaid Library,0,AND |Inverse Mode| AND {hasPower(6)},None
 9,the,Colossal Musc Musc,Inlaid Library,8,None,None
 10,the,Colossal Lionhead,Inlaid Library,10,None,None
 11,,Queen Medusa,Inlaid Library,15,None,None
@@ -28,7 +28,7 @@ Order,Definite,Boss,Stage,Time,Area,DLC
 27,the,Colossal Archon Rame,Cappella Magna,15,None,None
 28,the,Colossal Archdemon,Cappella Magna,20,None,None
 29,,Trinacria,Cappella Magna,25,None,None
-30,the,Lv128 Golden Bat,Green Acres,0,Hyper/Hurry,None
+30,the,Lv128 Golden Bat,Green Acres,0,AND |Hyper Mode| AND |Hurry Mode| AND {hasPower(6)},None
 31,the,Colossal Skeleton,The Bone Zone,10,None,None
 32,the,Colossal Skeleton,The Bone Zone,20,None,None
 33,the,Sketemari,The Bone Zone,0,None,None

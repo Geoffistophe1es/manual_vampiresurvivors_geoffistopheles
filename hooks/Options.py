@@ -68,6 +68,12 @@ class Charactersanity(Toggle):
     display_name = "Charactersanity"
     default = False
 
+class Pickupsanity(Toggle):
+    """Adds all pickups to the item pool.
+    This will add 22 checks to the game."""
+    display_name = "Pickupsanity"
+    default = False
+
 class MatchingCharacters(Toggle):
     """Requires Charactersanity to function.
     Whether or not the starting character comes with the starting weapon.
@@ -160,6 +166,7 @@ def before_options_defined(options: dict) -> dict:
     options["number_of_chests"] = ChestsAsChecks
     options["starting_arcanas"] = StartingArcana
     options["charactersanity"] = Charactersanity
+    options["pickupsanity"] = Pickupsanity
     options["hunts"] = Hunts
     options["include_stage_items"] = IncludeStageItems
     options["include_item_selectors"] = IncludeItemSelectors

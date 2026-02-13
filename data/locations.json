@@ -18,6 +18,6 @@
 		"name": "Kill The Directer",
 		"requires": "(|Eudaimonia Machine| AND |Inverse Mode| AND |Endless Mode|)",
 		"victory": true,
-		"category": ["Victory", "Directer"]
+		"category": ["Victory"]
 	}
 ]

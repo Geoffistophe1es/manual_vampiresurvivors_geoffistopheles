@@ -222,7 +222,9 @@ def after_load_location_file(location_table: list) -> list:
         # Create requirements for Special evolution
         elif evolutionType == "Special":
             if location["Weapon"] == "Alucard Swords":
-                continue    # Obviously to be replaced once I have a solution
+                categories.append("Gifts")
+                name = "Receive the " + location["ProgressiveName"]
+                requires = "|Alucart Sworb| AND {hasEvolutions(6)}"
             if location["Weapon"] == "Spirit Rings":
                 categories.append("Evolutions")
                 name = "Evolve the " + location["Weapon"]
@@ -278,10 +280,7 @@ def after_load_location_file(location_table: list) -> list:
                 "requires": requires
             })
         # Generate stage
-        categories.clear()
-        categories.append("Stages")
-        if location["DLC"] != "None":
-            categories.append(location["DLC"])
+        requires += " AND {hasPower(5)}"
         location_table.append({
             "sort-key": location["Order"],
             "name": "Complete " + location["Stage"],
@@ -295,7 +294,7 @@ def after_load_location_file(location_table: list) -> list:
     
     for location in pickups:
         categories.clear()
-        requires = ""
+        requires = "{hasPickup(" + location["Item"] + ")}"
         indefinite = "a "
         categories.append("Pickups")
         firstCharacter = location["Item"][0]
@@ -304,18 +303,16 @@ def after_load_location_file(location_table: list) -> list:
         if location["DLC"] != "None":
             categories.append(location["DLC"])
             if location["DLC"] == "Operation Guns":
-                requires = "|@Operation Guns: 1|"
+                requires = "AND |@Operation Guns: 1|"
             elif location["DLC"] == "Ode to Castlevania":
-                requires = "{canPickupCastlevania()}"
+                requires = "AND {canPickupCastlevania()}"
         if location["Item"] in specialPickups:
             if location["Item"] == "Gold Finger":
-                requires = "|Astral Stair| OR |Space 54| OR |X - Hail from the Future|"
+                requires = "AND |Astral Stair| OR |Space 54| OR |X - Hail from the Future|"
             elif location["Item"] == "Sorbetto":
-                requires = "|XII - Out of Bounds| OR |X - Hail from the Future| OR |Whiteout| OR {hasCharacter(Saint Germain)}"
+                requires = "AND |XII - Out of Bounds| OR |X - Hail from the Future| OR |Whiteout| OR {hasCharacter(Saint Germain)}"
             elif location["Item"] == "Crystallized Soul":
-                requires = "|XII - Crystal Cries|"
-        if requires == "":
-            requires = "{hasStagePickups()}"
+                requires = "AND |XII - Crystal Cries|"
         location_table.append({
             "sort-key": location["Order"],
             "name": "Pick up " + indefinite + location["Item"],
@@ -329,7 +326,7 @@ def after_load_location_file(location_table: list) -> list:
         categories.append("Characters")
         requires = ""
         name = "Survive with " + location["Character"]
-        requires = "|" + location["Character"] + "|"
+        requires = "|" + location["Character"] + "| AND {hasPower(2)}"
         if location["DLC"] != "None":
             categories.append(location["DLC"])
         location_table.append({
@@ -344,14 +341,21 @@ def after_load_location_file(location_table: list) -> list:
     for location in hunts:
         categories.clear()
         categories.append("Hunts")
+        timer = int(location["Time"])
         if location["Stage"] != "All":
             requires = "|" + location["Stage"] + "|"
         else:
             requires = "|@Stages: 1|"
-        if location["Area"] == "Inverse":
-            requires += " AND |Inverse Mode|"
-        elif location["Area"] == "Hyper/Hurry":
-            requires += " AND |Hyper Mode| AND |Hurry Mode|"
+        if location["Area"] != "None" and "AND" not in location["Area"]:
+            requires += " " + location["Area"]
+        if timer >= 25:
+            requires += " AND {hasPower(5)}"
+        elif timer >= 20:
+            requires += " AND {hasPower(3)}"
+        elif timer >= 15:
+            requires += " AND {hasPower(2)}"
+        elif timer >= 10:
+            requires += " AND {hasPower(1)}"
         name = "Hunt "
         if location["Definite"] != "":
             name += location["Definite"] + " "
@@ -360,7 +364,7 @@ def after_load_location_file(location_table: list) -> list:
             name += "in the " + location["Area"] + " "
         if location["Stage"] != "All":
             name += "in " + location["Stage"] + " "
-        if int(location["Time"]) > 0:
+        if timer > 0:
             name += "at " + location["Time"] + ":00"
         if location["DLC"] != "None":
             categories.append(location["DLC"])

@@ -39,6 +39,12 @@ def hasMultipleArmaDioAccess(world: World, multiworld: MultiWorld, state: Collec
         #    return True
     return False
 
+def canKillReaper(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
+    """Does the player have a reliable way to kill the Reaper?"""
+    if state.has("Clock Lancet", player) or state.has("Laurel", player) or hasCharacter(world, multiworld, state, player, "Chaos"):
+        return True
+    
+    return False
 def hasRevival(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
     """Does the player have access to a revival as any character?"""
     hasStage = False
@@ -49,22 +55,51 @@ def hasRevival(world: World, multiworld: MultiWorld, state: CollectionState, pla
     if state.has("Powerup - Revival", player) or hasItem(world, multiworld, state, player, "Tirajisu") or hasArmaDioAccess(world, multiworld, state, player) or hasStage or state.has("IV - Awake", player):
         return True
     return False
+def hasPower(world: World, multiworld: MultiWorld, state: CollectionState, player: int, count: int = 1):
+    """Checks if the player is either overpowered or has a minimum number of evolutions."""
+    if isOP(world, multiworld, state, player):
+        return True
+    elif hasEvolutions(world, multiworld, state, player, count):
+        return True
+    
+    return False
+def isOP(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
+    """Does the player have a method of ensuring deep runs?"""
+    if canKillReaper(world, multiworld, state, player) or state.has("XX - Silent Old Sanctuary", player):
+        return True
+    
+    opCharacters = ["Queen Sigma", "MissingNo", "Megalo Menya Moonspell", "Vlad Tepes Dracula", "Young Maria Renard", "Megalo Death", "Megalo Dracula", "Chaos"]
+    for character in opCharacters:
+        if hasCharacter(world, multiworld, state, player, character):
+            return True
+        
+    return False
 
 def hasEvolutions(world: World, multiworld: MultiWorld, state: CollectionState, player: int, count: int = 1):
     """Does the player have access to a number of unique evolutions?"""
-    total = 0
-    weapons = item_list("Weapons", state, player)
-    all_weapons = get_weapons()
-    for weapon in weapons:
-        try:
-          i = all_weapons.index(weapon)
-          found_weapon = all_weapons[i]
-          if found_weapon != "None" and (found_weapon["Item"] == "Self" or state.has(found_weapon["Item"], player)):
-              total += 1
-          if total >= count:
-              return True
-        except:
-            continue
+    if state.has("Weapon Slot", player, count):
+        total = 0
+        weapons = item_list("Weapons", state, player)
+        all_weapons = get_weapons()
+        for weapon in weapons:
+            try:
+                i = all_weapons.index(weapon)
+                found_weapon = all_weapons[i]
+                if found_weapon != "None" and found_weapon["EvolutionType"] != "None":
+                    if found_weapon["EvolutionType"] == "Self":
+                        total += 1
+                    elif state.has(found_weapon["Item1"], player):
+                        if found_weapon["Item2"] == "None":
+                            total += 1
+                        elif state.has(found_weapon["Item2"], player):
+                            if found_weapon["Item3"] == "None":
+                                total += 1
+                            elif state.has(found_weapon["Item3"], player):
+                                total += 1
+                if total >= count:
+                    return True
+            except:
+                continue    
     
     return False
 
@@ -276,13 +311,22 @@ def checkAdventureModeItems(world: World, multiworld: MultiWorld, state: Collect
         return True
     return False
 
-def hasStagePickups(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
-    """Does the player have access to a stage where they can generate pickups?"""
+def hasPickup(world: World, multiworld: MultiWorld, state: CollectionState, player: int, item: str):
+    """Does the player have access to a specific pickup?"""
     # At present, this checks to make sure the player has access to a stage that's not Bone Zone before requiring pickups.
     stages = get_stages()
+    hasStage = False
     for stage in stages:
+        if hasStage:
+            break
         if (state.has(stage["Stage"], player) and (stage["Pickups"] == "All")):
+            hasStage = True
+
+    if world.options.pickupsanity.value > 0:
+        if state.has(item, player):
             return True
+    else:
+        return True
     return False
 
 def canPickupCastlevania(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
