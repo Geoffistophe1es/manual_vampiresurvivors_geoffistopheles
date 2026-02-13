@@ -346,6 +346,8 @@ def after_load_location_file(location_table: list) -> list:
         categories.append("Hunts")
         if location["Stage"] != "All":
             requires = "|" + location["Stage"] + "|"
+        else:
+            requires = "|@Stages: 1|"
         if location["Area"] == "Inverse":
             requires += " AND |Inverse Mode|"
         elif location["Area"] == "Hyper/Hurry":
