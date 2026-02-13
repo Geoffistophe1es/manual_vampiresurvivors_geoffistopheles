@@ -172,9 +172,10 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                 (world.options.secret_characters.value > 0 and character["Weapon"] != "Hidden" and character["Base"] == starting_weapon["Weapon"]):
                     add_if_not_exists(starting_characters, character)
 
-        starting_character = world.random.choice(starting_characters["Character"])
-        starting_items.append(starting_character)
-        startingSlots = int(starting_character["SlotsNeeded"]) + 1
+        starting_character = world.random.choice(starting_characters)
+        starting_items.append(starting_character["Character"])
+        scSlots = starting_character["SlotsNeeded"]
+        startingSlots = int(scSlots) + 1
 
     # Generate starting arcana if one was selected.
     if world.options.starting_arcanas.value > 0:
