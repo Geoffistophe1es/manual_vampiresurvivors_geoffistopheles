@@ -30,7 +30,7 @@ class StartingPowerups(Range):
     """How many weapon slots to start with.
     There are 6 slots total, and any remaining slots above this choice will be added to the item pool."""
     display_name = "Number of starting weapon slots"
-    range_start = 2
+    range_start = 1
     range_end = 6
     default = 3
 

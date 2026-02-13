@@ -187,7 +187,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     starting_item_count = []
 
     # Generate starting weapon slots
-    for i in range(0, max(int(world.options.starting_weapon_slots.value) + 1, startingSlots)):
+    for i in range(0, max(int(world.options.starting_weapon_slots.value), startingSlots)):
         starting_item_count.append("Weapon Slot")
 
     # Generate powerups
